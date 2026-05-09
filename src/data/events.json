@@ -1,0 +1,47 @@
+{
+  "updatedAt": "2026-05-08T00:00:00.000Z",
+  "items": [
+    {
+      "id": "evt-dj-night",
+      "title": { "es": "DJ Night · Deep & Soulful", "en": "DJ Night · Deep & Soulful" },
+      "description": {
+        "es": "Una noche de deep house y soulful con DJs invitados, cócteles signature y un ambiente para perderse.",
+        "en": "A deep house and soulful night with guest DJs, signature cocktails and an atmosphere to get lost in."
+      },
+      "date": "2026-05-23",
+      "time": "23:00",
+      "image": "",
+      "ctaLabel": { "es": "Reservar mesa", "en": "Reserve a table" },
+      "ctaUrl": "https://wa.me/34600000000?text=Hola%20Lunin,%20quiero%20reservar%20para%20la%20DJ%20Night",
+      "enabled": true
+    },
+    {
+      "id": "evt-tasting",
+      "title": { "es": "Cata de Espíritus Lunin", "en": "Lunin Spirits Tasting" },
+      "description": {
+        "es": "Cata guiada de los destilados Lunin: ciruela, manzana, acacia y cereza. Plazas limitadas.",
+        "en": "Guided tasting of Lunin spirits: plum, apple, acacia and cherry. Limited spots."
+      },
+      "date": "2026-06-07",
+      "time": "20:00",
+      "image": "",
+      "ctaLabel": { "es": "Reservar plaza", "en": "Reserve a spot" },
+      "ctaUrl": "https://wa.me/34600000000?text=Hola%20Lunin,%20quiero%20una%20plaza%20para%20la%20cata",
+      "enabled": true
+    },
+    {
+      "id": "evt-summer-launch",
+      "title": { "es": "Summer Menu Launch", "en": "Summer Menu Launch" },
+      "description": {
+        "es": "Estrenamos la carta de verano con cócteles inéditos, música en directo y un brindis especial.",
+        "en": "We launch the summer menu with new cocktails, live music and a special toast."
+      },
+      "date": "2026-06-21",
+      "time": "21:00",
+      "image": "",
+      "ctaLabel": { "es": "Reservar", "en": "Book" },
+      "ctaUrl": "https://wa.me/34600000000?text=Hola%20Lunin,%20quiero%20reservar%20para%20el%20Summer%20Menu%20Launch",
+      "enabled": true
+    }
+  ]
+}
