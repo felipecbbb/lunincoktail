@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-08T00:00:00.000Z",
+  "updatedAt": "2026-05-11T00:00:00.000Z",
   "items": [
     {
       "id": "cat-signature",
@@ -9,6 +9,7 @@
         "es": "Creaciones firma de la casa, recetas únicas que definen el estilo Lunin.",
         "en": "House signature creations, unique recipes that define the Lunin style."
       },
+      "hero": "https://images.unsplash.com/photo-1587223962930-cb7f31384c19?w=900&q=75",
       "order": 1,
       "enabled": true
     },
@@ -20,6 +21,7 @@
         "es": "Coctelería clásica reinterpretada con espíritus craft.",
         "en": "Classic cocktails reinterpreted with craft spirits."
       },
+      "hero": "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=900&q=75",
       "order": 2,
       "enabled": true
     },
@@ -31,6 +33,7 @@
         "es": "Burbujas, cítricos y la frescura de los aperitivos italianos.",
         "en": "Bubbles, citrus and the freshness of Italian aperitivos."
       },
+      "hero": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=900&q=75",
       "order": 3,
       "enabled": true
     },
@@ -42,6 +45,7 @@
         "es": "Para brindar y empezar la noche con carácter.",
         "en": "For toasts and starting the night with character."
       },
+      "hero": "https://images.unsplash.com/photo-1551751299-1b51cab2694c?w=900&q=75",
       "order": 4,
       "enabled": true
     },
@@ -53,6 +57,7 @@
         "es": "Selección de licores premium, servidos solos o en mezclas suaves.",
         "en": "Premium liqueur selection, served neat or in gentle mixes."
       },
+      "hero": "https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?w=900&q=75",
       "order": 5,
       "enabled": true
     },
@@ -64,6 +69,7 @@
         "es": "Cócteles de temporada y creaciones para fechas especiales.",
         "en": "Seasonal cocktails and creations for special dates."
       },
+      "hero": "https://images.unsplash.com/photo-1571767454098-246b94fbcf70?w=900&q=75",
       "order": 6,
       "enabled": true
     }

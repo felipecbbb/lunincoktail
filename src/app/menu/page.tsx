@@ -33,13 +33,13 @@ export default async function MenuHubPage() {
       <Header variant="menu" />
       <main className="flex-1">
         <PageHero
-          imageSrc="/images/atmosphere/bokeh-2.jpg"
-          imageAlt="Lunin Cocktail Bar — atmósfera"
+          imageSrc="/images/brand/distillery-1.jpg"
+          imageAlt="Lunin Distillery — interior"
           kicker="Carta"
           titleKey="menu.title"
           leadKey="menu.lead"
           height="md"
-          objectPosition="center 40%"
+          objectPosition="center 45%"
         />
         <section className="mx-auto max-w-6xl px-5 md:px-10 py-16 md:py-20">
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
