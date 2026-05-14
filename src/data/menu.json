@@ -1,233 +1,743 @@
 {
-  "updatedAt": "2026-05-08T00:00:00.000Z",
+  "updatedAt": "2026-05-14T00:00:00.000Z",
   "items": [
     {
-      "id": "itm-luna-de-miel",
-      "categoryId": "cat-signature",
-      "name": { "es": "Luna de Miel", "en": "Honey Moon" },
+      "id": "itm-bot-gin",
+      "categoryId": "cat-bottles",
+      "name": { "es": "The First Ukrainian Dry Gin", "en": "The First Ukrainian Dry Gin" },
       "ingredients": {
-        "es": "Vodka Lunin, miel de azahar, limón, lavanda",
-        "en": "Lunin Vodka, orange-blossom honey, lemon, lavender"
+        "es": "Botella 0,7 L · 45 % alc. · Ginebra seca ucraniana de pequeña producción con botánicos locales: enebro, cítricos y hierbas regionales.",
+        "en": "0.7 L bottle · 45% ABV · Small-batch Ukrainian dry gin with local botanicals: juniper, citrus and regional herbs."
       },
-      "price": 12,
-      "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=1200&q=75",
-      "signature": true,
+      "price": 35,
+      "image": "/images/brand/horilka-still.jpg",
       "enabled": true,
       "order": 1
     },
     {
-      "id": "itm-noche-de-ciruela",
-      "categoryId": "cat-signature",
-      "name": { "es": "Noche de Ciruela", "en": "Plum Night" },
+      "id": "itm-bot-apple-horilka",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Apple Horilka (Vodka de Manzana)", "en": "Apple Horilka (Vodka)" },
       "ingredients": {
-        "es": "Aguardiente de ciruela Lunin, vermut rojo, bíter de cacao",
-        "en": "Lunin plum spirit, sweet vermouth, cocoa bitters"
+        "es": "Botella 0,7 L · 40 % alc. · Vodka de manzanas frescas, doble destilación y filtrado en carbón de coco.",
+        "en": "0.7 L bottle · 40% ABV · Vodka from fresh-pressed apples, double-distilled and charcoal-polished."
       },
-      "price": 12,
-      "image": "https://images.unsplash.com/photo-1582106245687-cbb466a9f07f?w=1200&q=75",
-      "signature": true,
+      "price": 30,
+      "image": "/images/brand/apple-horilka.jpg",
       "enabled": true,
       "order": 2
     },
     {
-      "id": "itm-jardin-de-acacia",
-      "categoryId": "cat-signature",
-      "name": { "es": "Jardín de Acacia", "en": "Acacia Garden" },
+      "id": "itm-bot-plum-horilka",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Plum Horilka (Vodka de Ciruela)", "en": "Plum Horilka (Vodka)" },
       "ingredients": {
-        "es": "Licor de acacia Lunin, gin floral, lima, tónica artesanal",
-        "en": "Lunin acacia liqueur, floral gin, lime, craft tonic"
+        "es": "Botella 0,7 L · 40 % alc. · Vodka de ciruelas silvestres, perfil seco con fruta de hueso.",
+        "en": "0.7 L bottle · 40% ABV · Vodka from woodland plums, dry palate with clear stone-fruit character."
       },
-      "price": 11,
-      "image": "https://images.unsplash.com/photo-1605270012917-bf157c5a9541?w=1200&q=75",
-      "signature": true,
+      "price": 30,
+      "image": "/images/brand/horilka-2.jpg",
       "enabled": true,
       "order": 3
     },
     {
-      "id": "itm-old-fashioned",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Old Fashioned", "en": "Old Fashioned" },
+      "id": "itm-bot-acacia-horilka",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Acacia Horilka (Vodka de Acacia)", "en": "Acacia Horilka (Vodka)" },
       "ingredients": {
-        "es": "Bourbon, azúcar moreno, angostura, naranja",
-        "en": "Bourbon, brown sugar, angostura, orange"
+        "es": "Botella 0,7 L · 40 % alc. · Vodka infusionado con flores de acacia, notas florales y miel.",
+        "en": "0.7 L bottle · 40% ABV · Vodka macerated with acacia blossoms, floral aromas and gentle honey."
       },
-      "price": 10,
-      "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=1200&q=75",
-      "enabled": true,
-      "order": 1
-    },
-    {
-      "id": "itm-negroni",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Negroni", "en": "Negroni" },
-      "ingredients": {
-        "es": "Gin, Campari, vermut rojo",
-        "en": "Gin, Campari, sweet vermouth"
-      },
-      "price": 10,
-      "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1200&q=75",
-      "enabled": true,
-      "order": 2
-    },
-    {
-      "id": "itm-whisky-sour",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Whisky Sour", "en": "Whisky Sour" },
-      "ingredients": {
-        "es": "Whisky, limón, sirope, clara de huevo",
-        "en": "Whisky, lemon, syrup, egg white"
-      },
-      "price": 10,
-      "image": "https://images.unsplash.com/photo-1568644396922-5c3bfae12521?w=1200&q=75",
-      "enabled": true,
-      "order": 3
-    },
-    {
-      "id": "itm-margarita",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Margarita", "en": "Margarita" },
-      "ingredients": {
-        "es": "Tequila, triple sec, lima, sal",
-        "en": "Tequila, triple sec, lime, salt"
-      },
-      "price": 10,
-      "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?w=1200&q=75",
+      "price": 30,
+      "image": "/images/fruit/acacia.jpg",
       "enabled": true,
       "order": 4
     },
     {
-      "id": "itm-aperol",
-      "categoryId": "cat-spritz",
-      "name": { "es": "Aperol Spritz", "en": "Aperol Spritz" },
+      "id": "itm-bot-apple-brandy",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Apple Brandy", "en": "Apple Brandy" },
       "ingredients": {
-        "es": "Aperol, prosecco, soda, naranja",
-        "en": "Aperol, prosecco, soda, orange"
+        "es": "Botella 0,7 L · 40 % alc. · Brandy de sidra envejecido 12 meses en roble cárpato.",
+        "en": "0.7 L bottle · 40% ABV · Cider brandy aged 12 months in new Carpathian oak."
       },
-      "price": 9,
-      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=1200&q=75",
+      "price": 35,
+      "image": "/images/brand/horilka-3.jpg",
       "enabled": true,
-      "order": 1
+      "order": 5
     },
     {
-      "id": "itm-hugo",
-      "categoryId": "cat-spritz",
-      "name": { "es": "Hugo", "en": "Hugo" },
+      "id": "itm-bot-elderberry-brandy",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Elderberry & Honey Brandy", "en": "Elderberry & Honey Brandy" },
       "ingredients": {
-        "es": "Prosecco, sirope de saúco, menta, soda",
-        "en": "Prosecco, elderflower syrup, mint, soda"
+        "es": "Botella 0,7 L · 40 % alc. · Brandy de saúco y miel, reposo en roble cárpato.",
+        "en": "0.7 L bottle · 40% ABV · Elderberry and honey brandy rested in Carpathian oak."
       },
-      "price": 9,
-      "image": "https://images.unsplash.com/photo-1609951651556-5334e2706168?w=1200&q=75",
+      "price": 35,
+      "image": "/images/brand/horilka-4.jpg",
       "enabled": true,
-      "order": 2
+      "order": 6
     },
     {
-      "id": "itm-st-germain",
-      "categoryId": "cat-spritz",
-      "name": { "es": "St-Germain Spritz", "en": "St-Germain Spritz" },
+      "id": "itm-bot-blackcurrant",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Licor de Grosella Negra", "en": "Blackcurrant Liqueur" },
       "ingredients": {
-        "es": "Licor de saúco, cava, soda, limón",
-        "en": "Elderflower liqueur, cava, soda, lemon"
+        "es": "Botella 0,5 L · 17,5 % alc. · Maceración lenta de grosella negra sobre destilado de manzana.",
+        "en": "0.5 L bottle · 17.5% ABV · Slow maceration of blackcurrants on apple distillate."
+      },
+      "price": 20,
+      "image": "/images/fruit/blackcurrant.jpg",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "itm-bot-sourcherry",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Licor de Cereza Ácida", "en": "Sour Cherry Liqueur" },
+      "ingredients": {
+        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de cereza ácida sobre destilado de manzana.",
+        "en": "0.5 L bottle · 17.5% ABV · Sour cherry macerated on apple distillate."
+      },
+      "price": 20,
+      "image": "/images/fruit/sourcherry.jpg",
+      "enabled": true,
+      "order": 8
+    },
+    {
+      "id": "itm-bot-blackberry",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Licor de Mora", "en": "Blackberry Liqueur" },
+      "ingredients": {
+        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de mora madura sobre destilado de manzana.",
+        "en": "0.5 L bottle · 17.5% ABV · Ripe blackberries macerated on apple distillate."
+      },
+      "price": 20,
+      "image": "/images/brand/horilka-5.jpg",
+      "enabled": true,
+      "order": 9
+    },
+    {
+      "id": "itm-bot-strawberry",
+      "categoryId": "cat-bottles",
+      "name": { "es": "Licor de Fresa", "en": "Strawberry Liqueur" },
+      "ingredients": {
+        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de fresas maduras sobre destilado de manzana.",
+        "en": "0.5 L bottle · 17.5% ABV · Ripe strawberries macerated on apple distillate."
+      },
+      "price": 20,
+      "image": "/images/fruit/cranberry.jpg",
+      "enabled": true,
+      "order": 10
+    },
+
+    {
+      "id": "itm-coc-apple-pie",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Apple Pie", "en": "Apple Pie" },
+      "ingredients": {
+        "es": "Horilka de manzana, Appletiser.",
+        "en": "Apple Horilka, Appletiser."
       },
       "price": 10,
-      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&q=75",
-      "enabled": true,
-      "order": 3
-    },
-    {
-      "id": "itm-shot-lunin",
-      "categoryId": "cat-shots",
-      "name": { "es": "Lunin Shot", "en": "Lunin Shot" },
-      "ingredients": {
-        "es": "Horilka Lunin helada",
-        "en": "Frozen Lunin Horilka"
-      },
-      "price": 5,
-      "image": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=1200&q=75",
+      "signature": true,
       "enabled": true,
       "order": 1
     },
     {
-      "id": "itm-shot-cranberry",
-      "categoryId": "cat-shots",
-      "name": { "es": "Cranberry Shot", "en": "Cranberry Shot" },
+      "id": "itm-coc-atardecer",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Atardecer Valenciano", "en": "Atardecer Valenciano" },
       "ingredients": {
-        "es": "Vodka, licor de arándano rojo, lima",
-        "en": "Vodka, cranberry liqueur, lime"
+        "es": "Gin, triple seco, limón, fruta de la pasión, sirope. Cóctel ácido.",
+        "en": "Gin, triple sec, lemon, passion fruit, simple syrup. Sour cocktail."
       },
-      "price": 6,
-      "image": "https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=1200&q=75",
+      "price": 10,
+      "signature": true,
       "enabled": true,
       "order": 2
     },
     {
-      "id": "itm-shot-acacia",
-      "categoryId": "cat-shots",
-      "name": { "es": "Acacia Shot", "en": "Acacia Shot" },
+      "id": "itm-coc-kiev",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Kiev", "en": "Kiev" },
       "ingredients": {
-        "es": "Licor de acacia Lunin, miel",
-        "en": "Lunin acacia liqueur, honey"
+        "es": "Gin, Yagodanka de fresa, lima, clara de huevo, fruta de la pasión, sirope. Cóctel ácido.",
+        "en": "Gin, Yagodanka strawberry, lime, egg white, passion fruit, simple syrup. Sour cocktail."
       },
-      "price": 6,
-      "image": "https://images.unsplash.com/photo-1504675099198-7023dd85f5a3?w=1200&q=75",
+      "price": 10,
+      "signature": true,
       "enabled": true,
       "order": 3
     },
     {
-      "id": "itm-amaretto",
-      "categoryId": "cat-liqueurs",
-      "name": { "es": "Amaretto", "en": "Amaretto" },
-      "ingredients": { "es": "Servido solo o con hielo", "en": "Served neat or on the rocks" },
+      "id": "itm-coc-pornstar",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Pornstar Martini", "en": "Pornstar Martini" },
+      "ingredients": {
+        "es": "Horilka de ciruela, fruta de la pasión, lima, vainilla. Ácido y dulce.",
+        "en": "Plum Horilka, passion fruit, lime, vanilla. Sour & sweet."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "itm-coc-negroni",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Negroni de Autor", "en": "Artisanal Negroni" },
+      "ingredients": {
+        "es": "Gin, bíter, Yagodanka de fresa. Cóctel fuerte.",
+        "en": "Gin, bitter, Yagodanka strawberry. Strong cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "itm-coc-dirty-martini",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Dirty Martini", "en": "Dirty Martini" },
+      "ingredients": {
+        "es": "Horilka de manzana, limón, aceitunas, salmuera de aceituna. Cóctel fuerte.",
+        "en": "Apple Horilka, lemon, olives, olive brine. Strong cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "itm-coc-daiquiri",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Daiquiri de Autor", "en": "Artisanal Daiquiri" },
+      "ingredients": {
+        "es": "Horilka de acacia, Yagodanka de arándano rojo, lima, caramelo. Cóctel dulce.",
+        "en": "Acacia Horilka, Yagodanka cranberry, lime, caramel. Sweet cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "itm-coc-bloody-mary",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Bloody Mary", "en": "Bloody Mary" },
+      "ingredients": {
+        "es": "Zumo de tomate, horilka de ciruela, pepinillo, tabasco, salsa Worcester, sal. Cóctel salado.",
+        "en": "Tomato juice, plum Horilka, pickled cucumber, Tabasco, Worcestershire sauce, salt. Salty cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 8
+    },
+    {
+      "id": "itm-coc-cucumber-gimlet",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Cucumber Gimlet", "en": "Cucumber Gimlet" },
+      "ingredients": {
+        "es": "Gin, pepino, lima, sirope. Cóctel ácido.",
+        "en": "Gin, cucumber, lime, simple syrup. Sour cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 9
+    },
+    {
+      "id": "itm-coc-brandy-cola",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Brandy Cola", "en": "Brandy Cola" },
+      "ingredients": {
+        "es": "Brandy de saúco y miel, Coca-Cola. Cóctel dulce.",
+        "en": "Elderberry & honey brandy, Coca-Cola. Sweet cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 10
+    },
+    {
+      "id": "itm-coc-diabolito",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Diabolito", "en": "Diabolito" },
+      "ingredients": {
+        "es": "Gin, melocotón, sirope picante, lima. Cóctel picante.",
+        "en": "Gin, peach, chilli syrup, lime. Spicy cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 11
+    },
+    {
+      "id": "itm-coc-espresso-martini",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Espresso Martini", "en": "Espresso Martini" },
+      "ingredients": {
+        "es": "Gin, licor de café, sirope, espresso. Cóctel de café.",
+        "en": "Gin, coffee liqueur, simple syrup, espresso. Coffee cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 12
+    },
+    {
+      "id": "itm-coc-gin-tonic",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Gin & Tonic", "en": "Gin & Tonic" },
+      "ingredients": {
+        "es": "Gin, tónica, rodaja de pepino. Cóctel fresco.",
+        "en": "Gin, tonic, slice of cucumber. Fresh cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 13
+    },
+    {
+      "id": "itm-coc-kiwi-gimlet",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Kiwi Gimlet", "en": "Kiwi Gimlet" },
+      "ingredients": {
+        "es": "Gin, kiwi, Yagodanka de fresa, sal, limón, sirope. Cóctel salado.",
+        "en": "Gin, kiwi, Yagodanka strawberry, salt, lemon, simple syrup. Salty cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 14
+    },
+    {
+      "id": "itm-coc-long-island",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Long Island Iced Tea", "en": "Long Island Iced Tea" },
+      "ingredients": {
+        "es": "Horilka de manzana, sirope, horilka de acacia, gin, limón, Coca-Cola. Cóctel dulce.",
+        "en": "Apple Horilka, simple syrup, acacia Horilka, gin, lemon, Coca-Cola. Sweet cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 15
+    },
+    {
+      "id": "itm-coc-margarita",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Margarita de Autor", "en": "Artisanal Margarita" },
+      "ingredients": {
+        "es": "Gin, horilka de acacia, lima, sirope. Cóctel salado.",
+        "en": "Gin, acacia Horilka, lime, simple syrup. Salty cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 16
+    },
+    {
+      "id": "itm-coc-matcha-sour",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Matcha Sour", "en": "Matcha Sour" },
+      "ingredients": {
+        "es": "Gin, matcha, limón, sirope, clara de huevo. Cóctel ácido.",
+        "en": "Gin, matcha, lemon, simple syrup, egg white. Sour cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 17
+    },
+    {
+      "id": "itm-coc-mule",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Mule", "en": "Mule" },
+      "ingredients": {
+        "es": "Horilka de manzana, ginger beer, menta. Cóctel fresco.",
+        "en": "Apple Horilka, ginger beer, mint. Fresh cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 18
+    },
+    {
+      "id": "itm-coc-old-fashioned",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Old Fashioned", "en": "Old Fashioned" },
+      "ingredients": {
+        "es": "Brandy de manzana, piel de limón, caramelo, ahumado. Cóctel fuerte.",
+        "en": "Apple brandy, lemon peel, caramel, smoke. Strong cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 19
+    },
+    {
+      "id": "itm-coc-strawberry-margarita",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Strawberry Margarita", "en": "Strawberry Margarita" },
+      "ingredients": {
+        "es": "Gin, Yagodanka de fresa, horilka de acacia, lima, sirope. Cóctel salado.",
+        "en": "Gin, Yagodanka strawberry, acacia Horilka, lime, simple syrup. Salty cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 20
+    },
+    {
+      "id": "itm-coc-acacia-sour",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Acacia Vodka Sour", "en": "Acacia Vodka Sour" },
+      "ingredients": {
+        "es": "Horilka de acacia, limón, sirope, clara de huevo, bíter. Cóctel ácido.",
+        "en": "Acacia Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 21
+    },
+    {
+      "id": "itm-coc-apple-sour",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Apple Vodka Sour", "en": "Apple Vodka Sour" },
+      "ingredients": {
+        "es": "Horilka de manzana, limón, sirope, clara de huevo, bíter. Cóctel ácido.",
+        "en": "Apple Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 22
+    },
+    {
+      "id": "itm-coc-plum-sour",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Plum Vodka Sour", "en": "Plum Vodka Sour" },
+      "ingredients": {
+        "es": "Horilka de ciruela, limón, sirope, clara de huevo, bíter. Cóctel ácido.",
+        "en": "Plum Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
+      },
+      "price": 10,
+      "enabled": true,
+      "order": 23
+    },
+
+    {
+      "id": "itm-spr-sourcherry",
+      "categoryId": "cat-spritz",
+      "name": { "es": "Spritz de Cereza Ácida", "en": "Sour Cherry Spritz" },
+      "ingredients": {
+        "es": "Licor Lunin de cereza ácida.",
+        "en": "Lunin sour cherry liqueur."
+      },
       "price": 8,
-      "image": "https://images.unsplash.com/photo-1541546006121-5c3bc5e8c7b9?w=1200&q=75",
       "enabled": true,
       "order": 1
     },
     {
-      "id": "itm-licor-blackcurrant",
-      "categoryId": "cat-liqueurs",
-      "name": { "es": "Licor de Grosella Negra", "en": "Blackcurrant Liqueur" },
-      "ingredients": { "es": "Lunin · 30ml", "en": "Lunin · 30ml" },
+      "id": "itm-spr-strawberry",
+      "categoryId": "cat-spritz",
+      "name": { "es": "Spritz de Fresa", "en": "Strawberry Spritz" },
+      "ingredients": {
+        "es": "Licor Lunin de fresa.",
+        "en": "Lunin strawberry liqueur."
+      },
       "price": 8,
-      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=1200&q=75",
       "enabled": true,
       "order": 2
     },
     {
-      "id": "itm-licor-sourcherry",
-      "categoryId": "cat-liqueurs",
-      "name": { "es": "Licor de Cereza Ácida", "en": "Sour Cherry Liqueur" },
-      "ingredients": { "es": "Lunin · 30ml", "en": "Lunin · 30ml" },
+      "id": "itm-spr-blackberry",
+      "categoryId": "cat-spritz",
+      "name": { "es": "Spritz de Mora", "en": "Blackberry Spritz" },
+      "ingredients": {
+        "es": "Licor Lunin de mora.",
+        "en": "Lunin blackberry liqueur."
+      },
       "price": 8,
-      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=1200&q=75",
       "enabled": true,
       "order": 3
     },
     {
-      "id": "itm-special-summer",
-      "categoryId": "cat-specials",
-      "name": { "es": "Verano Lunin", "en": "Lunin Summer" },
+      "id": "itm-spr-blackcurrant",
+      "categoryId": "cat-spritz",
+      "name": { "es": "Spritz de Grosella Negra", "en": "Blackcurrant Spritz" },
       "ingredients": {
-        "es": "Gin floral, sandía fresca, albahaca, soda cítrica",
-        "en": "Floral gin, fresh watermelon, basil, citrus soda"
+        "es": "Licor Lunin de grosella negra.",
+        "en": "Lunin blackcurrant liqueur."
       },
-      "price": 12,
-      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=1200&q=75",
+      "price": 8,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "itm-spr-cranberry",
+      "categoryId": "cat-spritz",
+      "name": { "es": "Spritz de Arándano Rojo", "en": "Cranberry Spritz" },
+      "ingredients": {
+        "es": "Licor Lunin de arándano rojo.",
+        "en": "Lunin cranberry liqueur."
+      },
+      "price": 8,
+      "enabled": true,
+      "order": 5
+    },
+
+    {
+      "id": "itm-vermut",
+      "categoryId": "cat-vermut",
+      "name": { "es": "Vermut", "en": "Vermouth" },
+      "ingredients": {
+        "es": "Vermut servido a la copa.",
+        "en": "Vermouth served by the glass."
+      },
+      "price": 4,
+      "enabled": true,
+      "order": 1
+    },
+
+    {
+      "id": "itm-lqs-sourcherry",
+      "categoryId": "cat-liqueur-shots",
+      "name": { "es": "Chupito de Cereza Ácida", "en": "Sour Cherry Shot" },
+      "ingredients": {
+        "es": "Licor Lunin de cereza ácida.",
+        "en": "Lunin sour cherry liqueur."
+      },
+      "price": 2.5,
       "enabled": true,
       "order": 1
     },
     {
-      "id": "itm-special-bonfire",
-      "categoryId": "cat-specials",
-      "name": { "es": "Bonfire", "en": "Bonfire" },
+      "id": "itm-lqs-strawberry",
+      "categoryId": "cat-liqueur-shots",
+      "name": { "es": "Chupito de Fresa", "en": "Strawberry Shot" },
       "ingredients": {
-        "es": "Whisky ahumado, miel de bosque, naranja quemada",
-        "en": "Smoked whisky, forest honey, charred orange"
+        "es": "Licor Lunin de fresa.",
+        "en": "Lunin strawberry liqueur."
       },
-      "price": 13,
-      "image": "https://images.unsplash.com/photo-1452725210141-07dda20225ec?w=1200&q=75",
+      "price": 2.5,
       "enabled": true,
       "order": 2
+    },
+    {
+      "id": "itm-lqs-blackberry",
+      "categoryId": "cat-liqueur-shots",
+      "name": { "es": "Chupito de Mora", "en": "Blackberry Shot" },
+      "ingredients": {
+        "es": "Licor Lunin de mora.",
+        "en": "Lunin blackberry liqueur."
+      },
+      "price": 2.5,
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "itm-lqs-blackcurrant",
+      "categoryId": "cat-liqueur-shots",
+      "name": { "es": "Chupito de Grosella Negra", "en": "Blackcurrant Shot" },
+      "ingredients": {
+        "es": "Licor Lunin de grosella negra.",
+        "en": "Lunin blackcurrant liqueur."
+      },
+      "price": 2.5,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "itm-lqs-cranberry",
+      "categoryId": "cat-liqueur-shots",
+      "name": { "es": "Chupito de Arándano Rojo", "en": "Cranberry Shot" },
+      "ingredients": {
+        "es": "Licor Lunin de arándano rojo.",
+        "en": "Lunin cranberry liqueur."
+      },
+      "price": 2.5,
+      "enabled": true,
+      "order": 5
+    },
+
+    {
+      "id": "itm-sht-apple",
+      "categoryId": "cat-shots",
+      "name": { "es": "Shot Horilka de Manzana", "en": "Apple Vodka Shot" },
+      "ingredients": { "es": "Horilka Lunin de manzana.", "en": "Lunin apple Horilka." },
+      "price": 4,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "itm-sht-plum",
+      "categoryId": "cat-shots",
+      "name": { "es": "Shot Horilka de Ciruela", "en": "Plum Vodka Shot" },
+      "ingredients": { "es": "Horilka Lunin de ciruela.", "en": "Lunin plum Horilka." },
+      "price": 4,
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "itm-sht-acacia",
+      "categoryId": "cat-shots",
+      "name": { "es": "Shot Horilka de Acacia", "en": "Acacia Vodka Shot" },
+      "ingredients": { "es": "Horilka Lunin de acacia.", "en": "Lunin acacia Horilka." },
+      "price": 4,
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "itm-sht-gin",
+      "categoryId": "cat-shots",
+      "name": { "es": "Shot de Gin", "en": "Gin Shot" },
+      "ingredients": { "es": "Ginebra Lunin.", "en": "Lunin gin." },
+      "price": 4,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "itm-sht-apple-brandy",
+      "categoryId": "cat-shots",
+      "name": { "es": "Shot de Apple Brandy", "en": "Apple Brandy Shot" },
+      "ingredients": { "es": "Brandy de manzana Lunin.", "en": "Lunin apple brandy." },
+      "price": 4,
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "itm-sht-elderberry",
+      "categoryId": "cat-shots",
+      "name": { "es": "Shot de Elderberry & Honey Brandy", "en": "Elderberry & Honey Brandy Shot" },
+      "ingredients": { "es": "Brandy Lunin de saúco y miel.", "en": "Lunin elderberry & honey brandy." },
+      "price": 4,
+      "enabled": true,
+      "order": 6
+    },
+
+    {
+      "id": "itm-caf-solo",
+      "categoryId": "cat-cafe",
+      "name": { "es": "Solo / Americano", "en": "Espresso / Americano" },
+      "ingredients": { "es": "Café espresso.", "en": "Espresso coffee." },
+      "price": 1.8,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "itm-caf-leche",
+      "categoryId": "cat-cafe",
+      "name": { "es": "Con Leche / Cortado / Hielo", "en": "With Milk / Cortado / Iced" },
+      "ingredients": { "es": "Café con leche, cortado o con hielo.", "en": "White coffee, cortado or iced." },
+      "price": 2,
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "itm-caf-doble",
+      "categoryId": "cat-cafe",
+      "name": { "es": "Doble", "en": "Double" },
+      "ingredients": { "es": "Doble espresso.", "en": "Double espresso." },
+      "price": 2.5,
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "itm-caf-bombon",
+      "categoryId": "cat-cafe",
+      "name": { "es": "Bombón", "en": "Bombón" },
+      "ingredients": { "es": "Espresso con leche condensada.", "en": "Espresso with condensed milk." },
+      "price": 2,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "itm-caf-carajillo",
+      "categoryId": "cat-cafe",
+      "name": { "es": "Carajillo", "en": "Carajillo" },
+      "ingredients": { "es": "Espresso con destilado.", "en": "Espresso with spirit." },
+      "price": 3,
+      "enabled": true,
+      "order": 5
+    },
+
+    {
+      "id": "itm-agua-gas",
+      "categoryId": "cat-water",
+      "name": { "es": "Agua con Gas", "en": "Sparkling Water" },
+      "ingredients": { "es": "Agua mineral con gas.", "en": "Sparkling mineral water." },
+      "price": 2,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "itm-agua-sin-gas",
+      "categoryId": "cat-water",
+      "name": { "es": "Agua sin Gas", "en": "Still Water" },
+      "ingredients": { "es": "Agua mineral sin gas.", "en": "Still mineral water." },
+      "price": 2,
+      "enabled": true,
+      "order": 2
+    },
+
+    {
+      "id": "itm-moc-espresso-orange",
+      "categoryId": "cat-mocktails",
+      "name": { "es": "Espresso & Orange Cooler", "en": "Espresso & Orange Cooler" },
+      "ingredients": {
+        "es": "Espresso, zumo de naranja, sirope.",
+        "en": "Espresso, orange juice, simple syrup."
+      },
+      "price": 7,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "itm-moc-mojito",
+      "categoryId": "cat-mocktails",
+      "name": { "es": "Mojito sin Alcohol", "en": "Mojito Non-Alcoholic" },
+      "ingredients": {
+        "es": "Sirope, soda, menta, lima.",
+        "en": "Syrup, soda water, mint, lime."
+      },
+      "price": 7,
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "itm-moc-diabolito",
+      "categoryId": "cat-mocktails",
+      "name": { "es": "Diabolito sin Alcohol", "en": "Diabolito Non-Alcoholic" },
+      "ingredients": {
+        "es": "Melocotón, sirope picante, lima.",
+        "en": "Peach, chilli syrup, lime."
+      },
+      "price": 7,
+      "enabled": true,
+      "order": 3
+    },
+    {
+      "id": "itm-moc-passion-spritz",
+      "categoryId": "cat-mocktails",
+      "name": { "es": "Passion Fruit Spritz", "en": "Passion Fruit Spritz" },
+      "ingredients": {
+        "es": "Fruta de la pasión, sirope, soda.",
+        "en": "Passion fruit, syrup, soda water."
+      },
+      "price": 7,
+      "enabled": true,
+      "order": 4
+    },
+    {
+      "id": "itm-moc-cucumber",
+      "categoryId": "cat-mocktails",
+      "name": { "es": "Cucumber Refresher", "en": "Cucumber Refresher" },
+      "ingredients": {
+        "es": "Pepino, sirope, lima, soda.",
+        "en": "Cucumber, syrup, lime, soda water."
+      },
+      "price": 7,
+      "enabled": true,
+      "order": 5
+    },
+    {
+      "id": "itm-moc-kiwi-gimlet",
+      "categoryId": "cat-mocktails",
+      "name": { "es": "Kiwi Gimlet sin Alcohol", "en": "Kiwi Gimlet Non-Alcoholic" },
+      "ingredients": {
+        "es": "Kiwi, fresa, sal, limón, sirope.",
+        "en": "Kiwi, strawberry, salt, lemon, simple syrup."
+      },
+      "price": 7,
+      "enabled": true,
+      "order": 6
     }
   ]
 }

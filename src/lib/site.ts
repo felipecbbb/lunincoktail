@@ -7,19 +7,20 @@ export const SITE = {
   defaultPrice: 10,
   currency: { code: "EUR", symbol: "€" },
   contact: {
-    phone: "+34 600 000 000",
-    phoneE164: "+34600000000",
-    whatsapp: "+34600000000",
-    email: "hola@lunincocktailbar.com",
-    address: "Calle Ejemplo 123, Madrid, España",
-    googleMapsUrl: "https://maps.google.com/?q=Lunin+Cocktail+Bar+Madrid",
-    googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12141.5!2d-3.7037902!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2sMadrid!5e0!3m2!1ses!2ses",
+    phone: "+34 655 147 944",
+    phoneE164: "+34655147944",
+    whatsapp: "+34655147944",
+    email: "Lunindistillery@gmail.com",
+    address: "Calle Puerto Rico 4, Valencia, España",
+    googleMapsUrl: "https://maps.google.com/?q=Calle+Puerto+Rico+4,+Valencia",
+    googleMapsEmbed:
+      "https://www.google.com/maps?q=Calle+Puerto+Rico+4,+Valencia&output=embed",
     instagram: "https://instagram.com/lunincocktailbar",
     instagramHandle: "@lunincocktailbar",
   },
   hours: {
-    es: "Mar — Dom · 19:00 — 02:30",
-    en: "Tue — Sun · 7:00 PM — 2:30 AM",
+    es: "Mar — Sáb · 18:00 — 01:00 · Lun y Dom cerrado",
+    en: "Tue — Sat · 6:00 PM — 1:00 AM · Mon & Sun closed",
   },
   // Where to get GA / Pixel from? Set these to non-empty strings to enable.
   analytics: {
