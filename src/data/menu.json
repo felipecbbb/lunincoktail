@@ -141,6 +141,7 @@
         "en": "Apple Horilka, Appletiser."
       },
       "price": 10,
+      "image": "/images/menu/apple-pie.jpg",
       "signature": true,
       "enabled": true,
       "order": 1
@@ -167,6 +168,7 @@
         "en": "Gin, Yagodanka strawberry, lime, egg white, passion fruit, simple syrup. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/kiev.jpg",
       "signature": true,
       "enabled": true,
       "order": 3
@@ -180,6 +182,7 @@
         "en": "Plum Horilka, passion fruit, lime, vanilla. Sour & sweet."
       },
       "price": 10,
+      "image": "/images/menu/pornstar-martini.jpg",
       "enabled": true,
       "order": 4
     },
@@ -192,6 +195,7 @@
         "en": "Gin, bitter, Yagodanka strawberry. Strong cocktail."
       },
       "price": 10,
+      "image": "/images/menu/negroni.jpg",
       "enabled": true,
       "order": 5
     },
@@ -204,6 +208,7 @@
         "en": "Apple Horilka, lemon, olives, olive brine. Strong cocktail."
       },
       "price": 10,
+      "image": "/images/menu/dirty-martini.jpg",
       "enabled": true,
       "order": 6
     },
@@ -216,6 +221,7 @@
         "en": "Acacia Horilka, Yagodanka cranberry, lime, caramel. Sweet cocktail."
       },
       "price": 10,
+      "image": "/images/menu/daiquiri.jpg",
       "enabled": true,
       "order": 7
     },
@@ -240,6 +246,7 @@
         "en": "Gin, cucumber, lime, simple syrup. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/cucumber-gimlet.jpg",
       "enabled": true,
       "order": 9
     },
@@ -264,6 +271,7 @@
         "en": "Gin, peach, chilli syrup, lime. Spicy cocktail."
       },
       "price": 10,
+      "image": "/images/menu/diabolito.jpg",
       "enabled": true,
       "order": 11
     },
@@ -276,6 +284,7 @@
         "en": "Gin, coffee liqueur, simple syrup, espresso. Coffee cocktail."
       },
       "price": 10,
+      "image": "/images/menu/espresso-martini.jpg",
       "enabled": true,
       "order": 12
     },
@@ -300,6 +309,7 @@
         "en": "Gin, kiwi, Yagodanka strawberry, salt, lemon, simple syrup. Salty cocktail."
       },
       "price": 10,
+      "image": "/images/menu/kiwi-gimlet.jpg",
       "enabled": true,
       "order": 14
     },
@@ -336,6 +346,7 @@
         "en": "Gin, matcha, lemon, simple syrup, egg white. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/matcha-sour.jpg",
       "enabled": true,
       "order": 17
     },
@@ -360,6 +371,7 @@
         "en": "Apple brandy, lemon peel, caramel, smoke. Strong cocktail."
       },
       "price": 10,
+      "image": "/images/menu/old-fashioned.jpg",
       "enabled": true,
       "order": 19
     },
@@ -384,6 +396,7 @@
         "en": "Acacia Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 21
     },
@@ -396,6 +409,7 @@
         "en": "Apple Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 22
     },
@@ -408,6 +422,7 @@
         "en": "Plum Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 23
     },
@@ -482,6 +497,7 @@
         "en": "Vermouth served by the glass."
       },
       "price": 4,
+      "image": "/images/menu/vermut.jpg",
       "enabled": true,
       "order": 1
     },
@@ -676,6 +692,7 @@
         "en": "Espresso, orange juice, simple syrup."
       },
       "price": 7,
+      "image": "/images/menu/espresso-orange-cooler.jpg",
       "enabled": true,
       "order": 1
     },
