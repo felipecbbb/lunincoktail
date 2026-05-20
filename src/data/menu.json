@@ -155,6 +155,7 @@
         "en": "Gin, triple sec, lemon, passion fruit, simple syrup. Sour cocktail."
       },
       "price": 10,
+      "image": "/images/menu/atardecer-valenciano.jpg",
       "signature": true,
       "enabled": true,
       "order": 2
@@ -359,6 +360,7 @@
         "en": "Apple Horilka, ginger beer, mint. Fresh cocktail."
       },
       "price": 10,
+      "image": "/images/menu/mule.jpg",
       "enabled": true,
       "order": 18
     },
@@ -436,6 +438,7 @@
         "en": "Lunin sour cherry liqueur."
       },
       "price": 8,
+      "image": "/images/menu/spritz.jpg",
       "enabled": true,
       "order": 1
     },
@@ -448,6 +451,7 @@
         "en": "Lunin strawberry liqueur."
       },
       "price": 8,
+      "image": "/images/menu/spritz.jpg",
       "enabled": true,
       "order": 2
     },
@@ -460,6 +464,7 @@
         "en": "Lunin blackberry liqueur."
       },
       "price": 8,
+      "image": "/images/menu/spritz.jpg",
       "enabled": true,
       "order": 3
     },
@@ -472,6 +477,7 @@
         "en": "Lunin blackcurrant liqueur."
       },
       "price": 8,
+      "image": "/images/menu/spritz.jpg",
       "enabled": true,
       "order": 4
     },
@@ -484,6 +490,7 @@
         "en": "Lunin cranberry liqueur."
       },
       "price": 8,
+      "image": "/images/menu/spritz.jpg",
       "enabled": true,
       "order": 5
     },
