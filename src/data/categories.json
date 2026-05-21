@@ -98,6 +98,30 @@
       "enabled": true
     },
     {
+      "id": "cat-soft-drinks",
+      "slug": "refrescos",
+      "name": { "es": "Refrescos", "en": "Soft Drinks" },
+      "description": {
+        "es": "Refrescos clásicos servidos fríos.",
+        "en": "Classic soft drinks served chilled."
+      },
+      "hero": "/images/atmosphere/bokeh-2.jpg",
+      "order": 9,
+      "enabled": true
+    },
+    {
+      "id": "cat-beer",
+      "slug": "cerveza",
+      "name": { "es": "Cerveza", "en": "Beer" },
+      "description": {
+        "es": "Cerveza fría servida en botella.",
+        "en": "Cold beer served by the bottle."
+      },
+      "hero": "/images/atmosphere/bokeh-1.jpg",
+      "order": 10,
+      "enabled": true
+    },
+    {
       "id": "cat-mocktails",
       "slug": "mocktails",
       "name": { "es": "Mocktails", "en": "Mocktails" },
@@ -106,7 +130,7 @@
         "en": "Non-alcoholic cocktails full of character."
       },
       "hero": "/images/fruit/cranberry.jpg",
-      "order": 9,
+      "order": 11,
       "enabled": true
     }
   ]

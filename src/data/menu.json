@@ -22,7 +22,7 @@
         "es": "Botella 0,7 L · 40 % alc. · Vodka de manzanas frescas, doble destilación y filtrado en carbón de coco.",
         "en": "0.7 L bottle · 40% ABV · Vodka from fresh-pressed apples, double-distilled and charcoal-polished."
       },
-      "price": 30,
+      "price": 25,
       "image": "/images/brand/apple-horilka.jpg",
       "enabled": true,
       "order": 2
@@ -35,7 +35,7 @@
         "es": "Botella 0,7 L · 40 % alc. · Vodka de ciruelas silvestres, perfil seco con fruta de hueso.",
         "en": "0.7 L bottle · 40% ABV · Vodka from woodland plums, dry palate with clear stone-fruit character."
       },
-      "price": 30,
+      "price": 25,
       "image": "/images/brand/horilka-2.jpg",
       "enabled": true,
       "order": 3
@@ -48,7 +48,7 @@
         "es": "Botella 0,7 L · 40 % alc. · Vodka infusionado con flores de acacia, notas florales y miel.",
         "en": "0.7 L bottle · 40% ABV · Vodka macerated with acacia blossoms, floral aromas and gentle honey."
       },
-      "price": 30,
+      "price": 25,
       "image": "/images/fruit/acacia.jpg",
       "enabled": true,
       "order": 4
@@ -119,12 +119,12 @@
       "order": 9
     },
     {
-      "id": "itm-bot-strawberry",
+      "id": "itm-bot-cranberry",
       "categoryId": "cat-bottles",
-      "name": { "es": "Licor de Fresa", "en": "Strawberry Liqueur" },
+      "name": { "es": "Licor de Arándano Rojo", "en": "Cranberry Liqueur" },
       "ingredients": {
-        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de fresas maduras sobre destilado de manzana.",
-        "en": "0.5 L bottle · 17.5% ABV · Ripe strawberries macerated on apple distillate."
+        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de arándano rojo sobre destilado de manzana.",
+        "en": "0.5 L bottle · 17.5% ABV · Cranberries macerated on apple distillate."
       },
       "price": 20,
       "image": "/images/fruit/cranberry.jpg",
@@ -140,9 +140,8 @@
         "es": "Horilka de manzana, Appletiser.",
         "en": "Apple Horilka, Appletiser."
       },
-      "price": 10,
+      "price": 8,
       "image": "/images/menu/apple-pie.jpg",
-      "signature": true,
       "enabled": true,
       "order": 1
     },
@@ -201,19 +200,6 @@
       "order": 5
     },
     {
-      "id": "itm-coc-dirty-martini",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Dirty Martini", "en": "Dirty Martini" },
-      "ingredients": {
-        "es": "Horilka de manzana, limón, aceitunas, salmuera de aceituna. Cóctel fuerte.",
-        "en": "Apple Horilka, lemon, olives, olive brine. Strong cocktail."
-      },
-      "price": 10,
-      "image": "/images/menu/dirty-martini.jpg",
-      "enabled": true,
-      "order": 6
-    },
-    {
       "id": "itm-coc-daiquiri",
       "categoryId": "cat-cocktails",
       "name": { "es": "Daiquiri de Autor", "en": "Artisanal Daiquiri" },
@@ -252,18 +238,6 @@
       "order": 9
     },
     {
-      "id": "itm-coc-brandy-cola",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Brandy Cola", "en": "Brandy Cola" },
-      "ingredients": {
-        "es": "Brandy de saúco y miel, Coca-Cola. Cóctel dulce.",
-        "en": "Elderberry & honey brandy, Coca-Cola. Sweet cocktail."
-      },
-      "price": 10,
-      "enabled": true,
-      "order": 10
-    },
-    {
       "id": "itm-coc-diabolito",
       "categoryId": "cat-cocktails",
       "name": { "es": "Diabolito", "en": "Diabolito" },
@@ -288,18 +262,6 @@
       "image": "/images/menu/espresso-martini.jpg",
       "enabled": true,
       "order": 12
-    },
-    {
-      "id": "itm-coc-gin-tonic",
-      "categoryId": "cat-cocktails",
-      "name": { "es": "Gin & Tonic", "en": "Gin & Tonic" },
-      "ingredients": {
-        "es": "Gin, tónica, rodaja de pepino. Cóctel fresco.",
-        "en": "Gin, tonic, slice of cucumber. Fresh cocktail."
-      },
-      "price": 10,
-      "enabled": true,
-      "order": 13
     },
     {
       "id": "itm-coc-kiwi-gimlet",
@@ -427,6 +389,30 @@
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 23
+    },
+    {
+      "id": "itm-coc-gin-tonic",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Gin & Tonic", "en": "Gin & Tonic" },
+      "ingredients": {
+        "es": "Gin Lunin, tónica Fever-Tree.",
+        "en": "Lunin gin, Fever-Tree tonic."
+      },
+      "price": 8,
+      "enabled": true,
+      "order": 25
+    },
+    {
+      "id": "itm-coc-brandy-cola",
+      "categoryId": "cat-cocktails",
+      "name": { "es": "Brandy Cola", "en": "Brandy & Cola" },
+      "ingredients": {
+        "es": "Brandy de manzana Lunin, refresco de cola.",
+        "en": "Lunin apple brandy, cola."
+      },
+      "price": 8,
+      "enabled": true,
+      "order": 26
     },
 
     {
@@ -575,7 +561,7 @@
       "categoryId": "cat-shots",
       "name": { "es": "Shot Horilka de Manzana", "en": "Apple Vodka Shot" },
       "ingredients": { "es": "Horilka Lunin de manzana.", "en": "Lunin apple Horilka." },
-      "price": 4,
+      "price": 3,
       "enabled": true,
       "order": 1
     },
@@ -584,7 +570,7 @@
       "categoryId": "cat-shots",
       "name": { "es": "Shot Horilka de Ciruela", "en": "Plum Vodka Shot" },
       "ingredients": { "es": "Horilka Lunin de ciruela.", "en": "Lunin plum Horilka." },
-      "price": 4,
+      "price": 3,
       "enabled": true,
       "order": 2
     },
@@ -593,7 +579,7 @@
       "categoryId": "cat-shots",
       "name": { "es": "Shot Horilka de Acacia", "en": "Acacia Vodka Shot" },
       "ingredients": { "es": "Horilka Lunin de acacia.", "en": "Lunin acacia Horilka." },
-      "price": 4,
+      "price": 3,
       "enabled": true,
       "order": 3
     },
@@ -611,7 +597,7 @@
       "categoryId": "cat-shots",
       "name": { "es": "Shot de Apple Brandy", "en": "Apple Brandy Shot" },
       "ingredients": { "es": "Brandy de manzana Lunin.", "en": "Lunin apple brandy." },
-      "price": 4,
+      "price": 5,
       "enabled": true,
       "order": 5
     },
@@ -620,7 +606,7 @@
       "categoryId": "cat-shots",
       "name": { "es": "Shot de Elderberry & Honey Brandy", "en": "Elderberry & Honey Brandy Shot" },
       "ingredients": { "es": "Brandy Lunin de saúco y miel.", "en": "Lunin elderberry & honey brandy." },
-      "price": 4,
+      "price": 5,
       "enabled": true,
       "order": 6
     },
@@ -628,8 +614,8 @@
     {
       "id": "itm-caf-solo",
       "categoryId": "cat-cafe",
-      "name": { "es": "Solo / Americano", "en": "Espresso / Americano" },
-      "ingredients": { "es": "Café espresso.", "en": "Espresso coffee." },
+      "name": { "es": "Espresso / Largo / Americano", "en": "Espresso / Long / Americano" },
+      "ingredients": { "es": "Café espresso, largo o americano.", "en": "Espresso, long or americano coffee." },
       "price": 1.8,
       "enabled": true,
       "order": 1
@@ -637,20 +623,29 @@
     {
       "id": "itm-caf-leche",
       "categoryId": "cat-cafe",
-      "name": { "es": "Con Leche / Cortado / Hielo", "en": "With Milk / Cortado / Iced" },
-      "ingredients": { "es": "Café con leche, cortado o con hielo.", "en": "White coffee, cortado or iced." },
+      "name": { "es": "Café con Leche", "en": "Café con Leche" },
+      "ingredients": { "es": "Espresso con leche.", "en": "Espresso with milk." },
       "price": 2,
       "enabled": true,
       "order": 2
     },
     {
-      "id": "itm-caf-doble",
+      "id": "itm-caf-cortado",
       "categoryId": "cat-cafe",
-      "name": { "es": "Doble", "en": "Double" },
-      "ingredients": { "es": "Doble espresso.", "en": "Double espresso." },
-      "price": 2.5,
+      "name": { "es": "Cortado", "en": "Cortado" },
+      "ingredients": { "es": "Espresso con un toque de leche.", "en": "Espresso with a dash of milk." },
+      "price": 2,
       "enabled": true,
       "order": 3
+    },
+    {
+      "id": "itm-caf-capuchino",
+      "categoryId": "cat-cafe",
+      "name": { "es": "Capuchino", "en": "Cappuccino" },
+      "ingredients": { "es": "Espresso con leche espumada.", "en": "Espresso with steamed milk foam." },
+      "price": 2,
+      "enabled": true,
+      "order": 4
     },
     {
       "id": "itm-caf-bombon",
@@ -659,16 +654,16 @@
       "ingredients": { "es": "Espresso con leche condensada.", "en": "Espresso with condensed milk." },
       "price": 2,
       "enabled": true,
-      "order": 4
+      "order": 5
     },
     {
-      "id": "itm-caf-carajillo",
+      "id": "itm-caf-doble",
       "categoryId": "cat-cafe",
-      "name": { "es": "Carajillo", "en": "Carajillo" },
-      "ingredients": { "es": "Espresso con destilado.", "en": "Espresso with spirit." },
-      "price": 3,
+      "name": { "es": "Doble", "en": "Double" },
+      "ingredients": { "es": "Doble espresso.", "en": "Double espresso." },
+      "price": 2.5,
       "enabled": true,
-      "order": 5
+      "order": 6
     },
 
     {
@@ -676,7 +671,7 @@
       "categoryId": "cat-water",
       "name": { "es": "Agua con Gas", "en": "Sparkling Water" },
       "ingredients": { "es": "Agua mineral con gas.", "en": "Sparkling mineral water." },
-      "price": 2,
+      "price": 2.5,
       "enabled": true,
       "order": 1
     },
@@ -685,9 +680,36 @@
       "categoryId": "cat-water",
       "name": { "es": "Agua sin Gas", "en": "Still Water" },
       "ingredients": { "es": "Agua mineral sin gas.", "en": "Still mineral water." },
-      "price": 2,
+      "price": 2.5,
       "enabled": true,
       "order": 2
+    },
+    {
+      "id": "itm-ref-coca",
+      "categoryId": "cat-soft-drinks",
+      "name": { "es": "Coca-Cola", "en": "Coca-Cola" },
+      "ingredients": { "es": "Refresco de cola.", "en": "Cola soft drink." },
+      "price": 3,
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "itm-ref-fanta",
+      "categoryId": "cat-soft-drinks",
+      "name": { "es": "Fanta Limón", "en": "Fanta Lemon" },
+      "ingredients": { "es": "Refresco de limón.", "en": "Lemon soft drink." },
+      "price": 3,
+      "enabled": true,
+      "order": 2
+    },
+    {
+      "id": "itm-ref-fanta-naranja",
+      "categoryId": "cat-soft-drinks",
+      "name": { "es": "Fanta Naranja", "en": "Fanta Orange" },
+      "ingredients": { "es": "Refresco de naranja.", "en": "Orange soft drink." },
+      "price": 3,
+      "enabled": true,
+      "order": 3
     },
 
     {
@@ -762,6 +784,16 @@
       "price": 7,
       "enabled": true,
       "order": 6
+    },
+
+    {
+      "id": "itm-bee-alhambra",
+      "categoryId": "cat-beer",
+      "name": { "es": "Alhambra", "en": "Alhambra" },
+      "ingredients": { "es": "Cerveza Alhambra 350 ml.", "en": "Alhambra beer 350 ml." },
+      "price": 3.5,
+      "enabled": true,
+      "order": 1
     }
   ]
 }
