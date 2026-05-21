@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T21:48:54.106Z",
+  "updatedAt": "2026-05-21T22:01:02.440Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -192,7 +192,7 @@
       "image": "/images/menu/atardecer-valenciano.jpg",
       "signature": true,
       "enabled": true,
-      "order": 7
+      "order": 8
     },
     {
       "id": "itm-coc-kiev",
@@ -209,7 +209,7 @@
       "image": "/images/menu/kiev.jpg",
       "signature": true,
       "enabled": true,
-      "order": 13
+      "order": 14
     },
     {
       "id": "itm-coc-pornstar",
@@ -225,7 +225,7 @@
       "price": 10,
       "image": "/images/menu/pornstar-martini.jpg",
       "enabled": true,
-      "order": 23
+      "order": 24
     },
     {
       "id": "itm-coc-negroni",
@@ -241,7 +241,7 @@
       "price": 10,
       "image": "/images/menu/negroni.jpg",
       "enabled": true,
-      "order": 20
+      "order": 21
     },
     {
       "id": "itm-coc-daiquiri",
@@ -257,7 +257,7 @@
       "price": 10,
       "image": "/images/menu/daiquiri.jpg",
       "enabled": true,
-      "order": 10
+      "order": 11
     },
     {
       "id": "itm-coc-bloody-mary",
@@ -272,7 +272,7 @@
       },
       "price": 10,
       "enabled": true,
-      "order": 8,
+      "order": 9,
       "image": "/images/menu/bloody-mary.jpg"
     },
     {
@@ -289,7 +289,7 @@
       "price": 10,
       "image": "/images/menu/cucumber-gimlet.jpg",
       "enabled": true,
-      "order": 9
+      "order": 10
     },
     {
       "id": "itm-coc-diabolito",
@@ -305,7 +305,7 @@
       "price": 10,
       "image": "/images/menu/diabolito.jpg",
       "enabled": true,
-      "order": 11
+      "order": 12
     },
     {
       "id": "itm-coc-espresso-martini",
@@ -321,7 +321,7 @@
       "price": 10,
       "image": "/images/menu/espresso-martini.jpg",
       "enabled": true,
-      "order": 12
+      "order": 13
     },
     {
       "id": "itm-coc-kiwi-gimlet",
@@ -337,7 +337,7 @@
       "price": 10,
       "image": "/images/menu/kiwi-gimlet.jpg",
       "enabled": true,
-      "order": 14
+      "order": 15
     },
     {
       "id": "itm-coc-long-island",
@@ -352,7 +352,7 @@
       },
       "price": 10,
       "enabled": true,
-      "order": 15,
+      "order": 16,
       "image": "/images/menu/long-island.jpg"
     },
     {
@@ -369,7 +369,7 @@
       "price": 10,
       "image": "/images/menu/margarita.jpg",
       "enabled": true,
-      "order": 16
+      "order": 17
     },
     {
       "id": "itm-coc-matcha-sour",
@@ -385,7 +385,7 @@
       "price": 10,
       "image": "/images/menu/matcha-sour.jpg",
       "enabled": true,
-      "order": 17
+      "order": 18
     },
     {
       "id": "itm-coc-mule",
@@ -401,7 +401,7 @@
       "price": 10,
       "image": "/images/menu/mule.jpg",
       "enabled": true,
-      "order": 19
+      "order": 20
     },
     {
       "id": "itm-coc-old-fashioned",
@@ -417,7 +417,7 @@
       "price": 10,
       "image": "/images/menu/old-fashioned.jpg",
       "enabled": true,
-      "order": 21
+      "order": 22
     },
     {
       "id": "itm-coc-strawberry-margarita",
@@ -433,7 +433,7 @@
       "price": 10,
       "image": "/images/menu/strawberry-margarita.jpg",
       "enabled": true,
-      "order": 24
+      "order": 25
     },
     {
       "id": "itm-coc-acacia-sour",
@@ -449,7 +449,7 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 4
+      "order": 5
     },
     {
       "id": "itm-coc-apple-sour",
@@ -465,7 +465,7 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 6
+      "order": 7
     },
     {
       "id": "itm-coc-plum-sour",
@@ -481,7 +481,7 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 22
+      "order": 23
     },
     {
       "id": "itm-coc-gin-tonic",
@@ -497,7 +497,7 @@
       "price": 8,
       "image": "/images/menu/gin-tonic.jpg",
       "enabled": true,
-      "order": 3
+      "order": 4
     },
     {
       "id": "itm-coc-brandy-cola",
@@ -513,7 +513,7 @@
       "price": 8,
       "image": "/images/menu/brandy-cola.jpg",
       "enabled": true,
-      "order": 2
+      "order": 3
     },
     {
       "id": "itm-coc-agua-valencia",
@@ -530,7 +530,7 @@
       "image": "/images/menu/agua-de-valencia.jpg",
       "signature": true,
       "enabled": true,
-      "order": 5
+      "order": 6
     },
     {
       "id": "itm-coc-mojito",
@@ -546,7 +546,7 @@
       "price": 10,
       "image": "/images/menu/mojito.jpg",
       "enabled": true,
-      "order": 18
+      "order": 19
     },
     {
       "id": "itm-spr-sourcherry",
@@ -1107,6 +1107,22 @@
       "image": "/images/menu/cerveza-alhambra.jpg",
       "enabled": true,
       "order": 1
+    },
+    {
+      "id": "itm-coc-brandy",
+      "categoryId": "cat-cocktails",
+      "name": {
+        "es": "Brandy",
+        "en": "Brandy"
+      },
+      "ingredients": {
+        "es": "Brandy de manzana Lunin servido en las rocas.",
+        "en": "Lunin apple brandy served on the rocks."
+      },
+      "price": 8,
+      "image": "/images/menu/brandy.jpg",
+      "enabled": true,
+      "order": 2
     }
   ]
 }
