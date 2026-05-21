@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T17:54:56.445Z",
+  "updatedAt": "2026-05-21T18:38:32.064Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -514,6 +514,23 @@
       "order": 26
     },
     {
+      "id": "itm-coc-agua-valencia",
+      "categoryId": "cat-cocktails",
+      "name": {
+        "es": "Agua de Valencia",
+        "en": "Agua de Valencia"
+      },
+      "ingredients": {
+        "es": "Zumo de naranja, gin, horilka de manzana, limón, sirope, bíter. Cóctel cítrico.",
+        "en": "Orange juice, gin, apple Horilka, lemon, simple syrup, bitter. Citrus cocktail."
+      },
+      "price": 10,
+      "image": "/images/menu/agua-de-valencia.jpg",
+      "signature": true,
+      "enabled": true,
+      "order": 27
+    },
+    {
       "id": "itm-spr-sourcherry",
       "categoryId": "cat-spritz",
       "name": {
@@ -525,7 +542,7 @@
         "en": "Lunin sour cherry liqueur."
       },
       "price": 8,
-      "image": "/images/menu/spritz.jpg",
+      "image": "/images/menu/spritz-cereza.jpg",
       "enabled": true,
       "order": 1
     },
@@ -541,7 +558,7 @@
         "en": "Lunin strawberry liqueur."
       },
       "price": 8,
-      "image": "/images/menu/spritz.jpg",
+      "image": "/images/menu/spritz-fresa.jpg",
       "enabled": true,
       "order": 2
     },
@@ -557,7 +574,7 @@
         "en": "Lunin blackberry liqueur."
       },
       "price": 8,
-      "image": "/images/menu/spritz.jpg",
+      "image": "/images/menu/spritz-mora.jpg",
       "enabled": true,
       "order": 3
     },
@@ -573,7 +590,7 @@
         "en": "Lunin blackcurrant liqueur."
       },
       "price": 8,
-      "image": "/images/menu/spritz.jpg",
+      "image": "/images/menu/spritz-grosella.jpg",
       "enabled": true,
       "order": 4
     },
@@ -589,7 +606,7 @@
         "en": "Lunin cranberry liqueur."
       },
       "price": 8,
-      "image": "/images/menu/spritz.jpg",
+      "image": "/images/menu/spritz-arandano.jpg",
       "enabled": true,
       "order": 5
     },
@@ -622,7 +639,8 @@
       },
       "price": 2.5,
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "image": "/images/menu/chupito-cereza.jpg"
     },
     {
       "id": "itm-lqs-strawberry",
@@ -637,7 +655,8 @@
       },
       "price": 2.5,
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "image": "/images/menu/chupito-fresa.jpg"
     },
     {
       "id": "itm-lqs-blackberry",
@@ -652,7 +671,8 @@
       },
       "price": 2.5,
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "image": "/images/menu/chupito-mora.jpg"
     },
     {
       "id": "itm-lqs-blackcurrant",
@@ -667,7 +687,8 @@
       },
       "price": 2.5,
       "enabled": true,
-      "order": 4
+      "order": 4,
+      "image": "/images/menu/chupito-grosella.jpg"
     },
     {
       "id": "itm-lqs-cranberry",
@@ -682,7 +703,8 @@
       },
       "price": 2.5,
       "enabled": true,
-      "order": 5
+      "order": 5,
+      "image": "/images/menu/chupito-arandano.jpg"
     },
     {
       "id": "itm-sht-apple",
@@ -761,7 +783,8 @@
       },
       "price": 5,
       "enabled": true,
-      "order": 10
+      "order": 10,
+      "image": "/images/menu/chupito-brandy.jpg"
     },
     {
       "id": "itm-sht-elderberry",
@@ -776,7 +799,8 @@
       },
       "price": 5,
       "enabled": true,
-      "order": 11
+      "order": 11,
+      "image": "/images/menu/chupito-brandy.jpg"
     },
     {
       "id": "itm-caf-solo",
