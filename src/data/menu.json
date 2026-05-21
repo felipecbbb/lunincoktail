@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T19:34:53.409Z",
+  "updatedAt": "2026-05-21T21:23:11.253Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -28,7 +28,7 @@
         "es": "Botella 0,7 L · 40 % alc. · Vodka de manzanas frescas, doble destilación y filtrado en carbón de coco.",
         "en": "0.7 L bottle · 40% ABV · Vodka from fresh-pressed apples, double-distilled and charcoal-polished."
       },
-      "price": 25,
+      "price": 30,
       "image": "/images/brand/apple-horilka.jpg",
       "enabled": true,
       "order": 2
@@ -44,7 +44,7 @@
         "es": "Botella 0,7 L · 40 % alc. · Vodka de ciruelas silvestres, perfil seco con fruta de hueso.",
         "en": "0.7 L bottle · 40% ABV · Vodka from woodland plums, dry palate with clear stone-fruit character."
       },
-      "price": 25,
+      "price": 30,
       "image": "/images/brand/horilka-2.jpg",
       "enabled": true,
       "order": 3
@@ -60,7 +60,7 @@
         "es": "Botella 0,7 L · 40 % alc. · Vodka infusionado con flores de acacia, notas florales y miel.",
         "en": "0.7 L bottle · 40% ABV · Vodka macerated with acacia blossoms, floral aromas and gentle honey."
       },
-      "price": 25,
+      "price": 30,
       "image": "/images/fruit/acacia.jpg",
       "enabled": true,
       "order": 4
@@ -146,15 +146,15 @@
       "order": 9
     },
     {
-      "id": "itm-bot-cranberry",
+      "id": "itm-bot-strawberry",
       "categoryId": "cat-bottles",
       "name": {
-        "es": "Licor de Arándano Rojo",
-        "en": "Cranberry Liqueur"
+        "es": "Licor de Fresa",
+        "en": "Strawberry Liqueur"
       },
       "ingredients": {
-        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de arándano rojo sobre destilado de manzana.",
-        "en": "0.5 L bottle · 17.5% ABV · Cranberries macerated on apple distillate."
+        "es": "Botella 0,5 L · 17,5 % alc. · Maceración de fresas maduras sobre destilado de manzana.",
+        "en": "0.5 L bottle · 17.5% ABV · Ripe strawberries macerated on apple distillate."
       },
       "price": 20,
       "image": "/images/fruit/cranberry.jpg",
@@ -1100,8 +1100,8 @@
         "en": "Alhambra"
       },
       "ingredients": {
-        "es": "Cerveza Alhambra 350 ml.",
-        "en": "Alhambra beer 350 ml."
+        "es": "Cerveza Alhambra 330 ml.",
+        "en": "Alhambra beer 330 ml."
       },
       "price": 3.5,
       "image": "/images/menu/cerveza-alhambra.jpg",
