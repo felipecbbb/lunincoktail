@@ -15,6 +15,7 @@ export function MenuInline({
   const tr = useTranslated();
   const t = useT();
   const [activeId, setActiveId] = useState<string>(categories[0]?.id ?? "");
+  const [selected, setSelected] = useState<MenuItem | null>(null);
   const navRef = useRef<HTMLDivElement | null>(null);
   const sectionsRef = useRef<Map<string, HTMLElement>>(new Map());
 
@@ -27,6 +28,8 @@ export function MenuInline({
   for (const arr of itemsByCategory.values()) {
     arr.sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
   }
+
+  const categoryNameById = new Map(categories.map((c) => [c.id, c.name]));
 
   const registerSection = useCallback(
     (id: string) => (el: HTMLElement | null) => {
@@ -50,7 +53,6 @@ export function MenuInline({
         }
       },
       {
-        // Trigger when the section's top crosses ~30% from top of viewport
         rootMargin: "-30% 0px -55% 0px",
         threshold: [0, 0.25, 0.5, 0.75, 1],
       },
@@ -59,7 +61,6 @@ export function MenuInline({
     return () => io.disconnect();
   }, [categories.length]);
 
-  // Keep the active pill in view inside the horizontal nav scroller.
   useEffect(() => {
     const nav = navRef.current;
     if (!nav) return;
@@ -81,7 +82,6 @@ export function MenuInline({
 
   return (
     <>
-      {/* Sticky category nav sits just below the main header (h-16) */}
       <nav
         aria-label="Categorías"
         className="sticky top-16 z-30 border-b border-lunin-cream/10 bg-lunin-black/90 backdrop-blur-md"
@@ -155,7 +155,11 @@ export function MenuInline({
               ) : (
                 <div className="grid gap-3 sm:gap-4 sm:grid-cols-2">
                   {list.map((it) => (
-                    <InlineCard key={it.id} item={it} />
+                    <InlineCard
+                      key={it.id}
+                      item={it}
+                      onOpen={() => setSelected(it)}
+                    />
                   ))}
                 </div>
               )}
@@ -163,16 +167,35 @@ export function MenuInline({
           );
         })}
       </div>
+
+      <ItemDetailModal
+        item={selected}
+        categoryName={
+          selected ? categoryNameById.get(selected.categoryId) : undefined
+        }
+        onClose={() => setSelected(null)}
+      />
     </>
   );
 }
 
-function InlineCard({ item }: { item: MenuItem }) {
+function InlineCard({
+  item,
+  onOpen,
+}: {
+  item: MenuItem;
+  onOpen: () => void;
+}) {
   const tr = useTranslated();
   const t = useT();
   const hasImage = item.image && item.image.length > 0;
   return (
-    <article className="group relative flex gap-4 rounded-2xl border border-lunin-cream/10 bg-lunin-charcoal/60 p-4 transition hover:border-lunin-gold/40 hover:bg-lunin-charcoal/80">
+    <button
+      type="button"
+      onClick={onOpen}
+      aria-label={tr(item.name)}
+      className="group relative flex w-full gap-4 rounded-2xl border border-lunin-cream/10 bg-lunin-charcoal/60 p-4 text-left transition hover:border-lunin-gold/40 hover:bg-lunin-charcoal/80 focus:outline-none focus-visible:border-lunin-gold/60 focus-visible:ring-1 focus-visible:ring-lunin-gold/40 active:scale-[0.99]"
+    >
       <div className="relative h-24 w-24 sm:h-28 sm:w-28 flex-shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-lunin-onyx to-lunin-black ring-1 ring-lunin-cream/5">
         {hasImage ? (
           <Image
@@ -220,6 +243,117 @@ function InlineCard({ item }: { item: MenuItem }) {
           {tr(item.ingredients)}
         </p>
       </div>
-    </article>
+    </button>
+  );
+}
+
+function ItemDetailModal({
+  item,
+  categoryName,
+  onClose,
+}: {
+  item: MenuItem | null;
+  categoryName?: { es: string; en?: string };
+  onClose: () => void;
+}) {
+  const tr = useTranslated();
+  const t = useT();
+
+  useEffect(() => {
+    if (!item) return;
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [item, onClose]);
+
+  if (!item) return null;
+  const hasImage = item.image && item.image.length > 0;
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+      aria-label={tr(item.name)}
+      className="fixed inset-0 z-50 flex items-stretch sm:items-center justify-center"
+    >
+      <button
+        type="button"
+        aria-label={t("nav.close") || "Cerrar"}
+        onClick={onClose}
+        className="absolute inset-0 bg-lunin-black/80 backdrop-blur-sm animate-fade-in"
+      />
+
+      <div className="relative z-10 w-full h-full sm:h-auto sm:max-w-md sm:max-h-[92vh] overflow-y-auto rounded-none sm:rounded-3xl border-0 sm:border sm:border-lunin-cream/10 bg-gradient-to-b from-lunin-charcoal to-lunin-black shadow-[0_30px_80px_-20px_rgba(0,0,0,0.9)] animate-slide-up safe-top safe-bottom">
+        <button
+          type="button"
+          onClick={onClose}
+          aria-label={t("nav.close") || "Cerrar"}
+          className="absolute top-4 right-4 z-10 h-10 w-10 sm:h-9 sm:w-9 grid place-items-center rounded-full bg-lunin-black/70 backdrop-blur text-lunin-cream/85 hover:text-lunin-gold hover:bg-lunin-black/90 transition"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+            <path d="M6 6l12 12M6 18L18 6" strokeLinecap="round" />
+          </svg>
+        </button>
+
+        <div className="relative aspect-square w-full overflow-hidden bg-gradient-to-br from-lunin-onyx to-lunin-black">
+          {hasImage ? (
+            <Image
+              src={item.image as string}
+              alt={tr(item.name)}
+              fill
+              sizes="(min-width: 640px) 448px, 100vw"
+              className="object-cover"
+              priority
+            />
+          ) : (
+            <div className="absolute inset-0 grid place-items-center">
+              <span className="lunin-wordmark text-6xl text-lunin-gold/25">
+                LUNIN
+              </span>
+            </div>
+          )}
+          {item.signature && (
+            <span className="absolute top-4 left-4 rounded-full bg-lunin-gold text-lunin-black text-[0.6rem] font-headline font-semibold tracking-[0.22em] uppercase px-3 py-1">
+              ★ Signature
+            </span>
+          )}
+          <div
+            aria-hidden
+            className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-lunin-black to-transparent"
+          />
+        </div>
+
+        <div className="px-6 sm:px-7 pt-5 pb-7">
+          {categoryName && (
+            <p className="font-headline uppercase text-[0.65rem] tracking-[0.34em] text-lunin-gold/75">
+              {tr(categoryName)}
+            </p>
+          )}
+          <div className="mt-2 flex items-start gap-4 justify-between">
+            <h2 className="font-display text-2xl sm:text-3xl text-lunin-cream leading-tight">
+              {tr(item.name)}
+            </h2>
+            <span className="font-display text-2xl sm:text-3xl gold-text whitespace-nowrap leading-none">
+              {item.price}
+              <span className="text-lg">{t("common.currency")}</span>
+            </span>
+          </div>
+          <span aria-hidden className="block mt-4 hairline" />
+          <p className="mt-4 font-headline text-[0.65rem] tracking-[0.34em] uppercase text-lunin-gold/75">
+            {t("menu.ingredients")}
+          </p>
+          <p className="mt-2 text-[0.95rem] leading-relaxed text-lunin-cream/80">
+            {tr(item.ingredients)}
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }

@@ -51,26 +51,14 @@
     },
     {
       "id": "cat-liqueur-shots",
-      "slug": "chupitos-licor",
-      "name": { "es": "Chupitos de Licor", "en": "Liqueur Shots" },
+      "slug": "chupitos",
+      "name": { "es": "Chupitos", "en": "Shots" },
       "description": {
-        "es": "Chupitos de los licores artesanales Lunin.",
-        "en": "Shots of Lunin artisanal fruit liqueurs."
+        "es": "Chupitos de licores y destilados Lunin servidos en 50 ml.",
+        "en": "Lunin liqueur and spirit shots served in 50 ml."
       },
       "hero": "/images/fruit/blackcurrant.jpg",
       "order": 5,
-      "enabled": true
-    },
-    {
-      "id": "cat-shots",
-      "slug": "shots",
-      "name": { "es": "Shots", "en": "Shots" },
-      "description": {
-        "es": "Chupitos de los destilados Lunin servidos fríos.",
-        "en": "Lunin craft spirit shots served chilled."
-      },
-      "hero": "/images/brand/apple-horilka.jpg",
-      "order": 6,
       "enabled": true
     },
     {
@@ -82,7 +70,7 @@
         "en": "Espresso coffee and classic specialities."
       },
       "hero": "/images/brand/distillery-3.jpg",
-      "order": 7,
+      "order": 6,
       "enabled": true
     },
     {
@@ -94,7 +82,7 @@
         "en": "Still and sparkling mineral water."
       },
       "hero": "/images/atmosphere/bokeh-2.jpg",
-      "order": 8,
+      "order": 7,
       "enabled": true
     },
     {
@@ -106,7 +94,7 @@
         "en": "Classic soft drinks served chilled."
       },
       "hero": "/images/atmosphere/bokeh-2.jpg",
-      "order": 9,
+      "order": 8,
       "enabled": true
     },
     {
@@ -118,7 +106,7 @@
         "en": "Cold beer served by the bottle."
       },
       "hero": "/images/atmosphere/bokeh-1.jpg",
-      "order": 10,
+      "order": 9,
       "enabled": true
     },
     {
@@ -130,7 +118,7 @@
         "en": "Non-alcoholic cocktails full of character."
       },
       "hero": "/images/fruit/cranberry.jpg",
-      "order": 11,
+      "order": 10,
       "enabled": true
     }
   ]

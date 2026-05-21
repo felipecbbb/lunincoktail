@@ -162,6 +162,18 @@ body {
 }
 .fade-up { animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
 
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in { animation: fade-in 0.18s ease-out both; }
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(24px) scale(0.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-slide-up { animation: slide-up 0.28s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
 @keyframes shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
