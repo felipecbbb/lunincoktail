@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T21:23:11.253Z",
+  "updatedAt": "2026-05-21T21:48:54.106Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -13,7 +13,7 @@
         "en": "0.7 L bottle · 45% ABV · Small-batch Ukrainian dry gin with local botanicals: juniper, citrus and regional herbs."
       },
       "price": 35,
-      "image": "/images/brand/gin-pour.jpg",
+      "image": "/images/brand/dry-gin.jpg",
       "enabled": true,
       "order": 1
     },
@@ -45,7 +45,7 @@
         "en": "0.7 L bottle · 40% ABV · Vodka from woodland plums, dry palate with clear stone-fruit character."
       },
       "price": 30,
-      "image": "/images/brand/horilka-2.jpg",
+      "image": "/images/brand/plum-horilka.jpg",
       "enabled": true,
       "order": 3
     },
@@ -61,7 +61,7 @@
         "en": "0.7 L bottle · 40% ABV · Vodka macerated with acacia blossoms, floral aromas and gentle honey."
       },
       "price": 30,
-      "image": "/images/fruit/acacia.jpg",
+      "image": "/images/brand/acacia-horilka.jpg",
       "enabled": true,
       "order": 4
     },
@@ -77,7 +77,7 @@
         "en": "0.7 L bottle · 40% ABV · Cider brandy aged 12 months in new Carpathian oak."
       },
       "price": 35,
-      "image": "/images/brand/horilka-3.jpg",
+      "image": "/images/brand/apple-brandy.jpg",
       "enabled": true,
       "order": 5
     },
@@ -93,7 +93,7 @@
         "en": "0.7 L bottle · 40% ABV · Elderberry and honey brandy rested in Carpathian oak."
       },
       "price": 35,
-      "image": "/images/brand/horilka-4.jpg",
+      "image": "/images/brand/elderberry-brandy.jpg",
       "enabled": true,
       "order": 6
     },
@@ -109,7 +109,7 @@
         "en": "0.5 L bottle · 17.5% ABV · Slow maceration of blackcurrants on apple distillate."
       },
       "price": 20,
-      "image": "/images/fruit/blackcurrant.jpg",
+      "image": "/images/brand/blackcurrant-liqueur.jpg",
       "enabled": true,
       "order": 7
     },
@@ -125,7 +125,7 @@
         "en": "0.5 L bottle · 17.5% ABV · Sour cherry macerated on apple distillate."
       },
       "price": 20,
-      "image": "/images/fruit/sourcherry.jpg",
+      "image": "/images/brand/sourcherry-liqueur.jpg",
       "enabled": true,
       "order": 8
     },
@@ -157,7 +157,7 @@
         "en": "0.5 L bottle · 17.5% ABV · Ripe strawberries macerated on apple distillate."
       },
       "price": 20,
-      "image": "/images/fruit/cranberry.jpg",
+      "image": "/images/brand/strawberry-liqueur.jpg",
       "enabled": true,
       "order": 10
     },

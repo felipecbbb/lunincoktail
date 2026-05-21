@@ -189,6 +189,7 @@ function InlineCard({
   const tr = useTranslated();
   const t = useT();
   const hasImage = item.image && item.image.length > 0;
+  const isBottle = item.categoryId === "cat-bottles";
   return (
     <button
       type="button"
@@ -196,13 +197,24 @@ function InlineCard({
       aria-label={tr(item.name)}
       className="group relative flex w-full gap-4 rounded-2xl border border-lunin-cream/10 bg-lunin-charcoal/60 p-4 text-left transition hover:border-lunin-gold/40 hover:bg-lunin-charcoal/80 focus:outline-none focus-visible:border-lunin-gold/60 focus-visible:ring-1 focus-visible:ring-lunin-gold/40 active:scale-[0.99]"
     >
-      <div className="relative h-24 w-24 sm:h-28 sm:w-28 flex-shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-lunin-onyx to-lunin-black ring-1 ring-lunin-cream/5">
+      <div
+        className={
+          "relative flex-shrink-0 overflow-hidden rounded-xl ring-1 ring-lunin-cream/5 bg-lunin-black " +
+          (isBottle
+            ? "h-32 w-20 sm:h-40 sm:w-24"
+            : "h-24 w-24 sm:h-28 sm:w-28")
+        }
+      >
         {hasImage ? (
           <Image
             src={item.image as string}
             alt={tr(item.name)}
             fill
-            sizes="(min-width: 640px) 112px, 96px"
+            sizes={
+              isBottle
+                ? "(min-width: 640px) 96px, 80px"
+                : "(min-width: 640px) 112px, 96px"
+            }
             className="object-cover transition duration-500 group-hover:scale-105"
           />
         ) : (
@@ -275,6 +287,7 @@ function ItemDetailModal({
 
   if (!item) return null;
   const hasImage = item.image && item.image.length > 0;
+  const isBottle = item.categoryId === "cat-bottles";
 
   return (
     <div
@@ -302,7 +315,12 @@ function ItemDetailModal({
           </svg>
         </button>
 
-        <div className="relative aspect-square w-full overflow-hidden bg-gradient-to-br from-lunin-onyx to-lunin-black">
+        <div
+          className={
+            "relative w-full overflow-hidden bg-lunin-black " +
+            (isBottle ? "aspect-[2/3]" : "aspect-square")
+          }
+        >
           {hasImage ? (
             <Image
               src={item.image as string}
@@ -324,10 +342,12 @@ function ItemDetailModal({
               ★ Signature
             </span>
           )}
-          <div
-            aria-hidden
-            className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-lunin-black to-transparent"
-          />
+          {!isBottle && (
+            <div
+              aria-hidden
+              className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-lunin-black to-transparent"
+            />
+          )}
         </div>
 
         <div className="px-6 sm:px-7 pt-5 pb-7">
