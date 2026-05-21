@@ -1,123 +1,153 @@
 {
-  "updatedAt": "2026-05-14T00:00:00.000Z",
+  "updatedAt": "2026-05-21T19:34:53.409Z",
   "items": [
-    {
-      "id": "cat-bottles",
-      "slug": "botellas",
-      "name": { "es": "Botellas", "en": "Bottles" },
-      "description": {
-        "es": "Espíritus craft Lunin en botella: ginebra, horilkas, brandies y licores de frutas.",
-        "en": "Lunin craft spirits in bottle: gin, horilkas, brandies and fruit liqueurs."
-      },
-      "hero": "/images/brand/horilka-still.jpg",
-      "order": 1,
-      "enabled": true
-    },
     {
       "id": "cat-cocktails",
       "slug": "cocteles",
-      "name": { "es": "Cócteles de Autor", "en": "Artisanal Cocktails" },
+      "name": {
+        "es": "Cócteles de Autor",
+        "en": "Artisanal Cocktails"
+      },
       "description": {
         "es": "Coctelería de autor elaborada con destilados craft Lunin.",
         "en": "Signature cocktails made with Lunin craft spirits."
       },
       "hero": "/images/brand/distillery-2.jpg",
-      "order": 2,
+      "order": 1,
       "enabled": true
     },
     {
       "id": "cat-spritz",
       "slug": "spritz",
-      "name": { "es": "Spritz", "en": "Spritz" },
+      "name": {
+        "es": "Spritz",
+        "en": "Spritz"
+      },
       "description": {
         "es": "Spritz frescos de fruta sobre base Lunin.",
         "en": "Fresh fruit spritzes on Lunin base."
       },
       "hero": "/images/fruit/sourcherry.jpg",
-      "order": 3,
+      "order": 2,
       "enabled": true
     },
     {
       "id": "cat-vermut",
       "slug": "vermut",
-      "name": { "es": "Vermut", "en": "Vermouth" },
+      "name": {
+        "es": "Vermut",
+        "en": "Vermouth"
+      },
       "description": {
         "es": "Vermut servido a la copa.",
         "en": "Vermouth served by the glass."
       },
       "hero": "/images/atmosphere/bokeh-1.jpg",
-      "order": 4,
+      "order": 3,
       "enabled": true
     },
     {
       "id": "cat-liqueur-shots",
       "slug": "chupitos",
-      "name": { "es": "Chupitos", "en": "Shots" },
+      "name": {
+        "es": "Chupitos",
+        "en": "Shots"
+      },
       "description": {
         "es": "Chupitos de licores y destilados Lunin servidos en 50 ml.",
         "en": "Lunin liqueur and spirit shots served in 50 ml."
       },
       "hero": "/images/fruit/blackcurrant.jpg",
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "cat-beer",
+      "slug": "cerveza",
+      "name": {
+        "es": "Cerveza",
+        "en": "Beer"
+      },
+      "description": {
+        "es": "Cerveza fría servida en botella.",
+        "en": "Cold beer served by the bottle."
+      },
+      "hero": "/images/atmosphere/bokeh-1.jpg",
       "order": 5,
       "enabled": true
     },
     {
-      "id": "cat-cafe",
-      "slug": "cafe",
-      "name": { "es": "Café", "en": "Coffee" },
-      "description": {
-        "es": "Café espresso y especialidades clásicas.",
-        "en": "Espresso coffee and classic specialities."
+      "id": "cat-mocktails",
+      "slug": "mocktails",
+      "name": {
+        "es": "Mocktails",
+        "en": "Mocktails"
       },
-      "hero": "/images/brand/distillery-3.jpg",
+      "description": {
+        "es": "Cócteles sin alcohol llenos de carácter.",
+        "en": "Non-alcoholic cocktails full of character."
+      },
+      "hero": "/images/fruit/cranberry.jpg",
       "order": 6,
       "enabled": true
     },
     {
-      "id": "cat-water",
-      "slug": "agua",
-      "name": { "es": "Agua", "en": "Water" },
+      "id": "cat-soft-drinks",
+      "slug": "refrescos",
+      "name": {
+        "es": "Refrescos",
+        "en": "Soft Drinks"
+      },
       "description": {
-        "es": "Agua mineral con y sin gas.",
-        "en": "Still and sparkling mineral water."
+        "es": "Refrescos clásicos servidos fríos.",
+        "en": "Classic soft drinks served chilled."
       },
       "hero": "/images/atmosphere/bokeh-2.jpg",
       "order": 7,
       "enabled": true
     },
     {
-      "id": "cat-soft-drinks",
-      "slug": "refrescos",
-      "name": { "es": "Refrescos", "en": "Soft Drinks" },
+      "id": "cat-water",
+      "slug": "agua",
+      "name": {
+        "es": "Agua",
+        "en": "Water"
+      },
       "description": {
-        "es": "Refrescos clásicos servidos fríos.",
-        "en": "Classic soft drinks served chilled."
+        "es": "Agua mineral con y sin gas.",
+        "en": "Still and sparkling mineral water."
       },
       "hero": "/images/atmosphere/bokeh-2.jpg",
       "order": 8,
       "enabled": true
     },
     {
-      "id": "cat-beer",
-      "slug": "cerveza",
-      "name": { "es": "Cerveza", "en": "Beer" },
-      "description": {
-        "es": "Cerveza fría servida en botella.",
-        "en": "Cold beer served by the bottle."
+      "id": "cat-cafe",
+      "slug": "cafe",
+      "name": {
+        "es": "Café",
+        "en": "Coffee"
       },
-      "hero": "/images/atmosphere/bokeh-1.jpg",
+      "description": {
+        "es": "Café espresso y especialidades clásicas.",
+        "en": "Espresso coffee and classic specialities."
+      },
+      "hero": "/images/brand/distillery-3.jpg",
       "order": 9,
       "enabled": true
     },
     {
-      "id": "cat-mocktails",
-      "slug": "mocktails",
-      "name": { "es": "Mocktails", "en": "Mocktails" },
-      "description": {
-        "es": "Cócteles sin alcohol llenos de carácter.",
-        "en": "Non-alcoholic cocktails full of character."
+      "id": "cat-bottles",
+      "slug": "botellas",
+      "name": {
+        "es": "Botellas",
+        "en": "Bottles"
       },
-      "hero": "/images/fruit/cranberry.jpg",
+      "description": {
+        "es": "Espíritus craft Lunin en botella: ginebra, horilkas, brandies y licores de frutas.",
+        "en": "Lunin craft spirits in bottle: gin, horilkas, brandies and fruit liqueurs."
+      },
+      "hero": "/images/brand/horilka-still.jpg",
       "order": 10,
       "enabled": true
     }

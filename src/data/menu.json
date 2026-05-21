@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T18:38:32.064Z",
+  "updatedAt": "2026-05-21T19:34:53.409Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -192,7 +192,7 @@
       "image": "/images/menu/atardecer-valenciano.jpg",
       "signature": true,
       "enabled": true,
-      "order": 2
+      "order": 7
     },
     {
       "id": "itm-coc-kiev",
@@ -209,7 +209,7 @@
       "image": "/images/menu/kiev.jpg",
       "signature": true,
       "enabled": true,
-      "order": 3
+      "order": 13
     },
     {
       "id": "itm-coc-pornstar",
@@ -225,7 +225,7 @@
       "price": 10,
       "image": "/images/menu/pornstar-martini.jpg",
       "enabled": true,
-      "order": 4
+      "order": 23
     },
     {
       "id": "itm-coc-negroni",
@@ -241,7 +241,7 @@
       "price": 10,
       "image": "/images/menu/negroni.jpg",
       "enabled": true,
-      "order": 5
+      "order": 20
     },
     {
       "id": "itm-coc-daiquiri",
@@ -257,7 +257,7 @@
       "price": 10,
       "image": "/images/menu/daiquiri.jpg",
       "enabled": true,
-      "order": 7
+      "order": 10
     },
     {
       "id": "itm-coc-bloody-mary",
@@ -272,7 +272,8 @@
       },
       "price": 10,
       "enabled": true,
-      "order": 8
+      "order": 8,
+      "image": "/images/menu/bloody-mary.jpg"
     },
     {
       "id": "itm-coc-cucumber-gimlet",
@@ -351,7 +352,8 @@
       },
       "price": 10,
       "enabled": true,
-      "order": 15
+      "order": 15,
+      "image": "/images/menu/long-island.jpg"
     },
     {
       "id": "itm-coc-margarita",
@@ -399,7 +401,7 @@
       "price": 10,
       "image": "/images/menu/mule.jpg",
       "enabled": true,
-      "order": 18
+      "order": 19
     },
     {
       "id": "itm-coc-old-fashioned",
@@ -415,7 +417,7 @@
       "price": 10,
       "image": "/images/menu/old-fashioned.jpg",
       "enabled": true,
-      "order": 19
+      "order": 21
     },
     {
       "id": "itm-coc-strawberry-margarita",
@@ -431,7 +433,7 @@
       "price": 10,
       "image": "/images/menu/strawberry-margarita.jpg",
       "enabled": true,
-      "order": 20
+      "order": 24
     },
     {
       "id": "itm-coc-acacia-sour",
@@ -447,7 +449,7 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 21
+      "order": 4
     },
     {
       "id": "itm-coc-apple-sour",
@@ -463,7 +465,7 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 22
+      "order": 6
     },
     {
       "id": "itm-coc-plum-sour",
@@ -479,7 +481,7 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 23
+      "order": 22
     },
     {
       "id": "itm-coc-gin-tonic",
@@ -495,7 +497,7 @@
       "price": 8,
       "image": "/images/menu/gin-tonic.jpg",
       "enabled": true,
-      "order": 25
+      "order": 3
     },
     {
       "id": "itm-coc-brandy-cola",
@@ -511,7 +513,7 @@
       "price": 8,
       "image": "/images/menu/brandy-cola.jpg",
       "enabled": true,
-      "order": 26
+      "order": 2
     },
     {
       "id": "itm-coc-agua-valencia",
@@ -528,7 +530,23 @@
       "image": "/images/menu/agua-de-valencia.jpg",
       "signature": true,
       "enabled": true,
-      "order": 27
+      "order": 5
+    },
+    {
+      "id": "itm-coc-mojito",
+      "categoryId": "cat-cocktails",
+      "name": {
+        "es": "Mojito",
+        "en": "Mojito"
+      },
+      "ingredients": {
+        "es": "Horilka de manzana, menta, lima, sirope, agua con gas. Cóctel fresco.",
+        "en": "Apple Horilka, mint, lime, simple syrup, sparkling water. Fresh cocktail."
+      },
+      "price": 10,
+      "image": "/images/menu/mojito.jpg",
+      "enabled": true,
+      "order": 18
     },
     {
       "id": "itm-spr-sourcherry",
@@ -1007,7 +1025,8 @@
       },
       "price": 7,
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "image": "/images/menu/mojito.jpg"
     },
     {
       "id": "itm-moc-diabolito",
