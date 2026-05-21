@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T22:01:02.440Z",
+  "updatedAt": "2026-05-21T22:05:02.416Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -141,7 +141,7 @@
         "en": "0.5 L bottle · 17.5% ABV · Ripe blackberries macerated on apple distillate."
       },
       "price": 20,
-      "image": "/images/brand/horilka-5.jpg",
+      "image": "/images/brand/blackberry-liqueur.jpg",
       "enabled": true,
       "order": 9
     },
