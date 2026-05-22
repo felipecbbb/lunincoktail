@@ -189,7 +189,10 @@ function InlineCard({
   const tr = useTranslated();
   const t = useT();
   const hasImage = item.image && item.image.length > 0;
-  const isBottle = item.categoryId === "cat-bottles";
+  const isBottle =
+    item.categoryId === "cat-bottles" ||
+    item.categoryId === "cat-beer" ||
+    item.categoryId === "cat-water";
   return (
     <button
       type="button"
@@ -287,7 +290,10 @@ function ItemDetailModal({
 
   if (!item) return null;
   const hasImage = item.image && item.image.length > 0;
-  const isBottle = item.categoryId === "cat-bottles";
+  const isBottle =
+    item.categoryId === "cat-bottles" ||
+    item.categoryId === "cat-beer" ||
+    item.categoryId === "cat-water";
 
   return (
     <div
