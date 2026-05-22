@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T22:05:02.416Z",
+  "updatedAt": "2026-05-22T15:10:37.751Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -944,7 +944,7 @@
         "en": "Still mineral water."
       },
       "price": 2.5,
-      "image": "/images/menu/agua-con-gas.jpg",
+      "image": "/images/menu/agua-sin-gas.jpg",
       "enabled": true,
       "order": 2
     },
