@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { Store } from "../../../lib/store";
+import { sendBookingNotification } from "../../../lib/email";
 import type { BookingRequest } from "../../../lib/types";
 
 const VALID_TYPES = [
@@ -70,5 +71,9 @@ export async function POST(req: Request) {
   };
 
   await Store.addBooking(booking);
+  // Fire-and-forget email — the request succeeds even if email fails.
+  sendBookingNotification(booking).catch((e) =>
+    console.error("[booking] notification error", e),
+  );
   return NextResponse.json({ ok: true, id: booking.id });
 }
