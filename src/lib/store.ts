@@ -1,6 +1,12 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import type { Category, EventItem, MenuItem, DataFile } from "./types";
+import type {
+  BookingRequest,
+  Category,
+  EventItem,
+  MenuItem,
+  DataFile,
+} from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "src", "data");
 
@@ -43,6 +49,24 @@ export const Store = {
   },
   async saveEvents(items: EventItem[]) {
     await writeJson<EventItem>("events.json", {
+      items,
+      updatedAt: new Date().toISOString(),
+    });
+  },
+  async getBookings(): Promise<BookingRequest[]> {
+    const d = await readJson<BookingRequest>("bookings.json");
+    return d.items;
+  },
+  async addBooking(req: BookingRequest) {
+    const existing = await this.getBookings();
+    existing.unshift(req);
+    await writeJson<BookingRequest>("bookings.json", {
+      items: existing,
+      updatedAt: new Date().toISOString(),
+    });
+  },
+  async saveBookings(items: BookingRequest[]) {
+    await writeJson<BookingRequest>("bookings.json", {
       items,
       updatedAt: new Date().toISOString(),
     });

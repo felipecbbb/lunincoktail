@@ -67,6 +67,10 @@ export const dict = {
       empty: "Pronto anunciaremos nuevos eventos.",
       when: "Cuándo",
       where: "Dónde",
+      private: {
+        title: "Reserva el local para tu evento",
+        lead: "Cumpleaños, despedidas, corporativos o fiestas privadas. Coctelería de autor y servicio a medida en el corazón de Valencia.",
+      },
     },
     contact: {
       title: "Contacto",
@@ -183,6 +187,10 @@ export const dict = {
       empty: "We will announce new events soon.",
       when: "When",
       where: "Where",
+      private: {
+        title: "Book the venue for your event",
+        lead: "Birthdays, hen parties, corporate gatherings or private events. Signature cocktails and tailored service in the heart of Valencia.",
+      },
     },
     contact: {
       title: "Contact",

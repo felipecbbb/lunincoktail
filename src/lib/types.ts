@@ -35,6 +35,25 @@ export type EventItem = {
   enabled: boolean;
 };
 
+export type BookingRequest = {
+  id: string;
+  createdAt: string;
+  status: "new" | "contacted" | "confirmed" | "declined";
+  eventType:
+    | "cumpleanos"
+    | "despedida"
+    | "corporativo"
+    | "privado"
+    | "catering"
+    | "otro";
+  date: string;
+  guests: number;
+  name: string;
+  email: string;
+  phone: string;
+  message?: string;
+};
+
 export type DataFile<T> = {
   items: T[];
   updatedAt: string;
