@@ -4,25 +4,19 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Logo } from "../components/Logo";
 import { MenuItemCard } from "../components/MenuItemCard";
-import { EventCard } from "../components/EventCard";
 import { SocialFAB } from "../components/SocialFAB";
 import { Store } from "../lib/store";
 import { SectionHeader } from "./_components/SectionHeader";
 import {
   HomeHero,
   ViewAllText,
-  ViewAllEventsText,
   VisitInfo,
 } from "./_components/HomeText";
 import { OriginSection } from "./_components/OriginSection";
 
 export default async function Home() {
-  const [menu, events] = await Promise.all([Store.getMenu(), Store.getEvents()]);
+  const menu = await Store.getMenu();
   const signature = menu.filter((m) => m.enabled && m.signature).slice(0, 3);
-  const upcoming = events
-    .filter((e) => e.enabled)
-    .sort((a, b) => a.date.localeCompare(b.date))
-    .slice(0, 3);
 
   return (
     <>
@@ -92,29 +86,6 @@ export default async function Home() {
           <div className="mt-10 flex justify-center">
             <Link href="/menu" className="btn-primary">
               <ViewAllText />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Events */}
-      <section id="events" className="relative bg-lunin-onyx/40">
-        <div className="mx-auto max-w-6xl px-5 md:px-10 py-20 md:py-24 border-t border-lunin-cream/10">
-          <SectionHeader
-            kicker="agenda"
-            titleKey="home.sec_events"
-            leadKey="home.sec_events_lead"
-          />
-
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {upcoming.map((e) => (
-              <EventCard key={e.id} event={e} />
-            ))}
-          </div>
-
-          <div className="mt-10 flex justify-center">
-            <Link href="/events" className="btn-ghost">
-              <ViewAllEventsText />
             </Link>
           </div>
         </div>
