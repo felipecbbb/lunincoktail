@@ -9,7 +9,7 @@ export function Footer() {
   const t = useT();
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-24 border-t border-lunin-cream/10 bg-lunin-black/60 safe-bottom">
+    <footer className="mt-24 border-t border-lunin-gold/20 bg-lunin-dark-brown safe-bottom">
       <div className="mx-auto max-w-6xl px-5 md:px-10 py-14 grid gap-10 md:grid-cols-3">
         <div className="space-y-3">
           <Logo size="md" href="/" withTagline />
