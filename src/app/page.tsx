@@ -100,7 +100,7 @@ export default async function Home() {
           </div>
           <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-lunin-cream/10 shadow-[0_30px_60px_-25px_rgba(0,0,0,0.85)]">
             <Image
-              src="/images/atmosphere/bokeh-1.jpg"
+              src="/images/menu/espresso-martini.jpg"
               alt="Lunin Cocktail Bar — atmósfera"
               fill
               sizes="(min-width: 768px) 45vw, 90vw"
