@@ -7,9 +7,10 @@ import { Store } from "../../lib/store";
 import { MenuInline } from "./_components/MenuInline";
 
 export const metadata: Metadata = {
-  title: "Carta",
+  title: "Carta de cócteles",
   description:
-    "Carta digital de Lunin Cocktail Bar — signature cocktails, clásicos, spritz, shots, licores y especiales.",
+    "Carta de Lunin Cocktail Bar en Russafa (Valencia) — signature cocktails, clásicos, spritz, shots, licores y destilados craft propios. Coctelería de autor.",
+  alternates: { canonical: "/menu" },
 };
 
 export default async function MenuPage() {

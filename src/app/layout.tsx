@@ -3,6 +3,7 @@ import { Alice, Raleway, Montserrat } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "../components/LanguageProvider";
 import { Analytics } from "../components/Analytics";
+import { StructuredData } from "../components/StructuredData";
 
 const alice = Alice({
   weight: "400",
@@ -26,41 +27,60 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL("https://lunincocktailbar.com"),
   title: {
-    default: "Lunin Cocktail Bar — Coctelería premium de autor",
-    template: "%s · Lunin Cocktail Bar",
+    default: "Lunin Cocktail Bar · Coctelería de autor en Russafa, Valencia",
+    template: "%s · Lunin Cocktail Bar Valencia",
   },
   description:
-    "Lunin Cocktail Bar — coctelería de autor en un ambiente premium. Carta digital de cócteles, signature, shots, spritz, licores y especiales. Reservas, eventos y DJ nights.",
+    "Coctelería de autor en Russafa (Valencia). Cócteles signature, spritz y destilados craft propios — horilka, brandies de fruta y gin. Reservas, eventos privados y noches con carácter. Calle Puerto Rico 4.",
   keywords: [
-    "Lunin",
+    "cocktail bar Valencia",
+    "coctelería Valencia",
+    "coctelería Russafa",
+    "coctelería Ruzafa",
+    "cocktail bar Russafa",
+    "coctelería de autor Valencia",
+    "cócteles Valencia",
+    "mejores cocktails Valencia",
+    "bar de copas Russafa",
+    "eventos privados Valencia coctelería",
     "Lunin Cocktail Bar",
-    "cocktail bar",
-    "coctelería",
-    "cocktails premium",
-    "signature cocktails",
-    "carta digital",
-    "QR menu",
     "Lunin distillery",
+    "horilka Valencia",
+    "destilados craft Valencia",
   ],
   openGraph: {
-    title: "Lunin Cocktail Bar",
+    title: "Lunin Cocktail Bar · Coctelería de autor en Russafa, Valencia",
     description:
-      "Coctelería premium de autor. Carta digital, eventos, DJ nights y reservas.",
+      "Cócteles de autor y destilados craft propios en el corazón de Russafa. Destilado en el Este, servido en el Mediterráneo.",
     url: "https://lunincocktailbar.com",
     siteName: "Lunin Cocktail Bar",
     locale: "es_ES",
     type: "website",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Lunin Cocktail Bar — Coctelería de autor en Russafa, Valencia",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lunin Cocktail Bar",
-    description: "Coctelería premium. Menú digital, eventos y reservas.",
+    title: "Lunin Cocktail Bar · Russafa, Valencia",
+    description:
+      "Coctelería de autor y destilados craft en el corazón de Russafa, Valencia.",
+    images: ["/og-image.jpg"],
   },
   alternates: {
     canonical: "/",
     languages: { es: "/?lang=es", en: "/?lang=en" },
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
 };
 
 export const viewport: Viewport = {
@@ -85,6 +105,7 @@ export default function RootLayout({
           </div>
         </LanguageProvider>
         <Analytics />
+        <StructuredData />
       </body>
     </html>
   );

@@ -12,7 +12,8 @@ import { AboutOutro } from "./_components/AboutOutro";
 export const metadata: Metadata = {
   title: "Sobre Lunin",
   description:
-    "La esencia de Lunin: destilería craft de espíritus de frutas y un cocktail bar de autor. Equipo, valores y certificados de calidad.",
+    "La esencia de Lunin: coctelería de autor en Russafa (Valencia) con destilería craft propia de espíritus de fruta — horilka, brandies y gin. Equipo, valores y origen.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

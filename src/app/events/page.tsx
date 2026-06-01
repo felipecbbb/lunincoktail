@@ -8,9 +8,10 @@ import { BookingForm } from "./_components/BookingForm";
 import { SITE as site } from "../../lib/site";
 
 export const metadata: Metadata = {
-  title: "Eventos privados",
+  title: "Eventos privados y reservas",
   description:
-    "Reserva Lunin Cocktail Bar para tu cumpleaños, despedida, evento corporativo o fiesta privada. Cócteles de autor, ambiente íntimo y servicio a medida.",
+    "Reserva Lunin Cocktail Bar en Russafa (Valencia) para tu cumpleaños, despedida, evento corporativo o fiesta privada. Coctelería de autor, ambiente íntimo y servicio a medida. Hasta 60 personas.",
+  alternates: { canonical: "/events" },
 };
 
 const HIGHLIGHTS: { kicker: string; title: string; body: string }[] = [

@@ -15,8 +15,8 @@ export const SITE = {
     googleMapsUrl: "https://maps.google.com/?q=Calle+Puerto+Rico+4,+Valencia",
     googleMapsEmbed:
       "https://www.google.com/maps?q=Calle+Puerto+Rico+4,+Valencia&output=embed",
-    instagram: "https://instagram.com/lunincocktailbar",
-    instagramHandle: "@lunincocktailbar",
+    instagram: "https://instagram.com/luninbar",
+    instagramHandle: "@luninbar",
   },
   hours: {
     es: "Mar — Sáb · 18:00 — 01:00 · Lun y Dom cerrado",
