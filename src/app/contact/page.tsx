@@ -6,8 +6,10 @@ import { PageHero } from "../../components/PageHero";
 import { ContactCards } from "./_components/ContactCards";
 
 export const metadata: Metadata = {
-  title: "Contacto",
-  description: "Cómo llegar, horarios y reservas en Lunin Cocktail Bar.",
+  title: "Contacto y reservas",
+  description:
+    "Cómo llegar, horarios y reservas de Lunin Cocktail Bar — Calle Puerto Rico 4, Russafa, Valencia. Mar–Sáb 18:00–01:00.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {
