@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lunin Cocktail Bar · Coctelería de autor en Russafa, Valencia",
     description:
-      "Cócteles de autor y destilados craft propios en el corazón de Russafa. Destilado en el Este, servido en el Mediterráneo.",
+      "Cócteles de autor y destilados craft propios en el corazón de Russafa. Distilled with Soul, Served with Love.",
     url: "https://lunincocktailbar.com",
     siteName: "Lunin Cocktail Bar",
     locale: "es_ES",
