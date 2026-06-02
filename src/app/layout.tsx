@@ -74,7 +74,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "/",
-    languages: { es: "/?lang=es", en: "/?lang=en" },
+    languages: { es: "/?lang=es", en: "/?lang=en", uk: "/?lang=uk" },
   },
   robots: {
     index: true,

@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useT } from "../../components/LanguageProvider";
 import { SITE } from "../../lib/site";
-import { useLang } from "../../components/LanguageProvider";
 
 export function HomeHero() {
   const t = useT();
@@ -47,6 +46,11 @@ export function HomeHero() {
   );
 }
 
+export function HeroKicker() {
+  const t = useT();
+  return <>{t("home.hero_kicker")}</>;
+}
+
 export function ViewAllText() {
   const t = useT();
   return <span>{t("home.view_all")}</span>;
@@ -59,8 +63,7 @@ export function ViewAllEventsText() {
 
 export function VisitInfo() {
   const t = useT();
-  const { lang } = useLang();
-  const hours = lang === "en" ? SITE.hours.en : SITE.hours.es;
+  const hours = t("home.hours");
   return (
     <div className="mt-8 grid grid-cols-1 gap-4 text-sm">
       <Row label={t("contact.address")} value={SITE.contact.address} />

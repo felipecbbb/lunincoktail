@@ -23,11 +23,12 @@ const STORAGE_KEY = "lunin_lang";
 function detectInitial(): Lang {
   if (typeof window === "undefined") return "es";
   const saved = window.localStorage.getItem(STORAGE_KEY) as Lang | null;
-  if (saved === "es" || saved === "en") return saved;
+  if (saved === "es" || saved === "en" || saved === "uk") return saved;
   const url = new URL(window.location.href);
   const q = url.searchParams.get("lang");
-  if (q === "es" || q === "en") return q;
+  if (q === "es" || q === "en" || q === "uk") return q;
   const browser = navigator.language?.toLowerCase() ?? "";
+  if (browser.startsWith("uk")) return "uk";
   if (browser.startsWith("en")) return "en";
   return "es";
 }
@@ -94,8 +95,11 @@ export function useT() {
 
 export function useTranslated() {
   const { lang } = useLang();
-  return (obj: { es: string; en?: string } | undefined): string => {
+  return (
+    obj: { es: string; en?: string; uk?: string } | undefined,
+  ): string => {
     if (!obj) return "";
+    if (lang === "uk" && obj.uk && obj.uk.length > 0) return obj.uk;
     if (lang === "en" && obj.en && obj.en.length > 0) return obj.en;
     return obj.es;
   };

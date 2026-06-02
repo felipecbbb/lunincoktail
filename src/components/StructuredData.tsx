@@ -35,9 +35,17 @@ const data = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "18:00",
-      closes: "01:00",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: "17:00",
+      closes: "01:30",
     },
   ],
   // Perfiles oficiales (añade Google Business / TripAdvisor cuando los tengas):

@@ -9,6 +9,7 @@ import { Store } from "../lib/store";
 import { SectionHeader } from "./_components/SectionHeader";
 import {
   HomeHero,
+  HeroKicker,
   ViewAllText,
   VisitInfo,
 } from "./_components/HomeText";
@@ -51,7 +52,7 @@ export default async function Home() {
               className="font-headline uppercase text-[0.7rem] tracking-[0.42em] text-lunin-gold/85 fade-up"
               style={{ animationDelay: "0.05s" }}
             >
-              Lunin Distillery presenta
+              <HeroKicker />
             </p>
             <div className="mt-5 fade-up" style={{ animationDelay: "0.15s" }}>
               <Logo size="xl" href={null} withTagline />

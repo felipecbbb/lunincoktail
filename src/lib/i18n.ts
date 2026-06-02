@@ -1,8 +1,9 @@
-export type Lang = "es" | "en";
+export type Lang = "es" | "en" | "uk";
 
 export const LANGS: { code: Lang; label: string; short: string }[] = [
   { code: "es", label: "Español", short: "ES" },
   { code: "en", label: "English", short: "EN" },
+  { code: "uk", label: "Українська", short: "UA" },
 ];
 
 export const dict = {
@@ -38,7 +39,7 @@ export const dict = {
       view_all_events: "Ver todos los eventos",
       sec_visit: "Visítanos",
       sec_visit_lead: "Lunin Cocktail Bar — donde la noche cobra carácter.",
-      hours: "Mar — Sáb · 18:00 — 01:00 · Lun y Dom cerrado",
+      hours: "Todos los días · 17:00 — 01:30",
       footer_rights: "Todos los derechos reservados.",
       footer_drink: "Disfruta con responsabilidad. +18.",
     },
@@ -158,7 +159,7 @@ export const dict = {
       view_all_events: "All events",
       sec_visit: "Visit us",
       sec_visit_lead: "Lunin Cocktail Bar — where the night gains character.",
-      hours: "Tue — Sat · 6:00 PM — 1:00 AM · Mon & Sun closed",
+      hours: "Every day · 5:00 PM — 1:30 AM",
       footer_rights: "All rights reserved.",
       footer_drink: "Drink responsibly. 18+.",
     },
@@ -246,15 +247,136 @@ export const dict = {
       currency: "€",
     },
   },
+  uk: {
+    nav: {
+      home: "Головна",
+      menu: "Меню",
+      events: "Події",
+      about: "Про нас",
+      contact: "Контакти",
+      reserve: "Бронювати",
+      back: "Назад",
+      close: "Закрити",
+    },
+    home: {
+      tagline: "Cocktail Bar",
+      hero_kicker: "Lunin Distillery представляє",
+      hero_title: "Авторська міксологія",
+      hero_subtitle:
+        "Крафтові спирти дистилерії Lunin, креативна міксологія та затишна атмосфера, де кожен келих — це історія.",
+      cta_menu: "Переглянути меню",
+      cta_reserve: "Забронювати столик",
+      sec_origin_kicker: "Із саду",
+      sec_origin_title: "Чотири плоди, одна сутність",
+      sec_origin_lead:
+        "Яблуко, слива, акація та кисла вишня — плоди саду Lunin перетворюються на крафтові спирти, що надають характеру кожному коктейлю.",
+      sec_signature: "Фірмові коктейлі",
+      sec_signature_lead:
+        "Добірка творінь, що визначають стиль Lunin: збалансовані, глибокі, незабутні.",
+      view_all: "Переглянути повне меню",
+      sec_events: "Найближчі події",
+      sec_events_lead: "DJ-вечори, дегустації та особливі вечори.",
+      view_all_events: "Усі події",
+      sec_visit: "Завітайте до нас",
+      sec_visit_lead: "Lunin Cocktail Bar — де ніч набуває характеру.",
+      hours: "Щодня · 17:00 — 01:30",
+      footer_rights: "Усі права захищені.",
+      footer_drink: "Вживайте відповідально. 18+.",
+    },
+    menu: {
+      title: "Меню",
+      lead: "Оберіть категорію, щоб відкрити нашу коктейльну карту.",
+      ingredients: "Інгредієнти",
+      from: "Від",
+      empty: "Незабаром нові творіння в цій категорії.",
+      no_image: "Без зображення",
+      filter_all: "Усе",
+      detail_back: "Назад до меню",
+    },
+    categories: {
+      cocktails: "Коктейлі",
+      signature: "Фірмові коктейлі",
+      shots: "Шоти",
+      spritz: "Спритц",
+      liqueurs: "Лікери",
+      specials: "Спеціальні",
+    },
+    events: {
+      title: "Найближчі події",
+      lead: "Дегустації, DJ-вечори та унікальні святкування.",
+      reserve_cta: "Забронювати місце",
+      empty: "Скоро оголосимо нові події.",
+      when: "Коли",
+      where: "Де",
+      private: {
+        title: "Орендуйте заклад для вашої події",
+        lead: "Дні народження, дівич-вечори, корпоративи чи приватні вечірки. Авторські коктейлі та індивідуальний сервіс у серці Валенсії.",
+      },
+    },
+    contact: {
+      title: "Контакти",
+      lead: "Ми тут, щоб зробити вашу ніч незабутньою.",
+      address: "Адреса",
+      phone: "Телефон",
+      email: "Email",
+      hours: "Години роботи",
+      reach_us: "Зв'яжіться з нами",
+      whatsapp: "WhatsApp",
+      instagram: "Instagram",
+      maps: "Прокласти маршрут",
+      call: "Зателефонувати",
+      reserve_cta: "Забронювати столик",
+      form_name: "Ім'я",
+      form_email: "Email",
+      form_message: "Повідомлення",
+      form_submit: "Надіслати",
+    },
+    about: {
+      kicker: "Distillery & Bar",
+      title: "Сутність Lunin",
+      lead: "Українська крафтова дистилерія преміальних спиртів і коктейль-бар, що оспівує кожен плід, кожну бочку, кожен келих.",
+      story_kicker: "Наша історія",
+      story_title: "Із саду до келиха",
+      story_body_1: "Lunin народився на сімейній дистилерії серед яблуневих, сливових, акацієвих садів та дикої вишні. Звідти походять наші базові спирти: крафтова горілка, фруктові лікери та бренді, що зберігають чистий характер плоду, не втрачаючи глибини.",
+      story_body_2: "Lunin Cocktail Bar — природний наступний крок, простір, де ці спирти стають авторською міксологією. Кожен келих — продовження саду: автентичні інгредієнти, сенсорний баланс та атмосфера, що запрошує залишитися.",
+      team_kicker: "Команда",
+      team_title: "Руки за кожним келихом",
+      team_body: "Майстри-винокури, бармени та команда, що дбає про кожну деталь — від добору плодів до фінального сервісу. Ця турбота відчувається у смаку, у ритмі бару та в тому, як ви почуваєтесь, щойно переступите поріг.",
+      values_title: "Що нас визначає",
+      v1_title: "Крафт і преміум",
+      v1_body: "Спирти, створені повільно, за найвищими стандартами, без компромісів.",
+      v2_title: "Натуральні інгредієнти",
+      v2_body: "Плоди та ботаніка, доглянуті від саду. Без штучних ароматизаторів.",
+      v3_title: "Авторські коктейлі",
+      v3_body: "Авторські рецепти у діалозі з характером кожного спирту Lunin.",
+      cert_kicker: "Сертифікована якість",
+      cert_title: "Спирти із сертифікатом",
+      cert_body: "Кожна партія Lunin проходить суворий контроль. Ми маємо офіційні сертифікати якості, що засвідчують походження, процеси та автентичність кожного спирту.",
+      cert_view: "Переглянути сертифікат",
+    },
+    common: {
+      enable: "Увімкнено",
+      disable: "Вимкнено",
+      add: "Додати",
+      edit: "Редагувати",
+      delete: "Видалити",
+      save: "Зберегти",
+      cancel: "Скасувати",
+      uploading: "Завантаження…",
+      loading: "Завантаження…",
+      currency: "€",
+    },
+  },
 } as const;
 
 export type Dict = typeof dict.es;
 export type DictKeyPath = string;
 
-export function pickTranslation<T extends { es: string; en?: string }>(
+export function pickTranslation<T extends { es: string; en?: string; uk?: string }>(
   obj: T,
   lang: Lang,
 ): string {
+  if (lang === "uk" && obj.uk && obj.uk.length > 0) return obj.uk;
   if (lang === "en" && obj.en && obj.en.length > 0) return obj.en;
   return obj.es;
 }
