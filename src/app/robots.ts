@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin", "/api"],
     },
-    sitemap: "https://lunincocktailbar.com/sitemap.xml",
-    host: "https://lunincocktailbar.com",
+    sitemap: "https://luninbar.com/sitemap.xml",
+    host: "https://luninbar.com",
   };
 }

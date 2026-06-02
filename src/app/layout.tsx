@@ -25,7 +25,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://lunincocktailbar.com"),
+  metadataBase: new URL("https://luninbar.com"),
   title: {
     default: "Lunin Cocktail Bar · Coctelería de autor en Russafa, Valencia",
     template: "%s · Lunin Cocktail Bar Valencia",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Lunin Cocktail Bar · Coctelería de autor en Russafa, Valencia",
     description:
       "Cócteles de autor y destilados craft propios en el corazón de Russafa. Distilled with Soul, Served with Love.",
-    url: "https://lunincocktailbar.com",
+    url: "https://luninbar.com",
     siteName: "Lunin Cocktail Bar",
     locale: "es_ES",
     type: "website",

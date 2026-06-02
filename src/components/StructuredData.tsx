@@ -3,14 +3,14 @@
 const data = {
   "@context": "https://schema.org",
   "@type": "BarOrPub",
-  "@id": "https://lunincocktailbar.com/#business",
+  "@id": "https://luninbar.com/#business",
   name: "Lunin Cocktail Bar",
   alternateName: "Lunin Coctelería",
   description:
     "Coctelería de autor en Russafa (Valencia) con destilados craft propios. Cócteles signature, spritz, horilka y brandies de fruta.",
-  url: "https://lunincocktailbar.com",
-  image: "https://lunincocktailbar.com/og-image.jpg",
-  logo: "https://lunincocktailbar.com/icon.svg",
+  url: "https://luninbar.com",
+  image: "https://luninbar.com/og-image.jpg",
+  logo: "https://luninbar.com/icon.svg",
   telephone: "+34655147944",
   email: "Lunindistillery@gmail.com",
   priceRange: "€€",

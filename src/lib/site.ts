@@ -2,8 +2,8 @@ export const SITE = {
   name: "Lunin Cocktail Bar",
   shortName: "Lunin",
   tagline: { es: "Cocktail Bar", en: "Cocktail Bar" },
-  domain: "lunincocktailbar.com",
-  url: "https://lunincocktailbar.com",
+  domain: "luninbar.com",
+  url: "https://luninbar.com",
   defaultPrice: 10,
   currency: { code: "EUR", symbol: "€" },
   contact: {
