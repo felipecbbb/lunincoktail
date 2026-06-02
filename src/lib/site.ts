@@ -19,8 +19,8 @@ export const SITE = {
     instagramHandle: "@luninbar",
   },
   hours: {
-    es: "Todos los días · 17:00 — 01:30",
-    en: "Every day · 5:00 PM — 1:30 AM",
+    es: "Mar–Jue 17:00–01:00 · Vie–Sáb 17:00–02:00 · Lun y Dom cerrado",
+    en: "Tue–Thu 5:00 PM–1:00 AM · Fri–Sat 5:00 PM–2:00 AM · Mon & Sun closed",
   },
   // Where to get GA / Pixel from? Set these to non-empty strings to enable.
   analytics: {

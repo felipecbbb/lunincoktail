@@ -8,7 +8,7 @@ import { ContactCards } from "./_components/ContactCards";
 export const metadata: Metadata = {
   title: "Contacto y reservas",
   description:
-    "Cómo llegar, horarios y reservas de Lunin Cocktail Bar — Calle Puerto Rico 4, Russafa, Valencia. Abierto todos los días 17:00–01:30.",
+    "Cómo llegar, horarios y reservas de Lunin Cocktail Bar — Calle Puerto Rico 4, Russafa, Valencia. Mar–Jue 17:00–01:00 y Vie–Sáb 17:00–02:00.",
   alternates: { canonical: "/contact" },
 };
 
