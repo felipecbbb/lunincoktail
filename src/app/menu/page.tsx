@@ -30,7 +30,7 @@ export default async function MenuPage() {
         <PageHero
           imageSrc="/images/brand/distillery-1.jpg"
           imageAlt="Lunin Distillery — interior"
-          kicker="Carta"
+          kickerKey="nav.menu"
           titleKey="menu.title"
           leadKey="menu.lead"
           height="md"

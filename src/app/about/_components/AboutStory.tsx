@@ -44,9 +44,9 @@ export function AboutStory() {
           </p>
 
           <ul className="mt-9 grid grid-cols-3 gap-3 sm:gap-4">
-            <Stat label="Frutos" value="4+" detail="Manzana · Ciruela · Acacia · Cereza" />
-            <Stat label="Lotes" value="100%" detail="Certificados" />
-            <Stat label="Origen" value="Ucrania" detail="Destilería propia" />
+            <Stat label={t("about.stats.s1_l")} value={t("about.stats.s1_v")} detail={t("about.stats.s1_d")} />
+            <Stat label={t("about.stats.s2_l")} value={t("about.stats.s2_v")} detail={t("about.stats.s2_d")} />
+            <Stat label={t("about.stats.s3_l")} value={t("about.stats.s3_v")} detail={t("about.stats.s3_d")} />
           </ul>
         </div>
       </div>

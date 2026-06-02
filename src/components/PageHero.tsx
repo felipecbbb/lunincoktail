@@ -7,6 +7,8 @@ type Props = {
   imageSrc: string;
   imageAlt?: string;
   kicker?: string;
+  /** Translation key for kicker; takes precedence over kicker */
+  kickerKey?: string;
   /** Translation key for title; if not provided, use rawTitle */
   titleKey?: string;
   rawTitle?: string;
@@ -30,6 +32,7 @@ export function PageHero({
   imageSrc,
   imageAlt = "",
   kicker,
+  kickerKey,
   titleKey,
   rawTitle,
   leadKey,
@@ -40,6 +43,7 @@ export function PageHero({
   children,
 }: Props) {
   const t = useT();
+  const kickerText = kickerKey ? t(kickerKey) : kicker;
   const title = titleKey ? t(titleKey) : rawTitle ?? "";
   const lead = leadKey ? t(leadKey) : rawLead;
   const alignCls = align === "center" ? "text-center mx-auto items-center" : "items-start";
@@ -68,12 +72,12 @@ export function PageHero({
       <div
         className={`mx-auto max-w-6xl px-5 md:px-10 pt-24 md:pt-32 pb-16 md:pb-24 flex flex-col justify-end h-full ${heights[height]} ${alignCls}`}
       >
-        {kicker && (
+        {kickerText && (
           <p
             className="font-headline uppercase text-[0.7rem] tracking-[0.42em] text-lunin-gold fade-up"
             style={{ animationDelay: "0.05s" }}
           >
-            /{kicker}
+            /{kickerText}
           </p>
         )}
         <h1

@@ -113,6 +113,11 @@ export const dict = {
       cert_title: "Espíritus con certificado",
       cert_body: "Cada lote Lunin pasa controles rigurosos. Disponemos de certificados de calidad oficiales que avalan el origen, los procesos y la autenticidad de cada destilado.",
       cert_view: "Ver certificado",
+      stats: {
+        s1_l: "Frutos", s1_v: "4+", s1_d: "Manzana · Ciruela · Acacia · Cereza",
+        s2_l: "Lotes", s2_v: "100%", s2_d: "Certificados",
+        s3_l: "Origen", s3_v: "Ucrania", s3_d: "Destilería propia",
+      },
     },
     common: {
       enable: "Activado",
@@ -233,6 +238,11 @@ export const dict = {
       cert_title: "Spirits with paperwork",
       cert_body: "Every Lunin batch goes through strict controls. We hold official quality certificates that vouch for the origin, the processes and the authenticity of each spirit.",
       cert_view: "View certificate",
+      stats: {
+        s1_l: "Fruits", s1_v: "4+", s1_d: "Apple · Plum · Acacia · Cherry",
+        s2_l: "Batches", s2_v: "100%", s2_d: "Certified",
+        s3_l: "Origin", s3_v: "Ukraine", s3_d: "Own distillery",
+      },
     },
     common: {
       enable: "Enabled",
@@ -353,6 +363,11 @@ export const dict = {
       cert_title: "Спирти із сертифікатом",
       cert_body: "Кожна партія Lunin проходить суворий контроль. Ми маємо офіційні сертифікати якості, що засвідчують походження, процеси та автентичність кожного спирту.",
       cert_view: "Переглянути сертифікат",
+      stats: {
+        s1_l: "Плоди", s1_v: "4+", s1_d: "Яблуко · Слива · Акація · Вишня",
+        s2_l: "Партії", s2_v: "100%", s2_d: "Сертифіковані",
+        s3_l: "Походження", s3_v: "Україна", s3_d: "Власна дистилерія",
+      },
     },
     common: {
       enable: "Увімкнено",

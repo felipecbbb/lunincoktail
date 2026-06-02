@@ -99,7 +99,7 @@ export function BookingForm() {
   }
 
   const fieldBase =
-    "w-full rounded-xl border border-lunin-cream/15 bg-lunin-onyx/60 px-4 py-3 text-[0.95rem] text-lunin-cream placeholder:text-lunin-cream/30 outline-none transition focus:border-lunin-gold/60 focus:ring-1 focus:ring-lunin-gold/30";
+    "w-full rounded-xl border border-lunin-cream/15 bg-lunin-onyx/60 px-4 py-3 text-base text-lunin-cream placeholder:text-lunin-cream/30 outline-none transition focus:border-lunin-gold/60 focus:ring-1 focus:ring-lunin-gold/30";
 
   return (
     <form onSubmit={onSubmit} className="rounded-3xl border border-lunin-cream/10 bg-lunin-charcoal/40 p-6 sm:p-8 backdrop-blur-sm">

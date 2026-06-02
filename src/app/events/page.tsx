@@ -40,7 +40,7 @@ export default function EventsPage() {
         <PageHero
           imageSrc="/images/brand/horilka-4.jpg"
           imageAlt="Lunin Cocktail Bar — eventos privados"
-          kicker="Eventos privados"
+          kickerKey="nav.events"
           titleKey="events.private.title"
           leadKey="events.private.lead"
           height="md"

@@ -20,7 +20,7 @@ export default function ContactPage() {
         <PageHero
           imageSrc="/images/brand/horilka-5.jpg"
           imageAlt="Lunin Cocktail Bar"
-          kicker="Hello"
+          kickerKey="nav.contact"
           titleKey="contact.title"
           leadKey="contact.lead"
           height="md"

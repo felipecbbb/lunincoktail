@@ -1,37 +1,38 @@
 "use client";
 
 import Image from "next/image";
-import { useT } from "../../components/LanguageProvider";
+import { useT, useLang } from "../../components/LanguageProvider";
 
 const fruits = [
   {
     key: "apple",
-    name: { es: "Manzana", en: "Apple" },
-    note: { es: "Apple Horilka", en: "Apple Horilka" },
+    name: { es: "Manzana", en: "Apple", uk: "Яблуко" },
+    note: { es: "Apple Horilka", en: "Apple Horilka", uk: "Яблучна горілка" },
     image: "/images/brand/apple-horilka.jpg",
   },
   {
     key: "plum",
-    name: { es: "Ciruela", en: "Plum" },
-    note: { es: "Plum Horilka", en: "Plum Horilka" },
+    name: { es: "Ciruela", en: "Plum", uk: "Слива" },
+    note: { es: "Plum Horilka", en: "Plum Horilka", uk: "Сливова горілка" },
     image: "/images/brand/horilka-2.jpg",
   },
   {
     key: "acacia",
-    name: { es: "Acacia", en: "Acacia" },
-    note: { es: "Licor floral", en: "Floral liqueur" },
+    name: { es: "Acacia", en: "Acacia", uk: "Акація" },
+    note: { es: "Licor floral", en: "Floral liqueur", uk: "Квітковий лікер" },
     image: "/images/fruit/acacia.jpg",
   },
   {
     key: "cherry",
-    name: { es: "Cereza ácida", en: "Sour Cherry" },
-    note: { es: "Licor", en: "Liqueur" },
+    name: { es: "Cereza ácida", en: "Sour Cherry", uk: "Кисла вишня" },
+    note: { es: "Licor", en: "Liqueur", uk: "Лікер" },
     image: "/images/fruit/sourcherry.jpg",
   },
 ];
 
 export function OriginSection() {
   const t = useT();
+  const { lang } = useLang();
   return (
     <section id="origin" className="relative">
       <div className="mx-auto max-w-6xl px-5 md:px-10 py-20 md:py-24 border-t border-lunin-cream/10">
@@ -50,7 +51,6 @@ export function OriginSection() {
 
         <ul className="mt-12 grid gap-3 grid-cols-2 lg:grid-cols-4">
           {fruits.map((f, i) => {
-            const lang = (typeof document !== "undefined" && document.documentElement.lang === "en") ? "en" : "es";
             return (
               <li key={f.key}>
                 <article className="group relative isolate overflow-hidden rounded-3xl border border-lunin-cream/10 bg-lunin-charcoal/40 aspect-[3/4]">
@@ -74,10 +74,10 @@ export function OriginSection() {
                       /0{i + 1}
                     </span>
                     <h3 className="mt-1.5 font-display text-xl text-lunin-cream leading-tight">
-                      {lang === "en" ? f.name.en : f.name.es}
+                      {lang === "uk" ? f.name.uk : lang === "en" ? f.name.en : f.name.es}
                     </h3>
                     <p className="mt-1 text-[0.7rem] tracking-[0.18em] uppercase font-headline text-lunin-cream/55">
-                      {lang === "en" ? f.note.en : f.note.es}
+                      {lang === "uk" ? f.note.uk : lang === "en" ? f.note.en : f.note.es}
                     </p>
                   </div>
                 </article>
