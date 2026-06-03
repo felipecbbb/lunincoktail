@@ -1046,7 +1046,7 @@
     },
     {
       "id": "itm-moc-passion-spritz",
-      "categoryId": "cat-spritz",
+      "categoryId": "cat-mocktails",
       "name": {
         "es": "Passion Fruit Spritz",
         "en": "Passion Fruit Spritz"
@@ -1058,7 +1058,7 @@
       "price": 7,
       "image": "/images/menu/spritz.jpg",
       "enabled": true,
-      "order": 6
+      "order": 4
     },
     {
       "id": "itm-moc-cucumber",
