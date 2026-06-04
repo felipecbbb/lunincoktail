@@ -27,13 +27,13 @@ export default async function Home() {
       <section className="relative isolate overflow-hidden min-h-[92svh] flex items-end">
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/brand/apple-horilka.jpg"
-            alt="Lunin"
+            src="/images/brand/hero-home.jpg"
+            alt="Lunin Cocktail Bar — Lunin Dry Gin y coctelería de autor"
             fill
             priority
             sizes="100vw"
             className="object-cover"
-            style={{ objectPosition: "center 30%" }}
+            style={{ objectPosition: "center 55%" }}
           />
           <div
             aria-hidden="true"
