@@ -450,7 +450,8 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 5
+      "order": 5,
+      "signature": true
     },
     {
       "id": "itm-coc-apple-sour",
@@ -483,7 +484,8 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 23
+      "order": 23,
+      "signature": true
     },
     {
       "id": "itm-coc-gin-tonic",
