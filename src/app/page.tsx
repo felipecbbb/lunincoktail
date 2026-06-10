@@ -17,7 +17,7 @@ import { OriginSection } from "./_components/OriginSection";
 
 export default async function Home() {
   const menu = await Store.getMenu();
-  const signature = menu.filter((m) => m.enabled && m.signature).slice(0, 3);
+  const signature = menu.filter((m) => m.enabled && m.signature).slice(0, 4);
 
   return (
     <>

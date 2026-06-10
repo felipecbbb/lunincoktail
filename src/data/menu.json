@@ -289,7 +289,8 @@
       "price": 10,
       "image": "/images/menu/cucumber-gimlet.jpg",
       "enabled": true,
-      "order": 10
+      "order": 10,
+      "signature": true
     },
     {
       "id": "itm-coc-diabolito",
@@ -465,7 +466,8 @@
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
-      "order": 7
+      "order": 7,
+      "signature": true
     },
     {
       "id": "itm-coc-plum-sour",
@@ -528,7 +530,7 @@
       },
       "price": 10,
       "image": "/images/menu/agua-de-valencia.jpg",
-      "signature": true,
+      "signature": false,
       "enabled": true,
       "order": 6
     },
@@ -1091,22 +1093,6 @@
       "image": "/images/menu/kiwi-gimlet.jpg",
       "enabled": true,
       "order": 6
-    },
-    {
-      "id": "itm-bee-alhambra",
-      "categoryId": "cat-beer",
-      "name": {
-        "es": "Alhambra",
-        "en": "Alhambra"
-      },
-      "ingredients": {
-        "es": "Cerveza Alhambra 330 ml.",
-        "en": "Alhambra beer 330 ml."
-      },
-      "price": 3.5,
-      "image": "/images/menu/cerveza-alhambra.jpg",
-      "enabled": true,
-      "order": 1
     },
     {
       "id": "itm-coc-brandy",

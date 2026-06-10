@@ -62,21 +62,6 @@
       "enabled": true
     },
     {
-      "id": "cat-beer",
-      "slug": "cerveza",
-      "name": {
-        "es": "Cerveza",
-        "en": "Beer"
-      },
-      "description": {
-        "es": "Cerveza fría servida en botella.",
-        "en": "Cold beer served by the bottle."
-      },
-      "hero": "/images/atmosphere/bokeh-1.jpg",
-      "order": 5,
-      "enabled": true
-    },
-    {
       "id": "cat-mocktails",
       "slug": "mocktails",
       "name": {
