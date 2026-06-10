@@ -1,4 +1,4 @@
-export type Localized = { es: string; en?: string };
+export type Localized = { es: string; en?: string; uk?: string };
 
 export type Category = {
   id: string;

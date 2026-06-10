@@ -6,11 +6,13 @@
       "slug": "cocteles",
       "name": {
         "es": "Cócteles de Autor",
-        "en": "Artisanal Cocktails"
+        "en": "Artisanal Cocktails",
+        "uk": "Авторські коктейлі"
       },
       "description": {
         "es": "Coctelería de autor elaborada con destilados craft Lunin.",
-        "en": "Signature cocktails made with Lunin craft spirits."
+        "en": "Signature cocktails made with Lunin craft spirits.",
+        "uk": "Авторські коктейлі на основі крафтових дистилятів Lunin."
       },
       "hero": "/images/brand/distillery-2.jpg",
       "order": 1,
@@ -21,11 +23,13 @@
       "slug": "spritz",
       "name": {
         "es": "Spritz",
-        "en": "Spritz"
+        "en": "Spritz",
+        "uk": "Спритц"
       },
       "description": {
         "es": "Spritz frescos de fruta sobre base Lunin.",
-        "en": "Fresh fruit spritzes on Lunin base."
+        "en": "Fresh fruit spritzes on Lunin base.",
+        "uk": "Свіжі фруктові спритци на основі Lunin."
       },
       "hero": "/images/fruit/sourcherry.jpg",
       "order": 2,
@@ -36,11 +40,13 @@
       "slug": "vermut",
       "name": {
         "es": "Vermut",
-        "en": "Vermouth"
+        "en": "Vermouth",
+        "uk": "Вермут"
       },
       "description": {
         "es": "Vermut servido a la copa.",
-        "en": "Vermouth served by the glass."
+        "en": "Vermouth served by the glass.",
+        "uk": "Вермут, поданий у келиху."
       },
       "hero": "/images/atmosphere/bokeh-1.jpg",
       "order": 3,
@@ -51,11 +57,13 @@
       "slug": "chupitos",
       "name": {
         "es": "Chupitos",
-        "en": "Shots"
+        "en": "Shots",
+        "uk": "Шоти"
       },
       "description": {
         "es": "Chupitos de licores y destilados Lunin servidos en 50 ml.",
-        "en": "Lunin liqueur and spirit shots served in 50 ml."
+        "en": "Lunin liqueur and spirit shots served in 50 ml.",
+        "uk": "Шоти лікерів та дистилятів Lunin по 50 мл."
       },
       "hero": "/images/fruit/blackcurrant.jpg",
       "order": 4,
@@ -66,11 +74,13 @@
       "slug": "mocktails",
       "name": {
         "es": "Mocktails",
-        "en": "Mocktails"
+        "en": "Mocktails",
+        "uk": "Безалкогольні коктейлі"
       },
       "description": {
         "es": "Cócteles sin alcohol llenos de carácter.",
-        "en": "Non-alcoholic cocktails full of character."
+        "en": "Non-alcoholic cocktails full of character.",
+        "uk": "Безалкогольні коктейлі, повні характеру."
       },
       "hero": "/images/fruit/cranberry.jpg",
       "order": 6,
@@ -81,11 +91,13 @@
       "slug": "refrescos",
       "name": {
         "es": "Refrescos",
-        "en": "Soft Drinks"
+        "en": "Soft Drinks",
+        "uk": "Напої"
       },
       "description": {
         "es": "Refrescos clásicos servidos fríos.",
-        "en": "Classic soft drinks served chilled."
+        "en": "Classic soft drinks served chilled.",
+        "uk": "Класичні прохолодні напої."
       },
       "hero": "/images/atmosphere/bokeh-2.jpg",
       "order": 7,
@@ -96,11 +108,13 @@
       "slug": "agua",
       "name": {
         "es": "Agua",
-        "en": "Water"
+        "en": "Water",
+        "uk": "Вода"
       },
       "description": {
         "es": "Agua mineral con y sin gas.",
-        "en": "Still and sparkling mineral water."
+        "en": "Still and sparkling mineral water.",
+        "uk": "Мінеральна вода з газом і без газу."
       },
       "hero": "/images/atmosphere/bokeh-2.jpg",
       "order": 8,
@@ -111,11 +125,13 @@
       "slug": "cafe",
       "name": {
         "es": "Café",
-        "en": "Coffee"
+        "en": "Coffee",
+        "uk": "Кава"
       },
       "description": {
         "es": "Café espresso y especialidades clásicas.",
-        "en": "Espresso coffee and classic specialities."
+        "en": "Espresso coffee and classic specialities.",
+        "uk": "Еспресо та класичні кавові спеціалітети."
       },
       "hero": "/images/brand/distillery-3.jpg",
       "order": 9,
@@ -126,11 +142,13 @@
       "slug": "botellas",
       "name": {
         "es": "Botellas",
-        "en": "Bottles"
+        "en": "Bottles",
+        "uk": "Пляшки"
       },
       "description": {
         "es": "Espíritus craft Lunin en botella: ginebra, horilkas, brandies y licores de frutas.",
-        "en": "Lunin craft spirits in bottle: gin, horilkas, brandies and fruit liqueurs."
+        "en": "Lunin craft spirits in bottle: gin, horilkas, brandies and fruit liqueurs.",
+        "uk": "Крафтові дистиляти Lunin у пляшках: джин, горілки, бренді та фруктові лікери."
       },
       "hero": "/images/brand/horilka-still.jpg",
       "order": 10,

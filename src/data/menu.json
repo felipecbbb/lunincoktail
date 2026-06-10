@@ -6,11 +6,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "The First Ukrainian Dry Gin",
-        "en": "The First Ukrainian Dry Gin"
+        "en": "The First Ukrainian Dry Gin",
+        "uk": "The First Ukrainian Dry Gin"
       },
       "ingredients": {
         "es": "Botella 0,7 L · 45 % alc. · Ginebra seca ucraniana de pequeña producción con botánicos locales: enebro, cítricos y hierbas regionales.",
-        "en": "0.7 L bottle · 45% ABV · Small-batch Ukrainian dry gin with local botanicals: juniper, citrus and regional herbs."
+        "en": "0.7 L bottle · 45% ABV · Small-batch Ukrainian dry gin with local botanicals: juniper, citrus and regional herbs.",
+        "uk": "Пляшка 0,7 л · 45% алк. · Український сухий джин малого виробництва з локальними ботанічними складниками: ялівець, цитрусові та регіональні трави."
       },
       "price": 35,
       "image": "/images/brand/dry-gin.jpg",
@@ -22,11 +24,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Apple Horilka (Vodka de Manzana)",
-        "en": "Apple Horilka (Vodka)"
+        "en": "Apple Horilka (Vodka)",
+        "uk": "Яблучна горілка"
       },
       "ingredients": {
         "es": "Botella 0,7 L · 40 % alc. · Vodka de manzanas frescas, doble destilación y filtrado en carbón de coco.",
-        "en": "0.7 L bottle · 40% ABV · Vodka from fresh-pressed apples, double-distilled and charcoal-polished."
+        "en": "0.7 L bottle · 40% ABV · Vodka from fresh-pressed apples, double-distilled and charcoal-polished.",
+        "uk": "Пляшка 0,7 л · 40% алк. · Горілка зі свіжих яблук, подвійна дистиляція та фільтрація кокосовим вугіллям."
       },
       "price": 30,
       "image": "/images/brand/apple-horilka.jpg",
@@ -38,11 +42,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Plum Horilka (Vodka de Ciruela)",
-        "en": "Plum Horilka (Vodka)"
+        "en": "Plum Horilka (Vodka)",
+        "uk": "Сливова горілка"
       },
       "ingredients": {
         "es": "Botella 0,7 L · 40 % alc. · Vodka de ciruelas silvestres, perfil seco con fruta de hueso.",
-        "en": "0.7 L bottle · 40% ABV · Vodka from woodland plums, dry palate with clear stone-fruit character."
+        "en": "0.7 L bottle · 40% ABV · Vodka from woodland plums, dry palate with clear stone-fruit character.",
+        "uk": "Пляшка 0,7 л · 40% алк. · Горілка з диких слив, сухий профіль із характером кісточкових фруктів."
       },
       "price": 30,
       "image": "/images/brand/plum-horilka.jpg",
@@ -54,11 +60,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Acacia Horilka (Vodka de Acacia)",
-        "en": "Acacia Horilka (Vodka)"
+        "en": "Acacia Horilka (Vodka)",
+        "uk": "Акацієва горілка"
       },
       "ingredients": {
         "es": "Botella 0,7 L · 40 % alc. · Vodka infusionado con flores de acacia, notas florales y miel.",
-        "en": "0.7 L bottle · 40% ABV · Vodka macerated with acacia blossoms, floral aromas and gentle honey."
+        "en": "0.7 L bottle · 40% ABV · Vodka macerated with acacia blossoms, floral aromas and gentle honey.",
+        "uk": "Пляшка 0,7 л · 40% алк. · Горілка, настояна на квітах акації, квіткові ноти та мед."
       },
       "price": 30,
       "image": "/images/brand/acacia-horilka.jpg",
@@ -70,11 +78,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Apple Brandy",
-        "en": "Apple Brandy"
+        "en": "Apple Brandy",
+        "uk": "Яблучний бренді"
       },
       "ingredients": {
         "es": "Botella 0,7 L · 40 % alc. · Brandy de sidra envejecido 12 meses en roble cárpato.",
-        "en": "0.7 L bottle · 40% ABV · Cider brandy aged 12 months in new Carpathian oak."
+        "en": "0.7 L bottle · 40% ABV · Cider brandy aged 12 months in new Carpathian oak.",
+        "uk": "Пляшка 0,7 л · 40% алк. · Сидровий бренді, витриманий 12 місяців у карпатському дубі."
       },
       "price": 35,
       "image": "/images/brand/apple-brandy.jpg",
@@ -86,11 +96,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Elderberry & Honey Brandy",
-        "en": "Elderberry & Honey Brandy"
+        "en": "Elderberry & Honey Brandy",
+        "uk": "Бренді з бузини та меду"
       },
       "ingredients": {
         "es": "Botella 0,7 L · 40 % alc. · Brandy de saúco y miel, reposo en roble cárpato.",
-        "en": "0.7 L bottle · 40% ABV · Elderberry and honey brandy rested in Carpathian oak."
+        "en": "0.7 L bottle · 40% ABV · Elderberry and honey brandy rested in Carpathian oak.",
+        "uk": "Пляшка 0,7 л · 40% алк. · Бренді з бузини та меду, витримане в карпатському дубі."
       },
       "price": 35,
       "image": "/images/brand/elderberry-brandy.jpg",
@@ -102,11 +114,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Licor de Grosella Negra",
-        "en": "Blackcurrant Liqueur"
+        "en": "Blackcurrant Liqueur",
+        "uk": "Лікер із чорної смородини"
       },
       "ingredients": {
         "es": "Botella 0,5 L · 17,5 % alc. · Maceración lenta de grosella negra sobre destilado de manzana.",
-        "en": "0.5 L bottle · 17.5% ABV · Slow maceration of blackcurrants on apple distillate."
+        "en": "0.5 L bottle · 17.5% ABV · Slow maceration of blackcurrants on apple distillate.",
+        "uk": "Пляшка 0,5 л · 17,5% алк. · Повільна мацерація чорної смородини на яблучному дистиляті."
       },
       "price": 20,
       "image": "/images/brand/blackcurrant-liqueur.jpg",
@@ -118,11 +132,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Licor de Cereza Ácida",
-        "en": "Sour Cherry Liqueur"
+        "en": "Sour Cherry Liqueur",
+        "uk": "Вишневий лікер"
       },
       "ingredients": {
         "es": "Botella 0,5 L · 17,5 % alc. · Maceración de cereza ácida sobre destilado de manzana.",
-        "en": "0.5 L bottle · 17.5% ABV · Sour cherry macerated on apple distillate."
+        "en": "0.5 L bottle · 17.5% ABV · Sour cherry macerated on apple distillate.",
+        "uk": "Пляшка 0,5 л · 17,5% алк. · Мацерація кислої вишні на яблучному дистиляті."
       },
       "price": 20,
       "image": "/images/brand/sourcherry-liqueur.jpg",
@@ -134,11 +150,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Licor de Mora",
-        "en": "Blackberry Liqueur"
+        "en": "Blackberry Liqueur",
+        "uk": "Ожиновий лікер"
       },
       "ingredients": {
         "es": "Botella 0,5 L · 17,5 % alc. · Maceración de mora madura sobre destilado de manzana.",
-        "en": "0.5 L bottle · 17.5% ABV · Ripe blackberries macerated on apple distillate."
+        "en": "0.5 L bottle · 17.5% ABV · Ripe blackberries macerated on apple distillate.",
+        "uk": "Пляшка 0,5 л · 17,5% алк. · Мацерація стиглої ожини на яблучному дистиляті."
       },
       "price": 20,
       "image": "/images/brand/blackberry-liqueur.jpg",
@@ -150,11 +168,13 @@
       "categoryId": "cat-bottles",
       "name": {
         "es": "Licor de Fresa",
-        "en": "Strawberry Liqueur"
+        "en": "Strawberry Liqueur",
+        "uk": "Полуничний лікер"
       },
       "ingredients": {
         "es": "Botella 0,5 L · 17,5 % alc. · Maceración de fresas maduras sobre destilado de manzana.",
-        "en": "0.5 L bottle · 17.5% ABV · Ripe strawberries macerated on apple distillate."
+        "en": "0.5 L bottle · 17.5% ABV · Ripe strawberries macerated on apple distillate.",
+        "uk": "Пляшка 0,5 л · 17,5% алк. · Мацерація стиглої полуниці на яблучному дистиляті."
       },
       "price": 20,
       "image": "/images/brand/strawberry-liqueur.jpg",
@@ -166,11 +186,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Apple Pie",
-        "en": "Apple Pie"
+        "en": "Apple Pie",
+        "uk": "Еппл Пай"
       },
       "ingredients": {
         "es": "Horilka de manzana, Appletiser.",
-        "en": "Apple Horilka, Appletiser."
+        "en": "Apple Horilka, Appletiser.",
+        "uk": "Яблучна горілка, Appletiser."
       },
       "price": 8,
       "image": "/images/menu/apple-pie.jpg",
@@ -182,11 +204,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Atardecer Valenciano",
-        "en": "Atardecer Valenciano"
+        "en": "Atardecer Valenciano",
+        "uk": "Atardecer Valenciano"
       },
       "ingredients": {
         "es": "Gin, triple seco, limón, fruta de la pasión, sirope. Cóctel ácido.",
-        "en": "Gin, triple sec, lemon, passion fruit, simple syrup. Sour cocktail."
+        "en": "Gin, triple sec, lemon, passion fruit, simple syrup. Sour cocktail.",
+        "uk": "Джин, трипл сек, лимон, маракуйя, сироп. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/atardecer-valenciano.jpg",
@@ -199,11 +223,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Kiev",
-        "en": "Kiev"
+        "en": "Kiev",
+        "uk": "Київ"
       },
       "ingredients": {
         "es": "Gin, Yagodanka de fresa, lima, clara de huevo, fruta de la pasión, sirope. Cóctel ácido.",
-        "en": "Gin, Yagodanka strawberry, lime, egg white, passion fruit, simple syrup. Sour cocktail."
+        "en": "Gin, Yagodanka strawberry, lime, egg white, passion fruit, simple syrup. Sour cocktail.",
+        "uk": "Джин, полунична Yagodanka, лайм, яєчний білок, маракуйя, сироп. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/kiev.jpg",
@@ -216,11 +242,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Pornstar Martini",
-        "en": "Pornstar Martini"
+        "en": "Pornstar Martini",
+        "uk": "Pornstar Martini"
       },
       "ingredients": {
         "es": "Horilka de ciruela, fruta de la pasión, lima, vainilla. Ácido y dulce.",
-        "en": "Plum Horilka, passion fruit, lime, vanilla. Sour & sweet."
+        "en": "Plum Horilka, passion fruit, lime, vanilla. Sour & sweet.",
+        "uk": "Сливова горілка, маракуйя, лайм, ваніль. Кисло-солодкий."
       },
       "price": 10,
       "image": "/images/menu/pornstar-martini.jpg",
@@ -232,11 +260,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Negroni de Autor",
-        "en": "Artisanal Negroni"
+        "en": "Artisanal Negroni",
+        "uk": "Авторський Негроні"
       },
       "ingredients": {
         "es": "Gin, bíter, Yagodanka de fresa. Cóctel fuerte.",
-        "en": "Gin, bitter, Yagodanka strawberry. Strong cocktail."
+        "en": "Gin, bitter, Yagodanka strawberry. Strong cocktail.",
+        "uk": "Джин, бітер, полунична Yagodanka. Міцний коктейль."
       },
       "price": 10,
       "image": "/images/menu/negroni.jpg",
@@ -248,11 +278,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Daiquiri de Autor",
-        "en": "Artisanal Daiquiri"
+        "en": "Artisanal Daiquiri",
+        "uk": "Авторський Дайкірі"
       },
       "ingredients": {
         "es": "Horilka de acacia, Yagodanka de arándano rojo, lima, caramelo. Cóctel dulce.",
-        "en": "Acacia Horilka, Yagodanka cranberry, lime, caramel. Sweet cocktail."
+        "en": "Acacia Horilka, Yagodanka cranberry, lime, caramel. Sweet cocktail.",
+        "uk": "Акацієва горілка, журавлинна Yagodanka, лайм, карамель. Солодкий коктейль."
       },
       "price": 10,
       "image": "/images/menu/daiquiri.jpg",
@@ -264,11 +296,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Bloody Mary",
-        "en": "Bloody Mary"
+        "en": "Bloody Mary",
+        "uk": "Кривава Мері"
       },
       "ingredients": {
         "es": "Zumo de tomate, horilka de ciruela, pepinillo, tabasco, salsa Worcester, sal. Cóctel salado.",
-        "en": "Tomato juice, plum Horilka, pickled cucumber, Tabasco, Worcestershire sauce, salt. Salty cocktail."
+        "en": "Tomato juice, plum Horilka, pickled cucumber, Tabasco, Worcestershire sauce, salt. Salty cocktail.",
+        "uk": "Томатний сік, сливова горілка, мариновані огірки, табаско, вустерський соус, сіль. Солоний коктейль."
       },
       "price": 10,
       "enabled": true,
@@ -280,11 +314,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Cucumber Gimlet",
-        "en": "Cucumber Gimlet"
+        "en": "Cucumber Gimlet",
+        "uk": "Огірковий Гімлет"
       },
       "ingredients": {
         "es": "Gin, pepino, lima, sirope. Cóctel ácido.",
-        "en": "Gin, cucumber, lime, simple syrup. Sour cocktail."
+        "en": "Gin, cucumber, lime, simple syrup. Sour cocktail.",
+        "uk": "Джин, огірок, лайм, сироп. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/cucumber-gimlet.jpg",
@@ -297,11 +333,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Diabolito",
-        "en": "Diabolito"
+        "en": "Diabolito",
+        "uk": "Діаболіто"
       },
       "ingredients": {
         "es": "Gin, melocotón, sirope picante, lima. Cóctel picante.",
-        "en": "Gin, peach, chilli syrup, lime. Spicy cocktail."
+        "en": "Gin, peach, chilli syrup, lime. Spicy cocktail.",
+        "uk": "Джин, персик, гострий сироп, лайм. Гострий коктейль."
       },
       "price": 10,
       "image": "/images/menu/diabolito.jpg",
@@ -313,11 +351,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Espresso Martini",
-        "en": "Espresso Martini"
+        "en": "Espresso Martini",
+        "uk": "Еспресо Мартіні"
       },
       "ingredients": {
         "es": "Gin, licor de café, sirope, espresso. Cóctel de café.",
-        "en": "Gin, coffee liqueur, simple syrup, espresso. Coffee cocktail."
+        "en": "Gin, coffee liqueur, simple syrup, espresso. Coffee cocktail.",
+        "uk": "Джин, кавовий лікер, сироп, еспресо. Кавовий коктейль."
       },
       "price": 10,
       "image": "/images/menu/espresso-martini.jpg",
@@ -329,11 +369,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Kiwi Gimlet",
-        "en": "Kiwi Gimlet"
+        "en": "Kiwi Gimlet",
+        "uk": "Ківі Гімлет"
       },
       "ingredients": {
         "es": "Gin, kiwi, Yagodanka de fresa, sal, limón, sirope. Cóctel salado.",
-        "en": "Gin, kiwi, Yagodanka strawberry, salt, lemon, simple syrup. Salty cocktail."
+        "en": "Gin, kiwi, Yagodanka strawberry, salt, lemon, simple syrup. Salty cocktail.",
+        "uk": "Джин, ківі, полунична Yagodanka, сіль, лимон, сироп. Солоний коктейль."
       },
       "price": 10,
       "image": "/images/menu/kiwi-gimlet.jpg",
@@ -345,11 +387,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Long Island Iced Tea",
-        "en": "Long Island Iced Tea"
+        "en": "Long Island Iced Tea",
+        "uk": "Лонг-Айленд Айс Ті"
       },
       "ingredients": {
         "es": "Horilka de manzana, sirope, horilka de acacia, gin, limón, Coca-Cola. Cóctel dulce.",
-        "en": "Apple Horilka, simple syrup, acacia Horilka, gin, lemon, Coca-Cola. Sweet cocktail."
+        "en": "Apple Horilka, simple syrup, acacia Horilka, gin, lemon, Coca-Cola. Sweet cocktail.",
+        "uk": "Яблучна горілка, сироп, акацієва горілка, джин, лимон, Coca-Cola. Солодкий коктейль."
       },
       "price": 10,
       "enabled": true,
@@ -361,11 +405,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Margarita de Autor",
-        "en": "Artisanal Margarita"
+        "en": "Artisanal Margarita",
+        "uk": "Авторська Маргарита"
       },
       "ingredients": {
         "es": "Gin, horilka de acacia, lima, sirope. Cóctel salado.",
-        "en": "Gin, acacia Horilka, lime, simple syrup. Salty cocktail."
+        "en": "Gin, acacia Horilka, lime, simple syrup. Salty cocktail.",
+        "uk": "Джин, акацієва горілка, лайм, сироп. Солоний коктейль."
       },
       "price": 10,
       "image": "/images/menu/margarita.jpg",
@@ -377,11 +423,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Matcha Sour",
-        "en": "Matcha Sour"
+        "en": "Matcha Sour",
+        "uk": "Матча Сауер"
       },
       "ingredients": {
         "es": "Gin, matcha, limón, sirope, clara de huevo. Cóctel ácido.",
-        "en": "Gin, matcha, lemon, simple syrup, egg white. Sour cocktail."
+        "en": "Gin, matcha, lemon, simple syrup, egg white. Sour cocktail.",
+        "uk": "Джин, матча, лимон, сироп, яєчний білок. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/matcha-sour.jpg",
@@ -393,11 +441,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Mule",
-        "en": "Mule"
+        "en": "Mule",
+        "uk": "Мул"
       },
       "ingredients": {
         "es": "Horilka de manzana, ginger beer, menta. Cóctel fresco.",
-        "en": "Apple Horilka, ginger beer, mint. Fresh cocktail."
+        "en": "Apple Horilka, ginger beer, mint. Fresh cocktail.",
+        "uk": "Яблучна горілка, імбирний ель, м'ята. Освіжаючий коктейль."
       },
       "price": 10,
       "image": "/images/menu/mule.jpg",
@@ -409,11 +459,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Old Fashioned",
-        "en": "Old Fashioned"
+        "en": "Old Fashioned",
+        "uk": "Олд Фешн"
       },
       "ingredients": {
         "es": "Brandy de manzana, piel de limón, caramelo, ahumado. Cóctel fuerte.",
-        "en": "Apple brandy, lemon peel, caramel, smoke. Strong cocktail."
+        "en": "Apple brandy, lemon peel, caramel, smoke. Strong cocktail.",
+        "uk": "Яблучний бренді, лимонна цедра, карамель, дим. Міцний коктейль."
       },
       "price": 10,
       "image": "/images/menu/old-fashioned.jpg",
@@ -425,11 +477,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Strawberry Margarita",
-        "en": "Strawberry Margarita"
+        "en": "Strawberry Margarita",
+        "uk": "Полунична Маргарита"
       },
       "ingredients": {
         "es": "Gin, Yagodanka de fresa, horilka de acacia, lima, sirope. Cóctel salado.",
-        "en": "Gin, Yagodanka strawberry, acacia Horilka, lime, simple syrup. Salty cocktail."
+        "en": "Gin, Yagodanka strawberry, acacia Horilka, lime, simple syrup. Salty cocktail.",
+        "uk": "Джин, полунична Yagodanka, акацієва горілка, лайм, сироп. Солоний коктейль."
       },
       "price": 10,
       "image": "/images/menu/strawberry-margarita.jpg",
@@ -441,11 +495,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Acacia Vodka Sour",
-        "en": "Acacia Vodka Sour"
+        "en": "Acacia Vodka Sour",
+        "uk": "Акацієвий Водка Сауер"
       },
       "ingredients": {
         "es": "Horilka de acacia, limón, sirope, clara de huevo, bíter. Cóctel ácido.",
-        "en": "Acacia Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
+        "en": "Acacia Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail.",
+        "uk": "Акацієва горілка, лимон, сироп, яєчний білок, бітер. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
@@ -458,11 +514,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Apple Vodka Sour",
-        "en": "Apple Vodka Sour"
+        "en": "Apple Vodka Sour",
+        "uk": "Яблучний Водка Сауер"
       },
       "ingredients": {
         "es": "Horilka de manzana, limón, sirope, clara de huevo, bíter. Cóctel ácido.",
-        "en": "Apple Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
+        "en": "Apple Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail.",
+        "uk": "Яблучна горілка, лимон, сироп, яєчний білок, бітер. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
@@ -475,11 +533,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Plum Vodka Sour",
-        "en": "Plum Vodka Sour"
+        "en": "Plum Vodka Sour",
+        "uk": "Сливовий Водка Сауер"
       },
       "ingredients": {
         "es": "Horilka de ciruela, limón, sirope, clara de huevo, bíter. Cóctel ácido.",
-        "en": "Plum Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail."
+        "en": "Plum Horilka, lemon, simple syrup, egg white, bitter. Sour cocktail.",
+        "uk": "Сливова горілка, лимон, сироп, яєчний білок, бітер. Кислий коктейль."
       },
       "price": 10,
       "image": "/images/menu/vodka-sour.jpg",
@@ -492,11 +552,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Gin & Tonic",
-        "en": "Gin & Tonic"
+        "en": "Gin & Tonic",
+        "uk": "Джин-тонік"
       },
       "ingredients": {
         "es": "Gin Lunin, tónica Fever-Tree.",
-        "en": "Lunin gin, Fever-Tree tonic."
+        "en": "Lunin gin, Fever-Tree tonic.",
+        "uk": "Джин Lunin, тонік Fever-Tree."
       },
       "price": 8,
       "image": "/images/menu/gin-tonic.jpg",
@@ -508,11 +570,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Brandy Cola",
-        "en": "Brandy & Cola"
+        "en": "Brandy & Cola",
+        "uk": "Бренді-кола"
       },
       "ingredients": {
         "es": "Brandy de manzana Lunin, refresco de cola.",
-        "en": "Lunin apple brandy, cola."
+        "en": "Lunin apple brandy, cola.",
+        "uk": "Яблучний бренді Lunin, кола."
       },
       "price": 8,
       "image": "/images/menu/brandy-cola.jpg",
@@ -524,11 +588,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Agua de Valencia",
-        "en": "Agua de Valencia"
+        "en": "Agua de Valencia",
+        "uk": "Аква де Валенсія"
       },
       "ingredients": {
         "es": "Zumo de naranja, gin, horilka de manzana, limón, sirope, bíter. Cóctel cítrico.",
-        "en": "Orange juice, gin, apple Horilka, lemon, simple syrup, bitter. Citrus cocktail."
+        "en": "Orange juice, gin, apple Horilka, lemon, simple syrup, bitter. Citrus cocktail.",
+        "uk": "Апельсиновий сік, джин, яблучна горілка, лимон, сироп, бітер. Цитрусовий коктейль."
       },
       "price": 10,
       "image": "/images/menu/agua-de-valencia.jpg",
@@ -541,11 +607,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Mojito",
-        "en": "Mojito"
+        "en": "Mojito",
+        "uk": "Мохіто"
       },
       "ingredients": {
         "es": "Horilka de manzana, menta, lima, sirope, agua con gas. Cóctel fresco.",
-        "en": "Apple Horilka, mint, lime, simple syrup, sparkling water. Fresh cocktail."
+        "en": "Apple Horilka, mint, lime, simple syrup, sparkling water. Fresh cocktail.",
+        "uk": "Яблучна горілка, м'ята, лайм, сироп, газована вода. Освіжаючий коктейль."
       },
       "price": 10,
       "image": "/images/menu/mojito.jpg",
@@ -557,11 +625,13 @@
       "categoryId": "cat-spritz",
       "name": {
         "es": "Spritz de Cereza Ácida",
-        "en": "Sour Cherry Spritz"
+        "en": "Sour Cherry Spritz",
+        "uk": "Вишневий Спритц"
       },
       "ingredients": {
         "es": "Licor Lunin de cereza ácida.",
-        "en": "Lunin sour cherry liqueur."
+        "en": "Lunin sour cherry liqueur.",
+        "uk": "Вишневий лікер Lunin."
       },
       "price": 8,
       "image": "/images/menu/spritz-cereza.jpg",
@@ -573,11 +643,13 @@
       "categoryId": "cat-spritz",
       "name": {
         "es": "Spritz de Fresa",
-        "en": "Strawberry Spritz"
+        "en": "Strawberry Spritz",
+        "uk": "Полуничний Спритц"
       },
       "ingredients": {
         "es": "Licor Lunin de fresa.",
-        "en": "Lunin strawberry liqueur."
+        "en": "Lunin strawberry liqueur.",
+        "uk": "Полуничний лікер Lunin."
       },
       "price": 8,
       "image": "/images/menu/spritz-fresa.jpg",
@@ -589,11 +661,13 @@
       "categoryId": "cat-spritz",
       "name": {
         "es": "Spritz de Mora",
-        "en": "Blackberry Spritz"
+        "en": "Blackberry Spritz",
+        "uk": "Ожиновий Спритц"
       },
       "ingredients": {
         "es": "Licor Lunin de mora.",
-        "en": "Lunin blackberry liqueur."
+        "en": "Lunin blackberry liqueur.",
+        "uk": "Ожиновий лікер Lunin."
       },
       "price": 8,
       "image": "/images/menu/spritz-mora.jpg",
@@ -605,11 +679,13 @@
       "categoryId": "cat-spritz",
       "name": {
         "es": "Spritz de Grosella Negra",
-        "en": "Blackcurrant Spritz"
+        "en": "Blackcurrant Spritz",
+        "uk": "Спритц із чорної смородини"
       },
       "ingredients": {
         "es": "Licor Lunin de grosella negra.",
-        "en": "Lunin blackcurrant liqueur."
+        "en": "Lunin blackcurrant liqueur.",
+        "uk": "Лікер із чорної смородини Lunin."
       },
       "price": 8,
       "image": "/images/menu/spritz-grosella.jpg",
@@ -621,11 +697,13 @@
       "categoryId": "cat-spritz",
       "name": {
         "es": "Spritz de Arándano Rojo",
-        "en": "Cranberry Spritz"
+        "en": "Cranberry Spritz",
+        "uk": "Журавлинний Спритц"
       },
       "ingredients": {
         "es": "Licor Lunin de arándano rojo.",
-        "en": "Lunin cranberry liqueur."
+        "en": "Lunin cranberry liqueur.",
+        "uk": "Журавлинний лікер Lunin."
       },
       "price": 8,
       "image": "/images/menu/spritz-arandano.jpg",
@@ -637,11 +715,13 @@
       "categoryId": "cat-vermut",
       "name": {
         "es": "Vermut",
-        "en": "Vermouth"
+        "en": "Vermouth",
+        "uk": "Вермут"
       },
       "ingredients": {
         "es": "Vermut servido a la copa.",
-        "en": "Vermouth served by the glass."
+        "en": "Vermouth served by the glass.",
+        "uk": "Вермут, поданий у келиху."
       },
       "price": 4,
       "image": "/images/menu/vermut.jpg",
@@ -653,11 +733,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Cereza Ácida",
-        "en": "Sour Cherry Shot"
+        "en": "Sour Cherry Shot",
+        "uk": "Вишневий шот"
       },
       "ingredients": {
         "es": "Licor Lunin de cereza ácida.",
-        "en": "Lunin sour cherry liqueur."
+        "en": "Lunin sour cherry liqueur.",
+        "uk": "Вишневий лікер Lunin."
       },
       "price": 2.5,
       "enabled": true,
@@ -669,11 +751,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Fresa",
-        "en": "Strawberry Shot"
+        "en": "Strawberry Shot",
+        "uk": "Полуничний шот"
       },
       "ingredients": {
         "es": "Licor Lunin de fresa.",
-        "en": "Lunin strawberry liqueur."
+        "en": "Lunin strawberry liqueur.",
+        "uk": "Полуничний лікер Lunin."
       },
       "price": 2.5,
       "enabled": true,
@@ -685,11 +769,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Mora",
-        "en": "Blackberry Shot"
+        "en": "Blackberry Shot",
+        "uk": "Ожиновий шот"
       },
       "ingredients": {
         "es": "Licor Lunin de mora.",
-        "en": "Lunin blackberry liqueur."
+        "en": "Lunin blackberry liqueur.",
+        "uk": "Ожиновий лікер Lunin."
       },
       "price": 2.5,
       "enabled": true,
@@ -701,11 +787,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Grosella Negra",
-        "en": "Blackcurrant Shot"
+        "en": "Blackcurrant Shot",
+        "uk": "Шот із чорної смородини"
       },
       "ingredients": {
         "es": "Licor Lunin de grosella negra.",
-        "en": "Lunin blackcurrant liqueur."
+        "en": "Lunin blackcurrant liqueur.",
+        "uk": "Лікер із чорної смородини Lunin."
       },
       "price": 2.5,
       "enabled": true,
@@ -717,11 +805,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Arándano Rojo",
-        "en": "Cranberry Shot"
+        "en": "Cranberry Shot",
+        "uk": "Журавлинний шот"
       },
       "ingredients": {
         "es": "Licor Lunin de arándano rojo.",
-        "en": "Lunin cranberry liqueur."
+        "en": "Lunin cranberry liqueur.",
+        "uk": "Журавлинний лікер Lunin."
       },
       "price": 2.5,
       "enabled": true,
@@ -733,11 +823,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito Horilka de Manzana",
-        "en": "Apple Vodka Shot"
+        "en": "Apple Vodka Shot",
+        "uk": "Шот яблучної горілки"
       },
       "ingredients": {
         "es": "Horilka Lunin de manzana.",
-        "en": "Lunin apple Horilka."
+        "en": "Lunin apple Horilka.",
+        "uk": "Яблучна горілка Lunin."
       },
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
@@ -749,11 +841,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito Horilka de Ciruela",
-        "en": "Plum Vodka Shot"
+        "en": "Plum Vodka Shot",
+        "uk": "Шот сливової горілки"
       },
       "ingredients": {
         "es": "Horilka Lunin de ciruela.",
-        "en": "Lunin plum Horilka."
+        "en": "Lunin plum Horilka.",
+        "uk": "Сливова горілка Lunin."
       },
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
@@ -765,11 +859,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito Horilka de Acacia",
-        "en": "Acacia Vodka Shot"
+        "en": "Acacia Vodka Shot",
+        "uk": "Шот акацієвої горілки"
       },
       "ingredients": {
         "es": "Horilka Lunin de acacia.",
-        "en": "Lunin acacia Horilka."
+        "en": "Lunin acacia Horilka.",
+        "uk": "Акацієва горілка Lunin."
       },
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
@@ -781,11 +877,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Gin",
-        "en": "Gin Shot"
+        "en": "Gin Shot",
+        "uk": "Шот джину"
       },
       "ingredients": {
         "es": "Ginebra Lunin.",
-        "en": "Lunin gin."
+        "en": "Lunin gin.",
+        "uk": "Джин Lunin."
       },
       "price": 4,
       "image": "/images/menu/shot-gin.jpg",
@@ -797,11 +895,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Apple Brandy",
-        "en": "Apple Brandy Shot"
+        "en": "Apple Brandy Shot",
+        "uk": "Шот яблучного бренді"
       },
       "ingredients": {
         "es": "Brandy de manzana Lunin.",
-        "en": "Lunin apple brandy."
+        "en": "Lunin apple brandy.",
+        "uk": "Яблучний бренді Lunin."
       },
       "price": 5,
       "enabled": true,
@@ -813,11 +913,13 @@
       "categoryId": "cat-liqueur-shots",
       "name": {
         "es": "Chupito de Elderberry & Honey Brandy",
-        "en": "Elderberry & Honey Brandy Shot"
+        "en": "Elderberry & Honey Brandy Shot",
+        "uk": "Шот бренді з бузини та меду"
       },
       "ingredients": {
         "es": "Brandy Lunin de saúco y miel.",
-        "en": "Lunin elderberry & honey brandy."
+        "en": "Lunin elderberry & honey brandy.",
+        "uk": "Бренді з бузини та меду Lunin."
       },
       "price": 5,
       "enabled": true,
@@ -829,11 +931,13 @@
       "categoryId": "cat-cafe",
       "name": {
         "es": "Espresso / Largo / Americano",
-        "en": "Espresso / Long / Americano"
+        "en": "Espresso / Long / Americano",
+        "uk": "Еспресо / Лунго / Американо"
       },
       "ingredients": {
         "es": "Café espresso, largo o americano.",
-        "en": "Espresso, long or americano coffee."
+        "en": "Espresso, long or americano coffee.",
+        "uk": "Кава еспресо, лунго або американо."
       },
       "price": 1.8,
       "image": "/images/menu/cafe-espresso.jpg",
@@ -845,11 +949,13 @@
       "categoryId": "cat-cafe",
       "name": {
         "es": "Café con Leche",
-        "en": "Café con Leche"
+        "en": "Café con Leche",
+        "uk": "Кава з молоком"
       },
       "ingredients": {
         "es": "Espresso con leche.",
-        "en": "Espresso with milk."
+        "en": "Espresso with milk.",
+        "uk": "Еспресо з молоком."
       },
       "price": 2,
       "image": "/images/menu/cafe-con-leche.jpg",
@@ -861,11 +967,13 @@
       "categoryId": "cat-cafe",
       "name": {
         "es": "Cortado",
-        "en": "Cortado"
+        "en": "Cortado",
+        "uk": "Кортадо"
       },
       "ingredients": {
         "es": "Espresso con un toque de leche.",
-        "en": "Espresso with a dash of milk."
+        "en": "Espresso with a dash of milk.",
+        "uk": "Еспресо з краплею молока."
       },
       "price": 2,
       "image": "/images/menu/cafe-cortado.jpg",
@@ -877,11 +985,13 @@
       "categoryId": "cat-cafe",
       "name": {
         "es": "Capuchino",
-        "en": "Cappuccino"
+        "en": "Cappuccino",
+        "uk": "Капучино"
       },
       "ingredients": {
         "es": "Espresso con leche espumada.",
-        "en": "Espresso with steamed milk foam."
+        "en": "Espresso with steamed milk foam.",
+        "uk": "Еспресо зі спіненим молоком."
       },
       "price": 2,
       "image": "/images/menu/cafe-capuchino.jpg",
@@ -893,11 +1003,13 @@
       "categoryId": "cat-cafe",
       "name": {
         "es": "Bombón",
-        "en": "Bombón"
+        "en": "Bombón",
+        "uk": "Бомбон"
       },
       "ingredients": {
         "es": "Espresso con leche condensada.",
-        "en": "Espresso with condensed milk."
+        "en": "Espresso with condensed milk.",
+        "uk": "Еспресо зі згущеним молоком."
       },
       "price": 2,
       "image": "/images/menu/cafe-bombon.jpg",
@@ -909,11 +1021,13 @@
       "categoryId": "cat-cafe",
       "name": {
         "es": "Doble",
-        "en": "Double"
+        "en": "Double",
+        "uk": "Подвійна"
       },
       "ingredients": {
         "es": "Doble espresso.",
-        "en": "Double espresso."
+        "en": "Double espresso.",
+        "uk": "Подвійне еспресо."
       },
       "price": 2.5,
       "image": "/images/menu/cafe-doble.jpg",
@@ -925,11 +1039,13 @@
       "categoryId": "cat-water",
       "name": {
         "es": "Agua con Gas",
-        "en": "Sparkling Water"
+        "en": "Sparkling Water",
+        "uk": "Газована вода"
       },
       "ingredients": {
         "es": "Agua mineral con gas.",
-        "en": "Sparkling mineral water."
+        "en": "Sparkling mineral water.",
+        "uk": "Газована мінеральна вода."
       },
       "price": 2.5,
       "image": "/images/menu/agua-con-gas.jpg",
@@ -941,11 +1057,13 @@
       "categoryId": "cat-water",
       "name": {
         "es": "Agua sin Gas",
-        "en": "Still Water"
+        "en": "Still Water",
+        "uk": "Негазована вода"
       },
       "ingredients": {
         "es": "Agua mineral sin gas.",
-        "en": "Still mineral water."
+        "en": "Still mineral water.",
+        "uk": "Негазована мінеральна вода."
       },
       "price": 2.5,
       "image": "/images/menu/agua-sin-gas.jpg",
@@ -957,11 +1075,13 @@
       "categoryId": "cat-soft-drinks",
       "name": {
         "es": "Coca-Cola",
-        "en": "Coca-Cola"
+        "en": "Coca-Cola",
+        "uk": "Coca-Cola"
       },
       "ingredients": {
         "es": "Refresco de cola.",
-        "en": "Cola soft drink."
+        "en": "Cola soft drink.",
+        "uk": "Кола."
       },
       "price": 3,
       "image": "/images/menu/coca-cola.jpg",
@@ -973,11 +1093,13 @@
       "categoryId": "cat-soft-drinks",
       "name": {
         "es": "Fanta Limón",
-        "en": "Fanta Lemon"
+        "en": "Fanta Lemon",
+        "uk": "Fanta Лимон"
       },
       "ingredients": {
         "es": "Refresco de limón.",
-        "en": "Lemon soft drink."
+        "en": "Lemon soft drink.",
+        "uk": "Лимонний напій."
       },
       "price": 3,
       "image": "/images/menu/fanta-limon.jpg",
@@ -989,11 +1111,13 @@
       "categoryId": "cat-soft-drinks",
       "name": {
         "es": "Fanta Naranja",
-        "en": "Fanta Orange"
+        "en": "Fanta Orange",
+        "uk": "Fanta Апельсин"
       },
       "ingredients": {
         "es": "Refresco de naranja.",
-        "en": "Orange soft drink."
+        "en": "Orange soft drink.",
+        "uk": "Апельсиновий напій."
       },
       "price": 3,
       "image": "/images/menu/fanta-naranja.jpg",
@@ -1005,11 +1129,13 @@
       "categoryId": "cat-mocktails",
       "name": {
         "es": "Espresso & Orange Cooler",
-        "en": "Espresso & Orange Cooler"
+        "en": "Espresso & Orange Cooler",
+        "uk": "Еспресо-апельсиновий кулер"
       },
       "ingredients": {
         "es": "Espresso, zumo de naranja, sirope.",
-        "en": "Espresso, orange juice, simple syrup."
+        "en": "Espresso, orange juice, simple syrup.",
+        "uk": "Еспресо, апельсиновий сік, сироп."
       },
       "price": 7,
       "image": "/images/menu/espresso-orange-cooler.jpg",
@@ -1021,11 +1147,13 @@
       "categoryId": "cat-mocktails",
       "name": {
         "es": "Mojito sin Alcohol",
-        "en": "Mojito Non-Alcoholic"
+        "en": "Mojito Non-Alcoholic",
+        "uk": "Безалкогольний Мохіто"
       },
       "ingredients": {
         "es": "Sirope, soda, menta, lima.",
-        "en": "Syrup, soda water, mint, lime."
+        "en": "Syrup, soda water, mint, lime.",
+        "uk": "Сироп, сода, м'ята, лайм."
       },
       "price": 7,
       "enabled": true,
@@ -1037,11 +1165,13 @@
       "categoryId": "cat-mocktails",
       "name": {
         "es": "Diabolito sin Alcohol",
-        "en": "Diabolito Non-Alcoholic"
+        "en": "Diabolito Non-Alcoholic",
+        "uk": "Безалкогольний Діаболіто"
       },
       "ingredients": {
         "es": "Melocotón, sirope picante, lima.",
-        "en": "Peach, chilli syrup, lime."
+        "en": "Peach, chilli syrup, lime.",
+        "uk": "Персик, гострий сироп, лайм."
       },
       "price": 7,
       "image": "/images/menu/diabolito.jpg",
@@ -1053,11 +1183,13 @@
       "categoryId": "cat-mocktails",
       "name": {
         "es": "Passion Fruit Spritz",
-        "en": "Passion Fruit Spritz"
+        "en": "Passion Fruit Spritz",
+        "uk": "Спритц із маракуйї"
       },
       "ingredients": {
         "es": "Fruta de la pasión, sirope, soda.",
-        "en": "Passion fruit, syrup, soda water."
+        "en": "Passion fruit, syrup, soda water.",
+        "uk": "Маракуйя, сироп, сода."
       },
       "price": 7,
       "image": "/images/menu/spritz.jpg",
@@ -1069,11 +1201,13 @@
       "categoryId": "cat-mocktails",
       "name": {
         "es": "Cucumber Refresher",
-        "en": "Cucumber Refresher"
+        "en": "Cucumber Refresher",
+        "uk": "Огірковий освіжаючий"
       },
       "ingredients": {
         "es": "Pepino, sirope, lima, soda.",
-        "en": "Cucumber, syrup, lime, soda water."
+        "en": "Cucumber, syrup, lime, soda water.",
+        "uk": "Огірок, сироп, лайм, сода."
       },
       "price": 7,
       "image": "/images/menu/cucumber-gimlet.jpg",
@@ -1085,11 +1219,13 @@
       "categoryId": "cat-mocktails",
       "name": {
         "es": "Kiwi Gimlet sin Alcohol",
-        "en": "Kiwi Gimlet Non-Alcoholic"
+        "en": "Kiwi Gimlet Non-Alcoholic",
+        "uk": "Безалкогольний Ківі Гімлет"
       },
       "ingredients": {
         "es": "Kiwi, fresa, sal, limón, sirope.",
-        "en": "Kiwi, strawberry, salt, lemon, simple syrup."
+        "en": "Kiwi, strawberry, salt, lemon, simple syrup.",
+        "uk": "Ківі, полуниця, сіль, лимон, сироп."
       },
       "price": 7,
       "image": "/images/menu/kiwi-gimlet.jpg",
@@ -1101,11 +1237,13 @@
       "categoryId": "cat-cocktails",
       "name": {
         "es": "Brandy",
-        "en": "Brandy"
+        "en": "Brandy",
+        "uk": "Бренді"
       },
       "ingredients": {
         "es": "Brandy de manzana Lunin servido en las rocas.",
-        "en": "Lunin apple brandy served on the rocks."
+        "en": "Lunin apple brandy served on the rocks.",
+        "uk": "Яблучний бренді Lunin з льодом."
       },
       "price": 8,
       "image": "/images/menu/brandy.jpg",

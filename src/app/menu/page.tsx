@@ -28,13 +28,13 @@ export default async function MenuPage() {
       <Header variant="menu" />
       <main className="flex-1">
         <PageHero
-          imageSrc="/images/brand/distillery-1.jpg"
-          imageAlt="Lunin Distillery — interior"
+          imageSrc="/images/brand/dry-gin.jpg"
+          imageAlt="Lunin — The First Ukrainian Dry Gin"
           kickerKey="nav.menu"
           titleKey="menu.title"
           leadKey="menu.lead"
           height="md"
-          objectPosition="center 45%"
+          objectPosition="center 42%"
         />
         <MenuInline categories={visibleCats} items={visibleItems} />
       </main>

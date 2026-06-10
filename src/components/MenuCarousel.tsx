@@ -112,21 +112,21 @@ export function MenuCarousel({ items }: { items: MenuItem[] }) {
               onClick={() => goTo(Math.max(0, active - 1))}
               disabled={active === 0}
               className="h-10 w-10 grid place-items-center rounded-full border border-lunin-cream/15 text-lunin-cream/80 hover:border-lunin-gold/50 hover:text-lunin-gold disabled:opacity-30 disabled:hover:border-lunin-cream/15 transition"
-              aria-label="Anterior"
+              aria-label={t("menu.prev")}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
                 <path d="m15 18-6-6 6-6" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
             <span className="font-headline text-[0.66rem] tracking-[0.34em] uppercase text-lunin-cream/40">
-              Desliza →
+              {t("menu.swipe")}
             </span>
             <button
               type="button"
               onClick={() => goTo(Math.min(items.length - 1, active + 1))}
               disabled={active === items.length - 1}
               className="h-10 w-10 grid place-items-center rounded-full border border-lunin-cream/15 text-lunin-cream/80 hover:border-lunin-gold/50 hover:text-lunin-gold disabled:opacity-30 disabled:hover:border-lunin-cream/15 transition"
-              aria-label="Siguiente"
+              aria-label={t("menu.next")}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
                 <path d="m9 6 6 6-6 6" strokeLinecap="round" strokeLinejoin="round" />
@@ -265,6 +265,7 @@ function ViewToggle({
   view: View;
   onChange: (v: View) => void;
 }) {
+  const t = useT();
   return (
     <div className="inline-flex items-center rounded-full border border-lunin-cream/15 p-0.5">
       <button
@@ -275,7 +276,7 @@ function ViewToggle({
           "h-7 w-8 grid place-items-center rounded-full transition " +
           (view === "carousel" ? "bg-lunin-gold text-lunin-black" : "text-lunin-cream/60 hover:text-lunin-cream")
         }
-        aria-label="Vista carrusel"
+        aria-label={t("menu.view_carousel")}
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
           <rect x="3" y="6" width="13" height="12" rx="2" />
@@ -290,7 +291,7 @@ function ViewToggle({
           "h-7 w-8 grid place-items-center rounded-full transition " +
           (view === "grid" ? "bg-lunin-gold text-lunin-black" : "text-lunin-cream/60 hover:text-lunin-cream")
         }
-        aria-label="Vista lista"
+        aria-label={t("menu.view_list")}
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
           <path d="M4 6h16" strokeLinecap="round" />

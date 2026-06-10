@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useT } from "../../../components/LanguageProvider";
 
 type EventType =
   | "cumpleanos"
@@ -12,13 +13,13 @@ type EventType =
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-const TYPES: { value: EventType; label: string }[] = [
-  { value: "cumpleanos", label: "Cumpleaños" },
-  { value: "despedida", label: "Despedida" },
-  { value: "corporativo", label: "Corporativo" },
-  { value: "privado", label: "Fiesta privada" },
-  { value: "catering", label: "Catering" },
-  { value: "otro", label: "Otro" },
+const TYPES: { value: EventType; key: string }[] = [
+  { value: "cumpleanos", key: "form.type_cumpleanos" },
+  { value: "despedida", key: "form.type_despedida" },
+  { value: "corporativo", key: "form.type_corporativo" },
+  { value: "privado", key: "form.type_privado" },
+  { value: "catering", key: "form.type_catering" },
+  { value: "otro", key: "form.type_otro" },
 ];
 
 const WHATSAPP = "+34655147944";
@@ -29,9 +30,29 @@ function buildWhatsAppHref(message: string) {
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 }
 
+function errorKey(code?: string) {
+  switch (code) {
+    case "invalid_name":
+      return "form.err_name";
+    case "invalid_email":
+      return "form.err_email";
+    case "invalid_phone":
+      return "form.err_phone";
+    case "invalid_type":
+      return "form.err_type";
+    case "invalid_date":
+      return "form.err_date";
+    case "invalid_guests":
+      return "form.err_guests";
+    default:
+      return "form.err_generic";
+  }
+}
+
 export function BookingForm() {
+  const t = useT();
   const [status, setStatus] = useState<Status>("idle");
-  const [errorMsg, setErrorMsg] = useState<string>("");
+  const [errorKeyStr, setErrorKeyStr] = useState<string>("form.err_generic");
   const [form, setForm] = useState({
     eventType: "cumpleanos" as EventType,
     date: "",
@@ -46,7 +67,7 @@ export function BookingForm() {
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     setStatus("submitting");
-    setErrorMsg("");
+    setErrorKeyStr("form.err_generic");
     try {
       const res = await fetch("/api/booking", {
         method: "POST",
@@ -56,13 +77,13 @@ export function BookingForm() {
       const json = (await res.json()) as { ok?: boolean; error?: string };
       if (!res.ok || !json.ok) {
         setStatus("error");
-        setErrorMsg(translateError(json.error));
+        setErrorKeyStr(errorKey(json.error));
         return;
       }
       setStatus("success");
     } catch {
       setStatus("error");
-      setErrorMsg("No hemos podido enviar tu solicitud. Inténtalo de nuevo.");
+      setErrorKeyStr("form.err_generic");
     }
   }
 
@@ -71,16 +92,14 @@ export function BookingForm() {
       <div className="rounded-3xl border border-lunin-gold/40 bg-lunin-charcoal/60 p-8 sm:p-10 text-center">
         <span aria-hidden className="text-3xl text-lunin-gold">★</span>
         <h2 className="mt-3 font-display text-2xl sm:text-3xl text-lunin-cream">
-          Solicitud recibida
+          {t("form.success_title")}
         </h2>
         <p className="mt-3 text-lunin-cream/70 max-w-md mx-auto text-[0.95rem] leading-relaxed">
-          Te contestaremos a tu correo en menos de 24 horas con disponibilidad y
-          una propuesta a medida. Si necesitas algo urgente, llámanos o
-          escríbenos por WhatsApp.
+          {t("form.success_body")}
         </p>
         <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            href={buildWhatsAppHref("Hola Lunin, acabo de enviar una solicitud para un evento privado.")}
+            href={buildWhatsAppHref(t("form.wa_success_msg"))}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-lunin-gold text-lunin-black font-headline uppercase tracking-[0.22em] text-[0.72rem] px-5 py-2.5 hover:bg-lunin-gold-bright transition"
@@ -91,7 +110,7 @@ export function BookingForm() {
             href={`mailto:${EMAIL}`}
             className="inline-flex items-center justify-center gap-2 rounded-full border border-lunin-cream/20 text-lunin-cream font-headline uppercase tracking-[0.22em] text-[0.72rem] px-5 py-2.5 hover:border-lunin-gold/50 hover:text-lunin-gold transition"
           >
-            Correo
+            {t("form.success_email_btn")}
           </a>
         </div>
       </div>
@@ -104,35 +123,34 @@ export function BookingForm() {
   return (
     <form onSubmit={onSubmit} className="rounded-3xl border border-lunin-cream/10 bg-lunin-charcoal/40 p-6 sm:p-8 backdrop-blur-sm">
       <p className="font-headline uppercase text-[0.65rem] tracking-[0.34em] text-lunin-gold/80">
-        /  RESERVA  PRIVADA  /
+        /&nbsp;&nbsp;{t("form.kicker")}&nbsp;&nbsp;/
       </p>
       <h2 className="mt-3 font-display text-2xl sm:text-3xl text-lunin-cream leading-tight">
-        Cuéntanos sobre tu evento
+        {t("form.title")}
       </h2>
       <p className="mt-2 text-[0.9rem] text-lunin-cream/60 leading-relaxed">
-        Rellena el formulario y te contactaremos con una propuesta adaptada
-        (aforo, cócteles, catering y horario). Sin compromiso.
+        {t("form.lead")}
       </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         <label className="block sm:col-span-2">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Tipo de evento
+            {t("form.type_label")}
           </span>
           <div className="mt-2 flex flex-wrap gap-2">
-            {TYPES.map((t) => (
+            {TYPES.map((tp) => (
               <button
-                key={t.value}
+                key={tp.value}
                 type="button"
-                onClick={() => setForm((f) => ({ ...f, eventType: t.value }))}
+                onClick={() => setForm((f) => ({ ...f, eventType: tp.value }))}
                 className={
                   "rounded-full px-4 py-1.5 text-[0.72rem] tracking-[0.22em] uppercase font-headline transition " +
-                  (form.eventType === t.value
+                  (form.eventType === tp.value
                     ? "bg-lunin-gold text-lunin-black border border-lunin-gold"
                     : "border border-lunin-cream/15 text-lunin-cream/75 hover:border-lunin-gold/50 hover:text-lunin-gold")
                 }
               >
-                {t.label}
+                {t(tp.key)}
               </button>
             ))}
           </div>
@@ -140,7 +158,7 @@ export function BookingForm() {
 
         <label className="block">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Fecha estimada
+            {t("form.date_label")}
           </span>
           <input
             type="date"
@@ -154,7 +172,7 @@ export function BookingForm() {
 
         <label className="block">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Nº invitados aprox.
+            {t("form.guests_label")}
           </span>
           <input
             type="number"
@@ -171,14 +189,14 @@ export function BookingForm() {
 
         <label className="block sm:col-span-2">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Tu nombre
+            {t("form.name_label")}
           </span>
           <input
             type="text"
             required
             minLength={2}
             maxLength={80}
-            placeholder="Nombre y apellidos"
+            placeholder={t("form.name_ph")}
             value={form.name}
             onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
             className={"mt-2 " + fieldBase}
@@ -187,12 +205,12 @@ export function BookingForm() {
 
         <label className="block">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Correo electrónico
+            {t("form.email_label")}
           </span>
           <input
             type="email"
             required
-            placeholder="tu@email.com"
+            placeholder={t("form.email_ph")}
             value={form.email}
             onChange={(e) => setForm((f) => ({ ...f, email: e.target.value }))}
             className={"mt-2 " + fieldBase}
@@ -201,12 +219,12 @@ export function BookingForm() {
 
         <label className="block">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Teléfono
+            {t("form.phone_label")}
           </span>
           <input
             type="tel"
             required
-            placeholder="+34 ..."
+            placeholder={t("form.phone_ph")}
             value={form.phone}
             onChange={(e) => setForm((f) => ({ ...f, phone: e.target.value }))}
             className={"mt-2 " + fieldBase}
@@ -215,12 +233,12 @@ export function BookingForm() {
 
         <label className="block sm:col-span-2">
           <span className="font-headline text-[0.68rem] tracking-[0.28em] uppercase text-lunin-cream/65">
-            Detalles (opcional)
+            {t("form.details_label")}
           </span>
           <textarea
             rows={4}
             maxLength={1000}
-            placeholder="Cuéntanos cualquier detalle relevante: horario aproximado, alergias, si quieres barra libre o cocktails específicos, decoración…"
+            placeholder={t("form.details_ph")}
             value={form.message}
             onChange={(e) => setForm((f) => ({ ...f, message: e.target.value }))}
             className={"mt-2 resize-none " + fieldBase}
@@ -242,21 +260,20 @@ export function BookingForm() {
 
       {status === "error" && (
         <p className="mt-4 text-sm text-red-400 bg-red-950/30 border border-red-500/30 rounded-lg px-4 py-3">
-          {errorMsg || "Algo salió mal. Inténtalo de nuevo."}
+          {t(errorKeyStr)}
         </p>
       )}
 
       <div className="mt-7 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <p className="text-[0.78rem] text-lunin-cream/50 leading-relaxed">
-          Al enviar aceptas que te contactemos por correo o teléfono únicamente
-          para gestionar esta solicitud.
+          {t("form.legal")}
         </p>
         <button
           type="submit"
           disabled={status === "submitting"}
           className="inline-flex items-center justify-center gap-2 rounded-full bg-lunin-gold text-lunin-black font-headline uppercase tracking-[0.22em] text-[0.72rem] px-7 py-3 hover:bg-lunin-gold-bright disabled:opacity-60 transition"
         >
-          {status === "submitting" ? "Enviando…" : "Enviar solicitud"}
+          {status === "submitting" ? t("form.sending") : t("form.submit")}
           {status !== "submitting" && (
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
               <path d="M5 12h14" strokeLinecap="round" />
@@ -267,23 +284,4 @@ export function BookingForm() {
       </div>
     </form>
   );
-}
-
-function translateError(code?: string) {
-  switch (code) {
-    case "invalid_name":
-      return "Revisa el nombre (mínimo 2 caracteres).";
-    case "invalid_email":
-      return "El correo no parece válido.";
-    case "invalid_phone":
-      return "Revisa el teléfono.";
-    case "invalid_type":
-      return "Selecciona un tipo de evento.";
-    case "invalid_date":
-      return "Selecciona una fecha válida.";
-    case "invalid_guests":
-      return "Nº de invitados inválido (1 – 500).";
-    default:
-      return "No hemos podido enviar tu solicitud. Inténtalo de nuevo.";
-  }
 }

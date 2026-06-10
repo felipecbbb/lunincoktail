@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "../../../components/Header";
 import { Footer } from "../../../components/Footer";
 import { MenuCarousel } from "../../../components/MenuCarousel";
+import { MenuBackLink } from "../../../components/MenuBackLink";
 import { SocialFAB } from "../../../components/SocialFAB";
 import { CategoryHero } from "./_components/CategoryHero";
 import { Store } from "../../../lib/store";
@@ -57,9 +57,7 @@ export default async function CategoryPage({
           <MenuCarousel items={list} />
 
           <div className="mt-14 flex justify-center">
-            <Link href="/menu" className="btn-ghost">
-              ← <span className="ml-1">Carta</span>
-            </Link>
+            <MenuBackLink />
           </div>
         </section>
       </main>

@@ -30,7 +30,7 @@ export function AboutCertificate() {
               <div className="text-center">
                 <p className="lunin-wordmark text-base leading-none">L</p>
                 <p className="text-[0.45rem] tracking-[0.18em] uppercase font-headline mt-0.5">
-                  Verified
+                  {t("about.cert_verified")}
                 </p>
               </div>
             </div>
@@ -52,15 +52,15 @@ export function AboutCertificate() {
           <ul className="mt-7 space-y-2 text-sm text-lunin-cream/70">
             <li className="flex items-center gap-3">
               <CheckIcon />
-              <span>Origen y trazabilidad verificados</span>
+              <span>{t("about.cert_b1")}</span>
             </li>
             <li className="flex items-center gap-3">
               <CheckIcon />
-              <span>Procesos auditados y documentados</span>
+              <span>{t("about.cert_b2")}</span>
             </li>
             <li className="flex items-center gap-3">
               <CheckIcon />
-              <span>Cumplimiento de normativa europea</span>
+              <span>{t("about.cert_b3")}</span>
             </li>
           </ul>
 
