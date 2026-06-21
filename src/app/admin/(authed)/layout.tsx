@@ -24,6 +24,7 @@ export default async function AuthedAdminLayout({
               <Link href="/admin" className="hover:text-lunin-gold">Inicio</Link>
               <Link href="/admin/menu" className="hover:text-lunin-gold">Carta</Link>
               <Link href="/admin/events" className="hover:text-lunin-gold">Eventos</Link>
+              <Link href="/admin/waitlist" className="hover:text-lunin-gold">Reservas</Link>
             </nav>
           </div>
           <div className="flex items-center gap-3">

@@ -3,7 +3,10 @@
 import Link from "next/link";
 import { useT } from "../../../components/LanguageProvider";
 import { BookingForm } from "./BookingForm";
+import { FeaturedEvent } from "./FeaturedEvent";
+import { EventCard } from "../../../components/EventCard";
 import { SITE as site } from "../../../lib/site";
+import type { EventItem } from "../../../lib/types";
 
 const HIGHLIGHTS = [
   { k: "events.h1_kicker", t: "events.h1_title", b: "events.h1_body" },
@@ -11,12 +14,48 @@ const HIGHLIGHTS = [
   { k: "events.h3_kicker", t: "events.h3_title", b: "events.h3_body" },
 ];
 
-export function EventsContent() {
+export function EventsContent({ events = [] }: { events?: EventItem[] }) {
   const t = useT();
+  const featured = events.filter((e) => e.featured);
+  const rest = events.filter((e) => !e.featured);
+
   return (
     <section className="mx-auto max-w-6xl px-5 md:px-10 py-14 md:py-20">
+      {/* Upcoming events */}
+      {events.length > 0 && (
+        <div className="mb-16 md:mb-20">
+          <div className="text-center">
+            <p className="font-headline uppercase text-[0.62rem] tracking-[0.34em] text-lunin-gold/80">
+              / {t("events.upcoming_kicker")} /
+            </p>
+            <h2 className="mt-3 font-display text-3xl md:text-4xl text-lunin-cream">
+              {t("events.upcoming_title")}
+            </h2>
+            <p className="mt-2 text-[0.9rem] text-lunin-cream/60">
+              {t("events.upcoming_lead")}
+            </p>
+          </div>
+
+          <div className="mt-10 space-y-8">
+            {featured.map((e) => (
+              <FeaturedEvent key={e.id} event={e} />
+            ))}
+          </div>
+
+          {rest.length > 0 && (
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {rest.map((e) => (
+                <EventCard key={e.id} event={e} />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      <span aria-hidden className="block mx-auto w-32 hairline" />
+
       {/* Intro / value props */}
-      <div className="grid gap-4 sm:grid-cols-3 mb-14 md:mb-16">
+      <div className="grid gap-4 sm:grid-cols-3 mt-14 mb-14 md:mb-16">
         {HIGHLIGHTS.map((h) => (
           <div
             key={h.t}

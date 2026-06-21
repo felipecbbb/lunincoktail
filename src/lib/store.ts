@@ -5,6 +5,7 @@ import type {
   Category,
   EventItem,
   MenuItem,
+  WaitlistEntry,
   DataFile,
 } from "./types";
 
@@ -67,6 +68,24 @@ export const Store = {
   },
   async saveBookings(items: BookingRequest[]) {
     await writeJson<BookingRequest>("bookings.json", {
+      items,
+      updatedAt: new Date().toISOString(),
+    });
+  },
+  async getWaitlist(): Promise<WaitlistEntry[]> {
+    const d = await readJson<WaitlistEntry>("waitlist.json");
+    return d.items;
+  },
+  async addWaitlist(entry: WaitlistEntry) {
+    const existing = await this.getWaitlist();
+    existing.unshift(entry);
+    await writeJson<WaitlistEntry>("waitlist.json", {
+      items: existing,
+      updatedAt: new Date().toISOString(),
+    });
+  },
+  async saveWaitlist(items: WaitlistEntry[]) {
+    await writeJson<WaitlistEntry>("waitlist.json", {
       items,
       updatedAt: new Date().toISOString(),
     });

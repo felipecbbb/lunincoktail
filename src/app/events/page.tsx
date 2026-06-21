@@ -4,6 +4,7 @@ import { Footer } from "../../components/Footer";
 import { SocialFAB } from "../../components/SocialFAB";
 import { PageHero } from "../../components/PageHero";
 import { EventsContent } from "./_components/EventsContent";
+import { Store } from "../../lib/store";
 
 export const metadata: Metadata = {
   title: "Eventos privados y reservas",
@@ -12,7 +13,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/events" },
 };
 
-export default function EventsPage() {
+export default async function EventsPage() {
+  const all = await Store.getEvents();
+  const todayISO = new Date().toISOString().slice(0, 10);
+  const events = all
+    .filter((e) => e.enabled && e.date >= todayISO)
+    .sort((a, b) => a.date.localeCompare(b.date));
+
   return (
     <>
       <Header variant="menu" />
@@ -26,7 +33,7 @@ export default function EventsPage() {
           height="md"
           objectPosition="center"
         />
-        <EventsContent />
+        <EventsContent events={events} />
       </main>
       <SocialFAB />
       <Footer />

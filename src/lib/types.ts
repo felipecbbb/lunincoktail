@@ -33,6 +33,16 @@ export type EventItem = {
   ctaLabel?: Localized;
   ctaUrl?: string;
   enabled: boolean;
+  /** Destacado: se muestra como cartelera principal con todos los detalles. */
+  featured?: boolean;
+  /** Precio mostrado tal cual, p.ej. "50 € / persona". */
+  priceLabel?: Localized;
+  /** Etiqueta de urgencia, p.ej. "Plazas VIP limitadas". */
+  badge?: Localized;
+  /** Lista de "qué incluye". */
+  includes?: Localized[];
+  /** Condiciones de la promoción / evento. */
+  conditions?: Localized[];
 };
 
 export type BookingRequest = {
@@ -52,6 +62,18 @@ export type BookingRequest = {
   email: string;
   phone: string;
   message?: string;
+};
+
+export type WaitlistEntry = {
+  id: string;
+  createdAt: string;
+  status: "new" | "contacted" | "confirmed" | "declined";
+  eventId: string;
+  eventTitle: string;
+  name: string;
+  phone: string;
+  email?: string;
+  guests: number;
 };
 
 export type DataFile<T> = {
