@@ -19,19 +19,33 @@ export function FeaturedEvent({ event }: { event: EventItem }) {
   return (
     <article className="overflow-hidden rounded-3xl border border-lunin-gold/25 bg-gradient-to-br from-lunin-dark-green/70 via-lunin-charcoal/80 to-lunin-black shadow-[0_30px_80px_-40px_rgba(2,53,28,0.9)]">
       <div className="grid lg:grid-cols-[0.85fr_1fr]">
-        {/* Poster — se muestra completo, sin recortar ni estirar (4:5) */}
-        <div className="relative bg-lunin-dark-green self-start">
+        {/* Poster — completo, sin recortar ni deformar. Fondo difuminado
+            del propio cartel para rellenar la columna con elegancia. */}
+        <div className="relative overflow-hidden bg-lunin-black min-h-[28rem]">
+          {/* Backdrop difuminado */}
           <Image
             src={event.image as string}
-            alt={tr(event.title)}
-            width={1080}
-            height={1350}
+            alt=""
+            aria-hidden
+            fill
             sizes="(min-width: 1024px) 45vw, 100vw"
-            priority
-            className="h-auto w-full"
+            className="object-cover scale-110 blur-2xl opacity-30"
           />
+          <div className="absolute inset-0 bg-lunin-black/40" />
+          {/* Cartel nítido y completo */}
+          <div className="relative flex h-full items-center justify-center p-5 md:p-7">
+            <Image
+              src={event.image as string}
+              alt={tr(event.title)}
+              width={1080}
+              height={1920}
+              sizes="(min-width: 1024px) 40vw, 90vw"
+              priority
+              className="h-auto max-h-[34rem] w-auto max-w-full rounded-2xl shadow-[0_24px_60px_-20px_rgba(0,0,0,0.8)]"
+            />
+          </div>
           {event.badge && (
-            <span className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full bg-lunin-black/75 px-3.5 py-1.5 font-headline text-[0.62rem] uppercase tracking-[0.24em] text-lunin-gold backdrop-blur">
+            <span className="absolute left-4 top-4 z-10 inline-flex items-center gap-2 rounded-full bg-lunin-black/75 px-3.5 py-1.5 font-headline text-[0.62rem] uppercase tracking-[0.24em] text-lunin-gold backdrop-blur">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-lunin-gold/70" />
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-lunin-gold" />
