@@ -19,15 +19,16 @@ export function FeaturedEvent({ event }: { event: EventItem }) {
   return (
     <article className="overflow-hidden rounded-3xl border border-lunin-gold/25 bg-gradient-to-br from-lunin-dark-green/70 via-lunin-charcoal/80 to-lunin-black shadow-[0_30px_80px_-40px_rgba(2,53,28,0.9)]">
       <div className="grid lg:grid-cols-[0.85fr_1fr]">
-        {/* Poster */}
-        <div className="relative aspect-[4/5] lg:aspect-auto lg:min-h-full bg-lunin-dark-green">
+        {/* Poster — se muestra completo, sin recortar ni estirar (4:5) */}
+        <div className="relative bg-lunin-dark-green self-start">
           <Image
             src={event.image as string}
             alt={tr(event.title)}
-            fill
+            width={1080}
+            height={1350}
             sizes="(min-width: 1024px) 45vw, 100vw"
             priority
-            className="object-cover"
+            className="h-auto w-full"
           />
           {event.badge && (
             <span className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full bg-lunin-black/75 px-3.5 py-1.5 font-headline text-[0.62rem] uppercase tracking-[0.24em] text-lunin-gold backdrop-blur">
