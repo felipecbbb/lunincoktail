@@ -25,6 +25,6 @@ export const SITE = {
   // Where to get GA / Pixel from? Set these to non-empty strings to enable.
   analytics: {
     gaId: "",
-    metaPixelId: "",
+    metaPixelId: "4848992455327618",
   },
 };
