@@ -50,6 +50,7 @@ export type BookingRequest = {
   createdAt: string;
   status: "new" | "contacted" | "confirmed" | "declined";
   eventType:
+    | "mesa"
     | "cumpleanos"
     | "despedida"
     | "corporativo"

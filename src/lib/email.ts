@@ -8,6 +8,7 @@ import type { BookingRequest, WaitlistEntry } from "./types";
  */
 
 const TYPE_LABEL: Record<BookingRequest["eventType"], string> = {
+  mesa: "Reserva de mesa",
   cumpleanos: "Cumpleaños",
   despedida: "Despedida",
   corporativo: "Corporativo",

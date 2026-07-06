@@ -6,6 +6,7 @@ import { BookingRow } from "./BookingRow";
 export const dynamic = "force-dynamic";
 
 const TYPE_LABEL: Record<BookingRequest["eventType"], string> = {
+  mesa: "Reserva de mesa",
   cumpleanos: "Cumpleaños",
   despedida: "Despedida",
   corporativo: "Corporativo",

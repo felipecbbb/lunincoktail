@@ -4,6 +4,7 @@ import { sendBookingNotification } from "../../../lib/email";
 import type { BookingRequest } from "../../../lib/types";
 
 const VALID_TYPES = [
+  "mesa",
   "cumpleanos",
   "despedida",
   "corporativo",

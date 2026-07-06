@@ -4,6 +4,7 @@ import { Footer } from "../../components/Footer";
 import { SocialFAB } from "../../components/SocialFAB";
 import { PageHero } from "../../components/PageHero";
 import { ContactCards } from "./_components/ContactCards";
+import { TableReservationForm } from "./_components/TableReservationForm";
 
 export const metadata: Metadata = {
   title: "Contacto y reservas",
@@ -27,6 +28,9 @@ export default function ContactPage() {
           objectPosition="center 35%"
         />
         <section className="mx-auto max-w-6xl px-5 md:px-10 py-16 md:py-20">
+          <div className="mx-auto max-w-2xl mb-16 md:mb-20">
+            <TableReservationForm />
+          </div>
           <ContactCards />
         </section>
       </main>
