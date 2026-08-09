@@ -1,3 +1,5 @@
+import type { TagId } from "./tags";
+
 export type Localized = { es: string; en?: string; uk?: string };
 
 export type Category = {
@@ -21,6 +23,8 @@ export type MenuItem = {
   enabled: boolean;
   signature?: boolean;
   order?: number;
+  /** Etiquetas de dieta y alérgenos. Ver `lib/tags.ts`. */
+  tags?: TagId[];
 };
 
 export type EventItem = {

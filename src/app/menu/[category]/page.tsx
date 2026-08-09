@@ -4,6 +4,7 @@ import { Header } from "../../../components/Header";
 import { Footer } from "../../../components/Footer";
 import { MenuCarousel } from "../../../components/MenuCarousel";
 import { MenuBackLink } from "../../../components/MenuBackLink";
+import { TagsLegend } from "../../../components/MenuTags";
 import { SocialFAB } from "../../../components/SocialFAB";
 import { CategoryHero } from "./_components/CategoryHero";
 import { Store } from "../../../lib/store";
@@ -55,6 +56,8 @@ export default async function CategoryPage({
 
         <section className="mx-auto max-w-3xl px-5 md:px-8 pb-24">
           <MenuCarousel items={list} />
+
+          <TagsLegend />
 
           <div className="mt-14 flex justify-center">
             <MenuBackLink />

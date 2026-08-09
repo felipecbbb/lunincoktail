@@ -17,7 +17,11 @@
       "price": 35,
       "image": "/images/brand/dry-gin.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-apple-horilka",
@@ -35,7 +39,11 @@
       "price": 30,
       "image": "/images/brand/apple-horilka.jpg",
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-plum-horilka",
@@ -53,7 +61,11 @@
       "price": 30,
       "image": "/images/brand/plum-horilka.jpg",
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-acacia-horilka",
@@ -71,7 +83,11 @@
       "price": 30,
       "image": "/images/brand/acacia-horilka.jpg",
       "enabled": true,
-      "order": 4
+      "order": 4,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-apple-brandy",
@@ -89,7 +105,11 @@
       "price": 35,
       "image": "/images/brand/apple-brandy.jpg",
       "enabled": true,
-      "order": 5
+      "order": 5,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-elderberry-brandy",
@@ -107,7 +127,11 @@
       "price": 35,
       "image": "/images/brand/elderberry-brandy.jpg",
       "enabled": true,
-      "order": 6
+      "order": 6,
+      "tags": [
+        "vegetarian",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-blackcurrant",
@@ -125,7 +149,11 @@
       "price": 20,
       "image": "/images/brand/blackcurrant-liqueur.jpg",
       "enabled": true,
-      "order": 7
+      "order": 7,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-sourcherry",
@@ -143,7 +171,11 @@
       "price": 20,
       "image": "/images/brand/sourcherry-liqueur.jpg",
       "enabled": true,
-      "order": 8
+      "order": 8,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-blackberry",
@@ -161,7 +193,11 @@
       "price": 20,
       "image": "/images/brand/blackberry-liqueur.jpg",
       "enabled": true,
-      "order": 9
+      "order": 9,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-bot-strawberry",
@@ -179,7 +215,11 @@
       "price": 20,
       "image": "/images/brand/strawberry-liqueur.jpg",
       "enabled": true,
-      "order": 10
+      "order": 10,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-apple-pie",
@@ -197,7 +237,11 @@
       "price": 8,
       "image": "/images/menu/apple-pie.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-atardecer",
@@ -216,7 +260,11 @@
       "image": "/images/menu/atardecer-valenciano.jpg",
       "signature": true,
       "enabled": true,
-      "order": 8
+      "order": 8,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-kiev",
@@ -235,7 +283,12 @@
       "image": "/images/menu/kiev.jpg",
       "signature": true,
       "enabled": true,
-      "order": 14
+      "order": 14,
+      "tags": [
+        "egg",
+        "vegetarian",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-pornstar",
@@ -253,7 +306,11 @@
       "price": 10,
       "image": "/images/menu/pornstar-martini.jpg",
       "enabled": true,
-      "order": 24
+      "order": 24,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-negroni",
@@ -271,7 +328,11 @@
       "price": 10,
       "image": "/images/menu/negroni.jpg",
       "enabled": true,
-      "order": 21
+      "order": 21,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-daiquiri",
@@ -289,7 +350,11 @@
       "price": 10,
       "image": "/images/menu/daiquiri.jpg",
       "enabled": true,
-      "order": 11
+      "order": 11,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-bloody-mary",
@@ -307,7 +372,12 @@
       "price": 10,
       "enabled": true,
       "order": 9,
-      "image": "/images/menu/bloody-mary.jpg"
+      "image": "/images/menu/bloody-mary.jpg",
+      "tags": [
+        "gluten",
+        "fish",
+        "spicy"
+      ]
     },
     {
       "id": "itm-coc-cucumber-gimlet",
@@ -326,7 +396,11 @@
       "image": "/images/menu/cucumber-gimlet.jpg",
       "enabled": true,
       "order": 10,
-      "signature": true
+      "signature": true,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-diabolito",
@@ -344,7 +418,12 @@
       "price": 10,
       "image": "/images/menu/diabolito.jpg",
       "enabled": true,
-      "order": 12
+      "order": 12,
+      "tags": [
+        "spicy",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-espresso-martini",
@@ -362,7 +441,12 @@
       "price": 10,
       "image": "/images/menu/espresso-martini.jpg",
       "enabled": true,
-      "order": 13
+      "order": 13,
+      "tags": [
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-kiwi-gimlet",
@@ -380,7 +464,11 @@
       "price": 10,
       "image": "/images/menu/kiwi-gimlet.jpg",
       "enabled": true,
-      "order": 15
+      "order": 15,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-long-island",
@@ -398,7 +486,12 @@
       "price": 10,
       "enabled": true,
       "order": 16,
-      "image": "/images/menu/long-island.jpg"
+      "image": "/images/menu/long-island.jpg",
+      "tags": [
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-margarita",
@@ -416,7 +509,11 @@
       "price": 10,
       "image": "/images/menu/margarita.jpg",
       "enabled": true,
-      "order": 17
+      "order": 17,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-matcha-sour",
@@ -434,7 +531,13 @@
       "price": 10,
       "image": "/images/menu/matcha-sour.jpg",
       "enabled": true,
-      "order": 18
+      "order": 18,
+      "tags": [
+        "egg",
+        "vegetarian",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-mule",
@@ -452,7 +555,10 @@
       "price": 10,
       "image": "/images/menu/mule.jpg",
       "enabled": true,
-      "order": 20
+      "order": 20,
+      "tags": [
+        "vegan"
+      ]
     },
     {
       "id": "itm-coc-old-fashioned",
@@ -470,7 +576,11 @@
       "price": 10,
       "image": "/images/menu/old-fashioned.jpg",
       "enabled": true,
-      "order": 22
+      "order": 22,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-strawberry-margarita",
@@ -488,7 +598,11 @@
       "price": 10,
       "image": "/images/menu/strawberry-margarita.jpg",
       "enabled": true,
-      "order": 25
+      "order": 25,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-acacia-sour",
@@ -507,7 +621,12 @@
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 5,
-      "signature": true
+      "signature": true,
+      "tags": [
+        "egg",
+        "vegetarian",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-apple-sour",
@@ -526,7 +645,12 @@
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 7,
-      "signature": true
+      "signature": true,
+      "tags": [
+        "egg",
+        "vegetarian",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-plum-sour",
@@ -545,7 +669,12 @@
       "image": "/images/menu/vodka-sour.jpg",
       "enabled": true,
       "order": 23,
-      "signature": true
+      "signature": true,
+      "tags": [
+        "egg",
+        "vegetarian",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-gin-tonic",
@@ -563,7 +692,11 @@
       "price": 8,
       "image": "/images/menu/gin-tonic.jpg",
       "enabled": true,
-      "order": 4
+      "order": 4,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-brandy-cola",
@@ -581,7 +714,12 @@
       "price": 8,
       "image": "/images/menu/brandy-cola.jpg",
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "tags": [
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-agua-valencia",
@@ -600,7 +738,11 @@
       "image": "/images/menu/agua-de-valencia.jpg",
       "signature": false,
       "enabled": true,
-      "order": 6
+      "order": 6,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-mojito",
@@ -618,7 +760,11 @@
       "price": 10,
       "image": "/images/menu/mojito.jpg",
       "enabled": true,
-      "order": 19
+      "order": 19,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-spr-sourcherry",
@@ -636,7 +782,12 @@
       "price": 8,
       "image": "/images/menu/spritz-cereza.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "sulphites",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-spr-strawberry",
@@ -654,7 +805,12 @@
       "price": 8,
       "image": "/images/menu/spritz-fresa.jpg",
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "tags": [
+        "sulphites",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-spr-blackberry",
@@ -672,7 +828,12 @@
       "price": 8,
       "image": "/images/menu/spritz-mora.jpg",
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "tags": [
+        "sulphites",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-spr-blackcurrant",
@@ -690,7 +851,12 @@
       "price": 8,
       "image": "/images/menu/spritz-grosella.jpg",
       "enabled": true,
-      "order": 4
+      "order": 4,
+      "tags": [
+        "sulphites",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-spr-cranberry",
@@ -708,7 +874,12 @@
       "price": 8,
       "image": "/images/menu/spritz-arandano.jpg",
       "enabled": true,
-      "order": 5
+      "order": 5,
+      "tags": [
+        "sulphites",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-vermut",
@@ -726,7 +897,11 @@
       "price": 4,
       "image": "/images/menu/vermut.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "sulphites",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-lqs-sourcherry",
@@ -744,7 +919,11 @@
       "price": 2.5,
       "enabled": true,
       "order": 1,
-      "image": "/images/menu/chupito-cereza.jpg"
+      "image": "/images/menu/chupito-cereza.jpg",
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-lqs-strawberry",
@@ -762,7 +941,11 @@
       "price": 2.5,
       "enabled": true,
       "order": 2,
-      "image": "/images/menu/chupito-fresa.jpg"
+      "image": "/images/menu/chupito-fresa.jpg",
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-lqs-blackberry",
@@ -780,7 +963,11 @@
       "price": 2.5,
       "enabled": true,
       "order": 3,
-      "image": "/images/menu/chupito-mora.jpg"
+      "image": "/images/menu/chupito-mora.jpg",
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-lqs-blackcurrant",
@@ -798,7 +985,11 @@
       "price": 2.5,
       "enabled": true,
       "order": 4,
-      "image": "/images/menu/chupito-grosella.jpg"
+      "image": "/images/menu/chupito-grosella.jpg",
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-lqs-cranberry",
@@ -816,7 +1007,11 @@
       "price": 2.5,
       "enabled": true,
       "order": 5,
-      "image": "/images/menu/chupito-arandano.jpg"
+      "image": "/images/menu/chupito-arandano.jpg",
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-sht-apple",
@@ -834,7 +1029,11 @@
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
       "enabled": true,
-      "order": 6
+      "order": 6,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-sht-plum",
@@ -852,7 +1051,11 @@
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
       "enabled": true,
-      "order": 7
+      "order": 7,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-sht-acacia",
@@ -870,7 +1073,11 @@
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
       "enabled": true,
-      "order": 8
+      "order": 8,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-sht-gin",
@@ -888,7 +1095,11 @@
       "price": 4,
       "image": "/images/menu/shot-gin.jpg",
       "enabled": true,
-      "order": 9
+      "order": 9,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-sht-apple-brandy",
@@ -906,7 +1117,11 @@
       "price": 5,
       "enabled": true,
       "order": 10,
-      "image": "/images/menu/chupito-brandy.jpg"
+      "image": "/images/menu/chupito-brandy.jpg",
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-sht-elderberry",
@@ -924,7 +1139,11 @@
       "price": 5,
       "enabled": true,
       "order": 11,
-      "image": "/images/menu/chupito-brandy.jpg"
+      "image": "/images/menu/chupito-brandy.jpg",
+      "tags": [
+        "vegetarian",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-caf-solo",
@@ -942,7 +1161,13 @@
       "price": 1.8,
       "image": "/images/menu/cafe-espresso.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-caf-leche",
@@ -960,7 +1185,14 @@
       "price": 2,
       "image": "/images/menu/cafe-con-leche.jpg",
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "tags": [
+        "milk",
+        "alcohol-free",
+        "vegetarian",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-caf-cortado",
@@ -978,7 +1210,14 @@
       "price": 2,
       "image": "/images/menu/cafe-cortado.jpg",
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "tags": [
+        "milk",
+        "alcohol-free",
+        "vegetarian",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-caf-capuchino",
@@ -996,7 +1235,14 @@
       "price": 2,
       "image": "/images/menu/cafe-capuchino.jpg",
       "enabled": true,
-      "order": 4
+      "order": 4,
+      "tags": [
+        "milk",
+        "alcohol-free",
+        "vegetarian",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-caf-bombon",
@@ -1014,7 +1260,14 @@
       "price": 2,
       "image": "/images/menu/cafe-bombon.jpg",
       "enabled": true,
-      "order": 5
+      "order": 5,
+      "tags": [
+        "milk",
+        "alcohol-free",
+        "vegetarian",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-caf-doble",
@@ -1032,7 +1285,13 @@
       "price": 2.5,
       "image": "/images/menu/cafe-doble.jpg",
       "enabled": true,
-      "order": 6
+      "order": 6,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-agua-gas",
@@ -1050,7 +1309,12 @@
       "price": 2.5,
       "image": "/images/menu/agua-con-gas.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-agua-sin-gas",
@@ -1068,7 +1332,12 @@
       "price": 2.5,
       "image": "/images/menu/agua-sin-gas.jpg",
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-ref-coca",
@@ -1086,7 +1355,13 @@
       "price": 3,
       "image": "/images/menu/coca-cola.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-ref-fanta",
@@ -1104,7 +1379,12 @@
       "price": 3,
       "image": "/images/menu/fanta-limon.jpg",
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-ref-fanta-naranja",
@@ -1122,7 +1402,12 @@
       "price": 3,
       "image": "/images/menu/fanta-naranja.jpg",
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-moc-espresso-orange",
@@ -1140,7 +1425,13 @@
       "price": 7,
       "image": "/images/menu/espresso-orange-cooler.jpg",
       "enabled": true,
-      "order": 1
+      "order": 1,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "caffeine",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-moc-mojito",
@@ -1158,7 +1449,12 @@
       "price": 7,
       "enabled": true,
       "order": 2,
-      "image": "/images/menu/mojito.jpg"
+      "image": "/images/menu/mojito.jpg",
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-moc-diabolito",
@@ -1176,7 +1472,13 @@
       "price": 7,
       "image": "/images/menu/diabolito.jpg",
       "enabled": true,
-      "order": 3
+      "order": 3,
+      "tags": [
+        "spicy",
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-moc-passion-spritz",
@@ -1194,7 +1496,12 @@
       "price": 7,
       "image": "/images/menu/spritz.jpg",
       "enabled": true,
-      "order": 4
+      "order": 4,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-moc-cucumber",
@@ -1212,7 +1519,12 @@
       "price": 7,
       "image": "/images/menu/cucumber-gimlet.jpg",
       "enabled": true,
-      "order": 5
+      "order": 5,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-moc-kiwi-gimlet",
@@ -1230,7 +1542,12 @@
       "price": 7,
       "image": "/images/menu/kiwi-gimlet.jpg",
       "enabled": true,
-      "order": 6
+      "order": 6,
+      "tags": [
+        "alcohol-free",
+        "vegan",
+        "gluten-free"
+      ]
     },
     {
       "id": "itm-coc-brandy",
@@ -1248,7 +1565,11 @@
       "price": 8,
       "image": "/images/menu/brandy.jpg",
       "enabled": true,
-      "order": 2
+      "order": 2,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     }
   ]
 }

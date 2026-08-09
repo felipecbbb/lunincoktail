@@ -3,6 +3,7 @@
 import { useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import type { Category, MenuItem } from "../../../../../lib/types";
+import { TAGS, sortTags, type TagId } from "../../../../../lib/tags";
 
 type Props = {
   initialCategories: Category[];
@@ -392,6 +393,76 @@ function Toggle({
   );
 }
 
+function TagPicker({
+  tags,
+  onChange,
+}: {
+  tags: TagId[];
+  onChange: (tags: TagId[]) => void;
+}) {
+  const groups: { title: string; ids: TagId[] }[] = [
+    {
+      title: "Contiene (alérgenos)",
+      ids: sortTags(
+        Object.values(TAGS).filter((d) => d.kind === "allergen").map((d) => d.id),
+      ),
+    },
+    {
+      title: "Dieta",
+      ids: sortTags(
+        Object.values(TAGS).filter((d) => d.kind === "diet").map((d) => d.id),
+      ),
+    },
+  ];
+
+  function toggle(id: TagId) {
+    const has = tags.includes(id);
+    let next = has ? tags.filter((t) => t !== id) : [...tags, id];
+    // vegano y vegetariano son excluyentes
+    if (!has && id === "vegan") next = next.filter((t) => t !== "vegetarian");
+    if (!has && id === "vegetarian") next = next.filter((t) => t !== "vegan");
+    onChange(sortTags(next));
+  }
+
+  return (
+    <div className="sm:col-span-2">
+      <p className="text-[0.7rem] tracking-[0.22em] uppercase font-headline text-lunin-cream/70">
+        Etiquetas
+      </p>
+      <div className="mt-2 grid gap-3 sm:grid-cols-2">
+        {groups.map((g) => (
+          <div key={g.title}>
+            <p className="text-[0.6rem] tracking-[0.2em] uppercase text-lunin-cream/40">
+              {g.title}
+            </p>
+            <div className="mt-2 flex flex-wrap gap-1.5">
+              {g.ids.map((id) => {
+                const active = tags.includes(id);
+                return (
+                  <button
+                    key={id}
+                    type="button"
+                    onClick={() => toggle(id)}
+                    aria-pressed={active}
+                    className={
+                      "rounded-full border px-2.5 py-1 text-[0.7rem] transition " +
+                      (active
+                        ? "border-lunin-gold bg-lunin-gold/15 text-lunin-gold"
+                        : "border-lunin-cream/15 text-lunin-cream/55 hover:border-lunin-cream/35")
+                    }
+                  >
+                    {TAGS[id].label.es}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function ItemRow({
   item,
   onChange,
@@ -488,6 +559,11 @@ function ItemRow({
             label="Signature ★"
             checked={!!item.signature}
             onChange={(v) => onChange({ signature: v })}
+          />
+
+          <TagPicker
+            tags={item.tags ?? []}
+            onChange={(tags) => onChange({ tags })}
           />
 
           <div className="sm:col-span-2 flex items-center justify-between gap-3 flex-wrap">

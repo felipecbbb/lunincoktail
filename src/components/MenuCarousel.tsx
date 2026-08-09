@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { useT, useTranslated } from "./LanguageProvider";
+import { TagBadges } from "./MenuTags";
 import type { MenuItem } from "../lib/types";
 
 type View = "carousel" | "grid";
@@ -195,6 +196,7 @@ function CarouselCard({ item, index }: { item: MenuItem; index: number }) {
           <p className="mt-1 text-sm text-lunin-cream/85 leading-relaxed line-clamp-2">
             {tr(item.ingredients)}
           </p>
+          <TagBadges tags={item.tags} max={4} />
           <div className="mt-4 flex items-end justify-between gap-4">
             <h3 className="font-display text-2xl sm:text-3xl text-lunin-cream leading-tight max-w-[68%]">
               {tr(item.name)}
@@ -253,6 +255,7 @@ function GridCard({ item }: { item: MenuItem }) {
         <p className="mt-1 text-[0.82rem] leading-relaxed text-lunin-cream/65 line-clamp-3">
           {tr(item.ingredients)}
         </p>
+        <TagBadges tags={item.tags} max={3} />
       </div>
     </article>
   );

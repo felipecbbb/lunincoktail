@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslated, useT } from "./LanguageProvider";
+import { TagBadges } from "./MenuTags";
 import type { MenuItem } from "../lib/types";
 
 export function MenuItemCard({ item }: { item: MenuItem }) {
@@ -48,6 +49,7 @@ export function MenuItemCard({ item }: { item: MenuItem }) {
         <p className="mt-1 text-[0.82rem] leading-relaxed text-lunin-cream/65 line-clamp-3">
           {tr(item.ingredients)}
         </p>
+        <TagBadges tags={item.tags} max={3} />
       </div>
     </article>
   );

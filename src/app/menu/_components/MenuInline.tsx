@@ -3,6 +3,11 @@
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useT, useTranslated } from "../../../components/LanguageProvider";
+import {
+  TagBadges,
+  TagList,
+  TagsLegend,
+} from "../../../components/MenuTags";
 import type { Category, MenuItem } from "../../../lib/types";
 
 export function MenuInline({
@@ -166,6 +171,8 @@ export function MenuInline({
             </section>
           );
         })}
+
+        <TagsLegend />
       </div>
 
       <ItemDetailModal
@@ -257,6 +264,7 @@ function InlineCard({
         <p className="mt-1 text-[0.82rem] leading-relaxed text-lunin-cream/65 line-clamp-3">
           {tr(item.ingredients)}
         </p>
+        <TagBadges tags={item.tags} max={3} />
       </div>
     </button>
   );
@@ -378,6 +386,7 @@ function ItemDetailModal({
           <p className="mt-2 text-[0.95rem] leading-relaxed text-lunin-cream/80">
             {tr(item.ingredients)}
           </p>
+          <TagList tags={item.tags} />
         </div>
       </div>
     </div>
