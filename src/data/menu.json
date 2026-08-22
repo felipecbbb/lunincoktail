@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T14:20:00.000Z",
+  "updatedAt": "2026-08-22T14:40:00.000Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -1753,7 +1753,8 @@
         "vegan",
         "gluten-free",
         "alcohol-free"
-      ]
+      ],
+      "image": "/images/menu/fever-tree-lemon.jpg"
     },
     {
       "id": "itm-sof-ft-ginger-ale",
