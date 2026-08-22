@@ -1,13 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslated, useT } from "./LanguageProvider";
+import { useLang, useTranslated, useT } from "./LanguageProvider";
 import { TagBadges } from "./MenuTags";
+import { formatPrice } from "../lib/format";
 import type { MenuItem } from "../lib/types";
 
 export function MenuItemCard({ item }: { item: MenuItem }) {
   const tr = useTranslated();
   const t = useT();
+  const { lang } = useLang();
   const hasImage = item.image && item.image.length > 0;
   return (
     <article className="group relative flex gap-4 rounded-2xl border border-lunin-cream/10 bg-lunin-charcoal/60 p-4 transition hover:border-lunin-gold/40 hover:bg-lunin-charcoal/80">
@@ -42,7 +44,7 @@ export function MenuItemCard({ item }: { item: MenuItem }) {
             {tr(item.name)}
           </h3>
           <span className="font-headline font-semibold text-lunin-gold whitespace-nowrap">
-            {item.price}
+            {formatPrice(item.price, lang)}
             <span className="text-lunin-gold/70">{t("common.currency")}</span>
           </span>
         </header>

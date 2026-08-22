@@ -19,6 +19,7 @@ export type TagId =
   | "egg"
   | "milk"
   | "fish"
+  | "molluscs"
   | "gluten"
   | "sulphites";
 
@@ -87,14 +88,31 @@ export const TAGS: Record<TagId, TagDef> = {
     kind: "allergen",
     label: { es: "Contiene pescado", en: "Contains fish", uk: "Містить рибу" },
     note: {
-      es: "La salsa Worcester lleva anchoa.",
-      en: "Worcestershire sauce contains anchovy.",
-      uk: "Вустерський соус містить анчоус.",
+      es: "Lleva anchoa o salsa Worcester elaborada con anchoa.",
+      en: "Contains anchovy, or Worcestershire sauce made with anchovy.",
+      uk: "Містить анчоус або вустерський соус з анчоусом.",
     },
     paths: [
       "M16.5 12c0 3-3.6 5.5-8 5.5-2 0-3.9-.5-5.5-1.5 1-1.1 1.6-2.5 1.6-4s-.6-2.9-1.6-4c1.6-1 3.5-1.5 5.5-1.5 4.4 0 8 2.5 8 5.5Z",
       "M16.5 12l5-3.4v6.8L16.5 12Z",
       "M11.5 10.5h.01",
+    ],
+    priority: 4,
+  },
+  molluscs: {
+    id: "molluscs",
+    kind: "allergen",
+    label: { es: "Contiene moluscos", en: "Contains molluscs", uk: "Містить молюски" },
+    note: {
+      es: "Lleva pulpo cocido.",
+      en: "Contains cooked octopus.",
+      uk: "Містить варений восьминіг.",
+    },
+    paths: [
+      "M12 3.5c3 0 5.5 2.2 5.5 5v2.2c0 .9.3 1.7.9 2.4",
+      "M6.5 10.7V8.5c0-2.8 2.5-5 5.5-5",
+      "M6.5 10.7c-.6.7-.9 1.5-.9 2.4",
+      "M9 13.2c0 2.5-.8 4.6-2.4 6.3M12 13.2c0 2.7.4 4.9 1.2 6.6M15 13.2c.4 2.3 1.5 4.2 3.2 5.7",
     ],
     priority: 4,
   },

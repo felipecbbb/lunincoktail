@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T15:10:37.751Z",
+  "updatedAt": "2026-08-22T14:20:00.000Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -1569,6 +1569,280 @@
       "tags": [
         "vegan",
         "gluten-free"
+      ]
+    },
+    {
+      "id": "itm-tap-olivas",
+      "categoryId": "cat-tapas",
+      "name": {
+        "es": "Olivas",
+        "en": "Olives",
+        "uk": "Оливки"
+      },
+      "ingredients": {
+        "es": "Aceitunas verdes gordal aliñadas.",
+        "en": "Marinated green gordal olives.",
+        "uk": "Мариновані зелені оливки гордаль."
+      },
+      "price": 2,
+      "image": "/images/menu/olivas.jpg",
+      "enabled": true,
+      "order": 1,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ]
+    },
+    {
+      "id": "itm-tap-brocheta-anchoa",
+      "categoryId": "cat-tapas",
+      "name": {
+        "es": "Brocheta de Anchoa",
+        "en": "Anchovy Skewer",
+        "uk": "Шпажка з анчоусом"
+      },
+      "ingredients": {
+        "es": "Anchoa, pimiento picante y aceituna verde, con aceite de oliva.",
+        "en": "Anchovy, hot pepper and green olive, with olive oil.",
+        "uk": "Анчоус, гострий перець та зелена оливка з оливковою олією."
+      },
+      "price": 2.5,
+      "image": "/images/menu/brocheta-anchoa.jpg",
+      "enabled": true,
+      "order": 2,
+      "tags": [
+        "gluten-free",
+        "alcohol-free",
+        "fish",
+        "spicy"
+      ]
+    },
+    {
+      "id": "itm-tap-brocheta-pulpo",
+      "categoryId": "cat-tapas",
+      "name": {
+        "es": "Brocheta de Aceitunas con Pulpo",
+        "en": "Olive and Octopus Skewer",
+        "uk": "Шпажка з оливками та восьминогом"
+      },
+      "ingredients": {
+        "es": "Pulpo cocido, aceituna, piquillo, cebollita y pepinillo, con aceite de oliva.",
+        "en": "Cooked octopus, olive, piquillo pepper, pearl onion and gherkin, with olive oil.",
+        "uk": "Варений восьминіг, оливка, перець піквільо, цибулька та корнішон з оливковою олією."
+      },
+      "price": 3,
+      "image": "/images/menu/brocheta-pulpo.jpg",
+      "enabled": true,
+      "order": 3,
+      "tags": [
+        "gluten-free",
+        "alcohol-free",
+        "molluscs",
+        "fish"
+      ]
+    },
+    {
+      "id": "itm-tap-mini-fuet",
+      "categoryId": "cat-tapas",
+      "name": {
+        "es": "Mini Fuet",
+        "en": "Mini Fuet",
+        "uk": "Міні фует"
+      },
+      "ingredients": {
+        "es": "Fuet artesano curado, en tamaño mini.",
+        "en": "Artisan cured fuet sausage, mini size.",
+        "uk": "Ремісничий в'ялений фует, міні розмір."
+      },
+      "price": 6,
+      "image": "/images/menu/mini-fuet.jpg",
+      "enabled": true,
+      "order": 4,
+      "tags": [
+        "gluten-free",
+        "alcohol-free"
+      ]
+    },
+    {
+      "id": "itm-sof-appletiser",
+      "categoryId": "cat-soft-drinks",
+      "name": {
+        "es": "Appletiser",
+        "en": "Appletiser",
+        "uk": "Appletiser"
+      },
+      "ingredients": {
+        "es": "Zumo de manzana 100 % burbujeante, 200 ml. Sin azúcares añadidos.",
+        "en": "100% sparkling apple juice, 200 ml. No added sugar.",
+        "uk": "100% газований яблучний сік, 200 мл. Без доданого цукру."
+      },
+      "price": 3,
+      "enabled": true,
+      "order": 4,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ],
+      "image": "/images/menu/appletiser.jpg"
+    },
+    {
+      "id": "itm-sof-ft-mediterranean",
+      "categoryId": "cat-soft-drinks",
+      "name": {
+        "es": "Fever-Tree Mediterranean Tonic",
+        "en": "Fever-Tree Mediterranean Tonic",
+        "uk": "Fever-Tree Mediterranean Tonic"
+      },
+      "ingredients": {
+        "es": "Tónica premium con botánicos florales, 200 ml.",
+        "en": "Premium tonic water with floral botanicals, 200 ml.",
+        "uk": "Преміальний тонік із квітковими ботанічними складниками, 200 мл."
+      },
+      "price": 3,
+      "enabled": true,
+      "order": 5,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ],
+      "image": "/images/menu/fever-tree-mediterranean.jpg"
+    },
+    {
+      "id": "itm-sof-ft-indian",
+      "categoryId": "cat-soft-drinks",
+      "name": {
+        "es": "Fever-Tree Indian Tonic",
+        "en": "Fever-Tree Indian Tonic",
+        "uk": "Fever-Tree Indian Tonic"
+      },
+      "ingredients": {
+        "es": "Tónica premium con quinina natural, 200 ml.",
+        "en": "Premium tonic water with natural quinine, 200 ml.",
+        "uk": "Преміальний тонік із натуральним хініном, 200 мл."
+      },
+      "price": 3,
+      "enabled": true,
+      "order": 6,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ],
+      "image": "/images/menu/fever-tree-indian.jpg"
+    },
+    {
+      "id": "itm-sof-ft-lemon",
+      "categoryId": "cat-soft-drinks",
+      "name": {
+        "es": "Fever-Tree Lemon Tonic",
+        "en": "Fever-Tree Lemon Tonic",
+        "uk": "Fever-Tree Lemon Tonic"
+      },
+      "ingredients": {
+        "es": "Tónica premium con limones de Sicilia, 200 ml.",
+        "en": "Premium tonic water with Sicilian lemons, 200 ml.",
+        "uk": "Преміальний тонік із сицилійськими лимонами, 200 мл."
+      },
+      "price": 3,
+      "enabled": true,
+      "order": 7,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ]
+    },
+    {
+      "id": "itm-sof-ft-ginger-ale",
+      "categoryId": "cat-soft-drinks",
+      "name": {
+        "es": "Fever-Tree Ginger Ale",
+        "en": "Fever-Tree Ginger Ale",
+        "uk": "Fever-Tree Ginger Ale"
+      },
+      "ingredients": {
+        "es": "Ginger ale premium con jengibres naturales, 200 ml.",
+        "en": "Premium ginger ale with natural gingers, 200 ml.",
+        "uk": "Преміальний імбирний ель із натуральним імбиром, 200 мл."
+      },
+      "price": 3,
+      "enabled": true,
+      "order": 8,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ],
+      "image": "/images/menu/fever-tree-ginger-ale.jpg"
+    },
+    {
+      "id": "itm-sof-ft-ginger-beer",
+      "categoryId": "cat-soft-drinks",
+      "name": {
+        "es": "Fever-Tree Ginger Beer",
+        "en": "Fever-Tree Ginger Beer",
+        "uk": "Fever-Tree Ginger Beer"
+      },
+      "ingredients": {
+        "es": "Ginger beer premium con jengibres naturales, 200 ml.",
+        "en": "Premium ginger beer with natural gingers, 200 ml.",
+        "uk": "Преміальне імбирне пиво (безалкогольне) з натуральним імбиром, 200 мл."
+      },
+      "price": 3,
+      "enabled": true,
+      "order": 9,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ],
+      "image": "/images/menu/fever-tree-ginger-beer.jpg"
+    },
+    {
+      "id": "itm-tap-jamon-iberico-50",
+      "categoryId": "cat-tapas",
+      "name": {
+        "es": "Plato de Jamón Ibérico 50 %",
+        "en": "Iberian Ham Platter 50%",
+        "uk": "Тарілка іберійського хамону 50%"
+      },
+      "ingredients": {
+        "es": "Jamón de cerdo 50 % raza ibérica, en lonchas finas. Ración para compartir.",
+        "en": "Ham from 50% Iberian breed pork, thinly sliced. Sharing plate.",
+        "uk": "Хамон зі свині 50% іберійської породи, тонкі скибочки. Порція для компанії."
+      },
+      "price": 15,
+      "image": "/images/menu/jamon-iberico.jpg",
+      "enabled": true,
+      "order": 5,
+      "tags": [
+        "gluten-free",
+        "alcohol-free"
+      ]
+    },
+    {
+      "id": "itm-tap-jamon-iberico-100",
+      "categoryId": "cat-tapas",
+      "name": {
+        "es": "Plato de Jamón Ibérico 100 %",
+        "en": "Iberian Ham Platter 100%",
+        "uk": "Тарілка іберійського хамону 100%"
+      },
+      "ingredients": {
+        "es": "Jamón 100 % ibérico, en lonchas finas. Ración para compartir.",
+        "en": "100% Iberian ham, thinly sliced. Sharing plate.",
+        "uk": "100% іберійський хамон, тонкі скибочки. Порція для компанії."
+      },
+      "price": 25,
+      "image": "/images/menu/jamon-iberico.jpg",
+      "enabled": true,
+      "order": 6,
+      "tags": [
+        "gluten-free",
+        "alcohol-free"
       ]
     }
   ]

@@ -2,13 +2,15 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { useT, useTranslated } from "../../../components/LanguageProvider";
+import { useLang, useT, useTranslated } from "../../../components/LanguageProvider";
 import {
   TagBadges,
   TagList,
   TagsLegend,
 } from "../../../components/MenuTags";
+import { formatPrice } from "../../../lib/format";
 import type { Category, MenuItem } from "../../../lib/types";
+
 
 export function MenuInline({
   categories,
@@ -195,6 +197,7 @@ function InlineCard({
 }) {
   const tr = useTranslated();
   const t = useT();
+  const { lang } = useLang();
   const hasImage = item.image && item.image.length > 0;
   const isBottle =
     item.categoryId === "cat-bottles" ||
@@ -257,7 +260,7 @@ function InlineCard({
             {tr(item.name)}
           </h3>
           <span className="font-headline font-semibold text-lunin-gold whitespace-nowrap">
-            {item.price}
+            {formatPrice(item.price, lang)}
             <span className="text-lunin-gold/70">{t("common.currency")}</span>
           </span>
         </header>
@@ -281,6 +284,7 @@ function ItemDetailModal({
 }) {
   const tr = useTranslated();
   const t = useT();
+  const { lang } = useLang();
 
   useEffect(() => {
     if (!item) return;
@@ -375,7 +379,7 @@ function ItemDetailModal({
               {tr(item.name)}
             </h2>
             <span className="font-display text-2xl sm:text-3xl gold-text whitespace-nowrap leading-none">
-              {item.price}
+              {formatPrice(item.price, lang)}
               <span className="text-lg">{t("common.currency")}</span>
             </span>
           </div>

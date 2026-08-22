@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T19:34:53.409Z",
+  "updatedAt": "2026-08-22T13:30:00.000Z",
   "items": [
     {
       "id": "cat-cocktails",
@@ -67,6 +67,23 @@
       },
       "hero": "/images/fruit/blackcurrant.jpg",
       "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "cat-tapas",
+      "slug": "tapas",
+      "name": {
+        "es": "Tapas",
+        "en": "Tapas",
+        "uk": "Тапас"
+      },
+      "description": {
+        "es": "Tapas y picoteo para acompañar la copa.",
+        "en": "Small plates to go with your drink.",
+        "uk": "Закуски до келиха."
+      },
+      "hero": "/images/menu/jamon-iberico.jpg",
+      "order": 5,
       "enabled": true
     },
     {

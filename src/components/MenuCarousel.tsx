@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { useT, useTranslated } from "./LanguageProvider";
+import { useLang, useT, useTranslated } from "./LanguageProvider";
 import { TagBadges } from "./MenuTags";
+import { formatPrice } from "../lib/format";
 import type { MenuItem } from "../lib/types";
 
 type View = "carousel" | "grid";
@@ -149,6 +150,7 @@ export function MenuCarousel({ items }: { items: MenuItem[] }) {
 function CarouselCard({ item, index }: { item: MenuItem; index: number }) {
   const tr = useTranslated();
   const t = useT();
+  const { lang } = useLang();
   const hasImage = item.image && item.image.length > 0;
   return (
     <article
@@ -202,7 +204,7 @@ function CarouselCard({ item, index }: { item: MenuItem; index: number }) {
               {tr(item.name)}
             </h3>
             <span className="font-display text-3xl sm:text-4xl gold-text leading-none whitespace-nowrap">
-              {item.price}
+              {formatPrice(item.price, lang)}
               <span className="text-xl">{t("common.currency")}</span>
             </span>
           </div>
@@ -215,6 +217,7 @@ function CarouselCard({ item, index }: { item: MenuItem; index: number }) {
 function GridCard({ item }: { item: MenuItem }) {
   const tr = useTranslated();
   const t = useT();
+  const { lang } = useLang();
   const hasImage = item.image && item.image.length > 0;
   return (
     <article className="group relative flex gap-4 rounded-2xl border border-lunin-cream/10 bg-lunin-charcoal/60 p-4 transition hover:border-lunin-gold/40 hover:bg-lunin-charcoal/80">
@@ -248,7 +251,7 @@ function GridCard({ item }: { item: MenuItem }) {
             {tr(item.name)}
           </h3>
           <span className="font-headline font-semibold text-lunin-gold whitespace-nowrap">
-            {item.price}
+            {formatPrice(item.price, lang)}
             <span className="text-lunin-gold/70">{t("common.currency")}</span>
           </span>
         </header>
