@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { isAdmin } from "../../../../lib/auth";
+import { CONTENT_READONLY } from "../../../../lib/content-editing";
 
 const ALLOWED = new Set(["image/jpeg", "image/png", "image/webp", "image/avif"]);
 const MAX_BYTES = 6 * 1024 * 1024; // 6MB
@@ -9,6 +10,16 @@ const MAX_BYTES = 6 * 1024 * 1024; // 6MB
 export async function POST(req: Request) {
   if (!(await isAdmin())) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  }
+  if (CONTENT_READONLY) {
+    return NextResponse.json(
+      {
+        error: "content_readonly",
+        message:
+          "Subir imagenes desde el panel no esta disponible. Avisa a Felipe para anadirla.",
+      },
+      { status: 503 },
+    );
   }
   const form = await req.formData();
   const file = form.get("file");

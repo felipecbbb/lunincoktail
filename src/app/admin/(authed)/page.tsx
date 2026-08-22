@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Store } from "../../../lib/store";
+import { ReadOnlyNotice } from "../_components/ReadOnlyNotice";
 
 export default async function AdminHome() {
   const [cats, items, events, bookings, waitlist] = await Promise.all([
@@ -21,6 +22,8 @@ export default async function AdminHome() {
         </p>
         <h1 className="mt-2 font-display text-3xl md:text-4xl">Bienvenido, Lunin.</h1>
       </header>
+
+      <ReadOnlyNotice what="la carta y los eventos" />
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Stat label="Categorías" value={cats.length} />

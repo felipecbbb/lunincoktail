@@ -8,7 +8,14 @@ function uid() {
   return `evt-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
 }
 
-export function EventsEditor({ initial }: { initial: EventItem[] }) {
+export function EventsEditor({
+  initial,
+  readOnly = false,
+}: {
+  initial: EventItem[];
+  /** En Vercel el contenido no se puede guardar: el editor pasa a solo consulta. */
+  readOnly?: boolean;
+}) {
   const [items, setItems] = useState<EventItem[]>(initial);
   const [saving, setSaving] = useState(false);
   const [savedAt, setSavedAt] = useState<string | null>(null);
@@ -59,7 +66,12 @@ export function EventsEditor({ initial }: { initial: EventItem[] }) {
         <div className="flex items-center gap-3">
           {error && <span className="text-rose-300 text-xs">{error}</span>}
           <button onClick={add} className="btn-ghost">+ Añadir evento</button>
-          <button onClick={save} disabled={saving} className="btn-primary disabled:opacity-50">
+          <button
+            onClick={save}
+            disabled={saving || readOnly}
+            title={readOnly ? "No disponible desde el panel" : undefined}
+            className="btn-primary disabled:opacity-40 disabled:cursor-not-allowed"
+          >
             Guardar cambios
           </button>
         </div>
@@ -71,6 +83,7 @@ export function EventsEditor({ initial }: { initial: EventItem[] }) {
         )}
         {items.map((e) => (
           <EventRow
+            readOnly={readOnly}
             key={e.id}
             event={e}
             onChange={(p) => update(e.id, p)}
@@ -86,10 +99,12 @@ function EventRow({
   event,
   onChange,
   onDelete,
+  readOnly = false,
 }: {
   event: EventItem;
   onChange: (p: Partial<EventItem>) => void;
   onDelete: () => void;
+  readOnly?: boolean;
 }) {
   const fileRef = useRef<HTMLInputElement>(null);
   const [uploading, setUploading] = useState(false);
@@ -110,7 +125,9 @@ function EventRow({
     <article className="rounded-2xl border border-lunin-cream/10 bg-lunin-charcoal/60 p-5 grid gap-4 md:grid-cols-[200px_1fr] items-start">
       <button
         onClick={() => fileRef.current?.click()}
-        className="relative aspect-[4/3] md:aspect-[4/5] w-full rounded-xl overflow-hidden border border-lunin-cream/10 bg-lunin-onyx grid place-items-center"
+        disabled={readOnly}
+        title={readOnly ? "Subida no disponible desde el panel" : undefined}
+        className="relative aspect-[4/3] md:aspect-[4/5] w-full rounded-xl overflow-hidden border border-lunin-cream/10 bg-lunin-onyx grid place-items-center disabled:cursor-not-allowed"
         aria-label="Subir poster"
       >
         {event.image ? (

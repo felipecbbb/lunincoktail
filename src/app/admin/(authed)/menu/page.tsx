@@ -1,5 +1,7 @@
 import { Store } from "../../../../lib/store";
 import { MenuEditor } from "./_components/MenuEditor";
+import { ReadOnlyNotice } from "../../_components/ReadOnlyNotice";
+import { CONTENT_READONLY } from "../../../../lib/content-editing";
 
 export default async function AdminMenuPage() {
   const [categories, items] = await Promise.all([
@@ -14,10 +16,17 @@ export default async function AdminMenuPage() {
         </p>
         <h1 className="mt-2 font-display text-3xl md:text-4xl">Carta</h1>
         <p className="mt-2 text-sm text-lunin-cream/60 max-w-xl">
-          Añade, edita, desactiva y reordena cócteles y categorías. Cambios guardados al pulsar “Guardar cambios”.
+          {CONTENT_READONLY
+            ? "Consulta la carta completa: categorías, productos, precios y etiquetas."
+            : "Añade, edita, desactiva y reordena cócteles y categorías. Cambios guardados al pulsar “Guardar cambios”."}
         </p>
       </header>
-      <MenuEditor initialCategories={categories} initialItems={items} />
+      <ReadOnlyNotice what="la carta" />
+      <MenuEditor
+        initialCategories={categories}
+        initialItems={items}
+        readOnly={CONTENT_READONLY}
+      />
     </div>
   );
 }

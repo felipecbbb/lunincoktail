@@ -8,6 +8,8 @@ import { TAGS, sortTags, type TagId } from "../../../../../lib/tags";
 type Props = {
   initialCategories: Category[];
   initialItems: MenuItem[];
+  /** En Vercel el contenido no se puede guardar: el editor pasa a solo consulta. */
+  readOnly?: boolean;
 };
 
 const DEFAULT_PRICE = 10;
@@ -16,7 +18,7 @@ function uid(prefix: string) {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
 }
 
-export function MenuEditor({ initialCategories, initialItems }: Props) {
+export function MenuEditor({ initialCategories, initialItems, readOnly = false }: Props) {
   const [categories, setCategories] = useState<Category[]>(initialCategories);
   const [items, setItems] = useState<MenuItem[]>(initialItems);
   const [activeCat, setActiveCat] = useState<string>(initialCategories[0]?.id ?? "");
@@ -120,11 +122,22 @@ export function MenuEditor({ initialCategories, initialItems }: Props) {
     <div className="space-y-6">
       <div className="sticky top-14 z-20 bg-lunin-black/85 backdrop-blur border-b border-lunin-cream/10 -mx-5 md:-mx-10 px-5 md:px-10 py-3 flex items-center justify-between">
         <span className="text-xs text-lunin-cream/55">
-          {saving ? "Guardando…" : savedAt ? `Guardado a las ${savedAt}` : "Cambios sin guardar"}
+          {readOnly
+            ? "Solo consulta · avisa a Felipe para cambiar algo"
+            : saving
+              ? "Guardando…"
+              : savedAt
+                ? `Guardado a las ${savedAt}`
+                : "Cambios sin guardar"}
         </span>
         <div className="flex items-center gap-3">
           {error && <span className="text-rose-300 text-xs">{error}</span>}
-          <button onClick={save} disabled={saving} className="btn-primary disabled:opacity-50">
+          <button
+            onClick={save}
+            disabled={saving || readOnly}
+            title={readOnly ? "No disponible desde el panel" : undefined}
+            className="btn-primary disabled:opacity-40 disabled:cursor-not-allowed"
+          >
             Guardar cambios
           </button>
         </div>
@@ -139,6 +152,7 @@ export function MenuEditor({ initialCategories, initialItems }: Props) {
             <button
               type="button"
               onClick={addCategory}
+              disabled={readOnly}
               className="h-7 w-7 grid place-items-center rounded-full bg-lunin-gold text-lunin-black"
               aria-label="Añadir categoría"
             >
@@ -235,6 +249,7 @@ export function MenuEditor({ initialCategories, initialItems }: Props) {
                 <button onClick={() => moveCategory(activeCategory.id, 1)} className="btn-ghost text-[0.65rem]">↓ bajar</button>
                 <button
                   onClick={() => deleteCategory(activeCategory.id)}
+                  disabled={readOnly}
                   className="text-[0.7rem] tracking-[0.22em] uppercase text-rose-300/80 hover:text-rose-300"
                 >
                   Eliminar categoría
@@ -250,6 +265,7 @@ export function MenuEditor({ initialCategories, initialItems }: Props) {
                 <button
                   type="button"
                   onClick={() => addItem(activeCategory.id)}
+                  disabled={readOnly}
                   className="btn-ghost"
                 >
                   + Añadir cóctel
@@ -258,6 +274,7 @@ export function MenuEditor({ initialCategories, initialItems }: Props) {
               <div className="space-y-3">
                 {(itemsByCat.get(activeCategory.id) ?? []).map((it) => (
                   <ItemRow
+                    readOnly={readOnly}
                     key={it.id}
                     item={it}
                     onChange={(patch) => updateItem(it.id, patch)}
@@ -467,10 +484,12 @@ function ItemRow({
   item,
   onChange,
   onDelete,
+  readOnly = false,
 }: {
   item: MenuItem;
   onChange: (patch: Partial<MenuItem>) => void;
   onDelete: () => void;
+  readOnly?: boolean;
 }) {
   const [open, setOpen] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -580,10 +599,17 @@ function ItemRow({
             <button
               type="button"
               onClick={() => fileRef.current?.click()}
-              className="btn-ghost"
-              disabled={uploading}
+              className="btn-ghost disabled:opacity-40 disabled:cursor-not-allowed"
+              disabled={uploading || readOnly}
+              title={readOnly ? "No disponible desde el panel" : undefined}
             >
-              {uploading ? "Subiendo…" : item.image ? "Reemplazar imagen" : "Subir imagen"}
+              {readOnly
+                ? "Subida no disponible"
+                : uploading
+                  ? "Subiendo…"
+                  : item.image
+                    ? "Reemplazar imagen"
+                    : "Subir imagen"}
             </button>
             {item.image && (
               <button
@@ -597,7 +623,8 @@ function ItemRow({
             <button
               type="button"
               onClick={onDelete}
-              className="text-[0.7rem] tracking-[0.22em] uppercase text-rose-300/80 hover:text-rose-300"
+              disabled={readOnly}
+              className="text-[0.7rem] tracking-[0.22em] uppercase text-rose-300/80 hover:text-rose-300 disabled:opacity-40 disabled:cursor-not-allowed"
             >
               Eliminar cóctel
             </button>

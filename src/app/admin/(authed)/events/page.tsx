@@ -1,5 +1,7 @@
 import { Store } from "../../../../lib/store";
 import { EventsEditor } from "./_components/EventsEditor";
+import { ReadOnlyNotice } from "../../_components/ReadOnlyNotice";
+import { CONTENT_READONLY } from "../../../../lib/content-editing";
 
 export default async function AdminEventsPage() {
   const items = await Store.getEvents();
@@ -14,7 +16,8 @@ export default async function AdminEventsPage() {
           Crea DJ nights, catas o eventos especiales con poster, descripción y CTA de reserva.
         </p>
       </header>
-      <EventsEditor initial={items} />
+      <ReadOnlyNotice what="los eventos" />
+      <EventsEditor initial={items} readOnly={CONTENT_READONLY} />
     </div>
   );
 }
