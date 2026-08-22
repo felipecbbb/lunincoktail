@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T14:40:00.000Z",
+  "updatedAt": "2026-08-22T15:20:00.000Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -1845,6 +1845,29 @@
         "gluten-free",
         "alcohol-free"
       ]
+    },
+    {
+      "id": "itm-jui-naranja",
+      "categoryId": "cat-juices",
+      "name": {
+        "es": "Zumo de Naranja Natural",
+        "en": "Fresh Orange Juice",
+        "uk": "Свіжовичавлений апельсиновий сік"
+      },
+      "ingredients": {
+        "es": "Zumo de naranja 100 % natural, recién exprimido.",
+        "en": "100% natural orange juice, freshly squeezed.",
+        "uk": "100% натуральний апельсиновий сік, свіжовичавлений."
+      },
+      "price": 5,
+      "enabled": true,
+      "order": 1,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "alcohol-free"
+      ],
+      "image": "/images/menu/zumo-naranja.jpg"
     }
   ]
 }
