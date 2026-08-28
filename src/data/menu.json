@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T10:00:00.000Z",
+  "updatedAt": "2026-08-28T16:00:00.000Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -1029,7 +1029,7 @@
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
       "enabled": true,
-      "order": 6,
+      "order": 7,
       "tags": [
         "vegan",
         "gluten-free"
@@ -1051,7 +1051,7 @@
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
       "enabled": true,
-      "order": 7,
+      "order": 8,
       "tags": [
         "vegan",
         "gluten-free"
@@ -1073,7 +1073,7 @@
       "price": 3,
       "image": "/images/menu/shot-vodka.jpg",
       "enabled": true,
-      "order": 8,
+      "order": 9,
       "tags": [
         "vegan",
         "gluten-free"
@@ -1095,7 +1095,7 @@
       "price": 5,
       "image": "/images/menu/shot-gin.jpg",
       "enabled": true,
-      "order": 9,
+      "order": 10,
       "tags": [
         "vegan",
         "gluten-free"
@@ -1116,7 +1116,7 @@
       },
       "price": 5,
       "enabled": true,
-      "order": 10,
+      "order": 11,
       "image": "/images/menu/chupito-brandy.jpg",
       "tags": [
         "vegan",
@@ -1138,7 +1138,7 @@
       },
       "price": 5,
       "enabled": true,
-      "order": 11,
+      "order": 12,
       "image": "/images/menu/chupito-brandy.jpg",
       "tags": [
         "vegetarian",
@@ -1868,6 +1868,27 @@
         "alcohol-free"
       ],
       "image": "/images/menu/zumo-naranja.jpg"
+    },
+    {
+      "id": "itm-lqs-limoncello",
+      "categoryId": "cat-liqueur-shots",
+      "name": {
+        "es": "Chupito de Limoncello",
+        "en": "Limoncello Shot",
+        "uk": "Шот лімончелло"
+      },
+      "ingredients": {
+        "es": "Licor de limón, servido bien frío.",
+        "en": "Lemon liqueur, served ice-cold.",
+        "uk": "Лимонний лікер, подається дуже холодним."
+      },
+      "price": 2.5,
+      "enabled": true,
+      "order": 6,
+      "tags": [
+        "vegan",
+        "gluten-free"
+      ]
     }
   ]
 }
