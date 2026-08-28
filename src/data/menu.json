@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T15:20:00.000Z",
+  "updatedAt": "2026-08-28T10:00:00.000Z",
   "items": [
     {
       "id": "itm-bot-gin",
@@ -1092,7 +1092,7 @@
         "en": "Lunin gin.",
         "uk": "Джин Lunin."
       },
-      "price": 4,
+      "price": 5,
       "image": "/images/menu/shot-gin.jpg",
       "enabled": true,
       "order": 9,
